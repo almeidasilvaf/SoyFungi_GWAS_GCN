@@ -1,0 +1,41 @@
+Gene,Predicted function,Resistance to,Role
+Glyma.16G170100,Cell wall biogenesis-related extensin 3,C. gregata,Physical barrier
+Glyma.02G026700,Transcriptional repressor SIN3,C. gregata,Transcriptional regulation
+Glyma.02G026900,Galacturonosyltransferase,C. gregata,Physical barrier
+Glyma.02G029300,SAM domain-containing,C. gregata,Unknown
+Glyma.16G155100,Aquaporin,C. gregata,Oxidative stress
+Glyma.17G217000,Class V chitinase,C. gregata,Antimicrobial activity
+Glyma.17G213600,Calcium-binding EF hand,C. gregata,Signalling
+Glyma.17G231800,Clathrin adaptor EPSIN1,C. gregata,Recognition
+Glyma.02G047000,Thiosulfate sulfurtransferase/rhodanese,C. gregata,Oxidative stress
+Glyma.16G150500,Unknown,C. gregata,Unknown
+Glyma.17G087500,SOUL heme-binding protein,F. graminearum,Oxidative stress
+Glyma.06G121300,GRAS transcription factor,F. graminearum,Transcriptional regulation
+Glyma.05G070300,Tobamovirus multiplication 2A,F. graminearum,Recognition
+Glyma.04G013500,BURP domain-containing protein,F. graminearum,Physical barrier
+Glyma.06G105000,ERF/AP2 transcription factor,F. graminearum,Transcriptional regulation
+Glyma.05G062400,2OG-Fe(II) oxygenase,F. graminearum,Oxidative stress
+Glyma.05G063600,ERF/AP2 transcription factor,F. graminearum,Transcriptional regulation
+Glyma.05G115700,RING domain ubiquitin E3 ligase,F. graminearum,Signalling
+Glyma.17G116100,MAPK signalling-related protein,F. graminearum,Signalling
+Glyma.05G103600,Peroxidase,F. graminearum,Oxidative stress
+Glyma.13G081000,Nodulin-like amino acid transporter,F. virguliforme,Transport
+Glyma.01G225600,Unknown,F. virguliforme,Unknown
+Glyma.02G210500,bHLH transcription factor,F. virguliforme,Transcriptional regulation
+Glyma.01G162500,BIG1 protein,F. virguliforme,Programmed cell death
+Glyma.17G061400,Peroxidase,F. virguliforme,Oxidative stress
+Glyma.19G010100,HD-Zip transcription factor,F. virguliforme,Transcriptional regulation
+Glyma.18G276800,Amino acid transporter,F. virguliforme,Oxidative stress
+Glyma.05G209900,PLAC8 family protein,F. virguliforme,Programmed cell death
+Glyma.14G025100,"Inositol-1,4,5-trisphosphate 5-phosphatase",F. virguliforme,Signalling
+Glyma.19G117800,Unknown,F. virguliforme,Unknown
+Glyma.20G203900,Type I serine/threonine protein phosphatase,M. phaseolina,Signalling
+Glyma.08G316500,Calmodulin-dependent protein kinase,M. phaseolina,Signalling
+Glyma.06G187200,"R-gene-mediated resistance, lipase",M. phaseolina,SAR
+Glyma.09G218600,"Cytochrome P450, family 707, subfamily A",M. phaseolina,Phytohormone metabolism
+Glyma.09G216800,Pectin acetylesterase,M. phaseolina,Signalling
+Glyma.20G216600,Dof-type transcription factor,M. phaseolina,Transcriptional regulation
+Glyma.08G332800,Calcineurin B-like calcium sensor,M. phaseolina,Signalling
+Glyma.18G301700,Leucine-rich repeat receptor kinase (LRR-RK),M. phaseolina,Recognition
+Glyma.15G125900,Magnesium transporter CorA-like,P. pachyrhizi,Transport
+Glyma.18G286900,Unknown,P. pachyrhizi,Unknown

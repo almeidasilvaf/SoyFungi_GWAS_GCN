@@ -1,0 +1,455 @@
+---
+title: "SNP-to-gene mapping"
+author: "Fabrício Almeida-Silva"
+date: "`r Sys.Date()`"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo=TRUE,
+                      warning=FALSE, 
+                      message=FALSE,
+                      tidy.opts=list(width.cutoff=60),
+                      tidy=TRUE)
+```
+
+## SNP-to-gene mapping
+
+First, we need to choose which sliding window we will use to pick putative candidate genes. For that, we will perform simulations of sliding windows from 100 kb to 2 Mb with increments of 100 kb.
+
+```{r simulate_windows}
+library(ggplot2)
+library(here)
+library(GenomicRanges)
+library(GenomeInfoDb)
+library(cageminer)
+library(tidyverse)
+
+# Load SNP ranges
+load(here("products", "result_files", "snp_granges.rda"))
+
+# Create a gene-based GRanges object
+gff <- rtracklayer::import(here("data", "PLAZA_selected.transcripts.gff.gz"))
+gff_gene <- gff[gff$type == "gene", ]
+
+# Simulate sliding windows
+sims <- simulate_windows(gff_gene, snp_grangeslist)
+sims2 <- sims + 
+  geom_hline(yintercept=5604, col="darkred", linetype="dashed") +
+  annotate("text", x = "1.8", y = 6200, label = "10%", col="darkred")
+ggsave(sims2,
+       filename = here(
+         "products", "plots", "simulation_genes_per_sliding_window.png"
+       ), width=9, height=5)
+```
+
+Ideally, we should pick all genes in a sliding window of 2 Mb as possible candidates. However, there is trade-off, because the more we increase the number of candidate genes, the more noise we add to our data. Although the number of gene will be high for *Fusarium virguliforme*, we will pick genes in a 2Mb sliding window nevertheless.
+
+```{r get_candidates}
+# Extract list of genes in 2 Mb sliding window
+candidates <- mine_step1(gff_gene, snp_grangeslist)
+
+# Save object for further analyses
+save(candidates, file = here("products", "result_files", "all_candidates.rda"),
+     compress="xz")
+```
+
+## Candidate gene mining
+
+Now, we will mine candidate genes with {cageminer}. The species we will use are:
+
+- *Phakopsora pachyrhizi*: 19 samples
+- *Macrophomina phaseolina*: 4 samples
+- *Fusarium virguliforme*: 40 samples
+- *Fusarium graminearum*: 11 samples
+- *Cadophora gregata*: 27 samples
+
+To start, let's get the guide genes.
+
+```{r get_guides}
+mapman <- readr::read_tsv("ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03//MapMan/mapman.gma.csv.gz", skip=8)
+mapman <- as.data.frame(mapman[, c(2,4)])
+
+#----Convert a1.v1 IDs to a2v1----
+ids_v1v2 <- read.csv(here("data", "Gmax_v1_to_v2.txt"), header=TRUE, sep="\t")
+annotation_mapman <- merge(mapman, ids_v1v2, by.x="gene_id", by.y="V1")
+annotation_mapman <- annotation_mapman[, c(3,2)]
+names(annotation_mapman) <- c("Gene", "Description")
+
+#----Get biotic stress-related genes----
+guides <- annotation_mapman %>%
+  filter(str_detect(
+    Description, "ethylene.induced|ethylene.signal|jasmonate.induced|misc.peroxidases|misc.protease inhibitor|protease|phenylpropanoids.lignin|receptor kinases.leucine rich|stress.biotic")
+    ) %>%
+  mutate(Description = str_replace_all(
+    Description,
+    c("lignin biosynthesis.*" = "lignin biosynthesis",
+      "rich repeat.*" = "rich repeat"))
+  ) %>%
+  filter(!str_detect(Description, "ubiquitin"))
+
+write_tsv(guides, 
+          here("products", "tables", "sup_table3.tsv"))
+
+# EDA: Number of genes per class
+guides %>%
+  janitor::tabyl(Description) %>%
+  arrange(-n)
+```
+
+Find high-confidence candidates.
+
+```{r mining}
+library(BioNERO)
+library(SummarizedExperiment)
+set.seed(1)
+
+#----Load and filter expression data----
+load("~/Dropbox/Atlas/atlasv2_tpm.rda")
+exp <- atlas_tpm[, atlas_tpm$Stress_info == "fungus" &
+                   !is.na(atlas_tpm$Stress_info)]
+rm(atlas_tpm)
+
+#----Infer a single GCN for all species----
+exp_fungi <- exp_preprocess(exp, min_exp=5, Zk_filtering=FALSE)
+metadata_fungi <- colData(exp_fungi) %>%
+  as.data.frame() %>%
+  mutate(Pathogen = str_sub(Pathogen, 1, 3)) %>%
+  mutate(annot = paste(Pathogen, Sample_description, sep = "_")) %>%
+  select(annot)
+colData(exp_fungi) <- DataFrame(metadata_fungi)
+
+sft_fungi <- SFT_fit(exp_fungi, net_type="unsigned", cor_method="pearson")
+gcn_fungi <- exp2gcn(exp_fungi, net_type="unsigned", cor_method="pearson",
+                     SFTpower=sft_fungi$power)
+
+#----Mine candidates----
+# C. gregata
+mining_cgregata <- mine_candidates(
+  gene_ranges = gff_gene, 
+  marker_ranges = snp_grangeslist$Cgregata,
+  exp = exp_fungi,
+  gcn = gcn_fungi,
+  guides = guides,
+  metadata = metadata_fungi,
+  sample_group = c("Pgr_stress_12h", "Pgr_stress_36h", "Pgr_stress_24h")
+)
+length(unique(mining_cgregata$gene))
+
+# F. graminearum
+mining_fgraminearum <- mine_candidates(
+  gene_ranges = gff_gene, 
+  marker_ranges = snp_grangeslist$Fgraminearum,
+  exp = exp_fungi,
+  gcn = gcn_fungi,
+  guides = guides,
+  metadata = metadata_fungi,
+  sample_group = c("Fgr_stress_PI567301B", "Fgr_stress_wyandot")
+)
+length(unique(mining_fgraminearum$gene))
+
+# F. virguliforme
+mining_fvirguliforme <- mine_candidates(
+  gene_ranges = gff_gene, 
+  marker_ranges = snp_grangeslist$Fvirguliforme,
+  exp = exp_fungi,
+  gcn = gcn_fungi,
+  guides = guides,
+  metadata = metadata_fungi,
+  sample_group = c("Fvi_stress_0dpi", "Fvi_stress_10-24days",
+                   "Fvi_stress_10dpi", "Fvi_stress_14dpi",
+                   "Fvi_stress_2dpi", "Fvi_stress_3-5days",
+                   "Fvi_stress_4dpi", "Fvi_stress_7dpi")
+)
+length(unique(mining_fvirguliforme$gene))
+
+# M. phaseolina
+mining_mphaseolina <- mine_candidates(
+  gene_ranges = gff_gene, 
+  marker_ranges = snp_grangeslist$Mphaseolina,
+  exp = exp_fungi,
+  gcn = gcn_fungi,
+  guides = guides,
+  metadata = metadata_fungi,
+  sample_group = c("Mph_stress_res", "Mph_stress_sus")
+)
+length(unique(mining_mphaseolina$gene))
+
+# P. pachyrhizi
+mining_ppachyrhizi <- mine_candidates(
+  gene_ranges = gff_gene, 
+  marker_ranges = snp_grangeslist$Ppachyrhizi,
+  exp = exp_fungi,
+  gcn = gcn_fungi,
+  guides = guides,
+  metadata = metadata_fungi,
+  sample_group = c("Ppa_stress_10dai", "Ppa_stress_14dai", "Ppa_stress_3dai",
+                   "Ppa_stress_48hai", "Ppa_stress_7dai", "Ppa_stress_7hai",
+                   "Ppa_stress_res_24h", "Ppa_stress_sus_24h")
+)
+length(unique(mining_ppachyrhizi$gene))
+
+# Save all candidates
+save(mining_cgregata, 
+     file = here("products", "result_files", "cgregata_minedcand.rda"),
+     compress="xz")
+
+save(mining_fgraminearum, 
+     file = here("products", "result_files", "fgraminearum_minedcand.rda"),
+     compress="xz")
+
+save(mining_fvirguliforme, 
+     file = here("products", "result_files", "fvirguliforme_minedcand.rda"),
+     compress="xz")
+
+save(mining_mphaseolina, 
+     file = here("products", "result_files", "mphaseolina_minedcand.rda"),
+     compress="xz")
+
+save(mining_ppachyrhizi, 
+     file = here("products", "result_files", "ppachyrhizi_minedcand.rda"),
+     compress="xz")
+
+mined_cand_df <- rbind(mining_cgregata, mining_fgraminearum,
+                       mining_fvirguliforme, mining_mphaseolina,
+                       mining_ppachyrhizi)
+mined_cand_df$Species <- c(
+  rep("Cgregata", nrow(mining_cgregata)),
+  rep("Fgraminearum", nrow(mining_fgraminearum)),
+  rep("Fvirguliforme", nrow(mining_fvirguliforme)),
+  rep("Mphaseolina", nrow(mining_mphaseolina)),
+  rep("Ppachyrhizi", nrow(mining_ppachyrhizi))
+)
+mined_cand_df <- mined_cand_df[!duplicated(mined_cand_df$gene,
+                                           mined_cand_df$Species),
+                               c("gene","Species"),drop=FALSE]
+write.table(mined_cand_df, 
+            file = here("products", "tables", "all_mined_candidates.txt"),
+            row.names=FALSE, quote=FALSE)
+```
+
+Show candidates in a Venn Diagram.
+
+```{r venn_plot}
+venn_pdata <- list(
+  Fvirguliforme = unique(mining_fvirguliforme$gene),
+  Fgraminearum = unique(mining_fgraminearum$gene),
+  Cgregata = unique(mining_cgregata$gene),
+  Mphaseolina = unique(mining_mphaseolina$gene),
+  Ppachyrhizi = unique(mining_ppachyrhizi$gene)
+)
+
+# Plot venn diagram using the VennDiagram package
+library(VennDiagram)
+venn.diagram(
+        x = venn_pdata,
+        category.names = c("F. virguliforme" , "F. graminearum" , 
+                           "C. gregata", "M. phaseolina", "P. pachyrhizi"),
+        filename = here("products", "plots", "venn_diagram_candidates.png"),
+        output=TRUE,
+        
+        # Output features
+        imagetype="png" ,
+        height = 1600, 
+        width = 1600, 
+        resolution = 600,
+        
+        # Circles
+        lwd = 2,
+        lty = 'blank',
+        fill = ggsci::pal_aaas()(5),
+        
+        # Numbers
+        cex = 0.5,
+        fontface = "bold",
+        fontfamily = "sans",
+        
+        # Set names
+        cat.cex = 0.5,
+        cat.fontface = "italic",
+        cat.default.pos = "outer",
+        cat.fontfamily = "sans",
+        margin = 0.2
+)
+```
+
+For the high-confidence candidates identified, we will create a score for the genes which consists of:
+- Multiply correlation by 1.5 if gene is hub OR TF, by 2 if gene is hub AND TF, and by 1 if it is none.
+
+```{r prioritization}
+#----Get candidates that are hubs----
+hubs <- get_hubs_gcn(exp_fungi, gcn_fungi)
+candidates_hubs <- lapply(venn_pdata, function(x) {
+  return(hubs[hubs$Gene %in% x, ])
+})
+
+#----Get candidates that are TFs----
+tfs <- as.data.frame(readr::read_tsv("http://planttfdb.gao-lab.org/download/TF_list/Gma_TF_list.txt.gz"))[, c(2,3)]
+candidates_tfs <- lapply(venn_pdata, function(x) {
+  y <- tfs[tfs$Gene_ID %in% x, ]
+  return(y)
+})
+
+
+#----Score genes----
+hubs <- hubs$Gene
+tfs <- tfs$Gene_ID
+
+cgregata_score <- score_genes(mining_cgregata, hubs, tfs)
+fvirguliforme_score <- score_genes(mining_fvirguliforme, hubs, tfs)
+fgraminearum_score <- score_genes(mining_fgraminearum, hubs, tfs)
+mphaseolina_score <- score_genes(mining_mphaseolina, hubs, tfs)
+ppachyrhizi_score <- score_genes(mining_ppachyrhizi, hubs, tfs)
+
+#----Export best candidates as a table----
+dfexport_candidates <- rbind(
+  cgregata_score %>% mutate(species = "C. gregata") %>% select(1,5,6),
+  fgraminearum_score %>% mutate(species = "F. graminearum") %>% select(1,5,6),
+  fvirguliforme_score %>% mutate(species = "F. virguliforme") %>% select(1,5,6),
+  mphaseolina_score %>% mutate(species = "M. phaseolina") %>% select(1,5,6),
+  ppachyrhizi_score %>% mutate(species = "P. pachyrhizi") %>% select(1,5,6)
+)
+
+write_tsv(dfexport_candidates, 
+          file = here("products", "tables", "top_candidates.tsv"))
+```
+
+To conclude, let's see the descriptions for these genes.
+
+```{r description}
+load(here("data", "ath_best_hit.rda"))
+go_annotation <- as.data.frame(
+  readr::read_tsv("ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04_5/GO/go.gma.csv.gz", skip=8)
+)
+go_annotation <- go_annotation[, c(1,8)]
+names(go_annotation) <- c("Gene", "GO_description")
+
+# Get gene description based on A. thaliana descriptions
+cand_des <- readr::read_tsv("ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/Descriptions/gene_description.ath.csv.gz", skip=8) %>%
+  select(1,3) %>%
+  rename(Gene = `#gene_id`, 
+         Des = id) %>%
+  right_join(ath_best_hit, by = c("Gene" = "Ath_ortho")) %>%
+  select(3, 2) %>%
+  rename(Gene = Gene.y) %>%
+  right_join(dfexport_candidates, by = c("Gene" = "gene")) %>%
+  left_join(go_annotation) %>%
+  arrange(species)
+
+print(cand_des, n=Inf)
+write_tsv(cand_des, 
+          file = here("products", "tables", "top_candidates_description.tsv"))
+```
+
+Enrichment analysis:
+
+```{r enrichment_analysis_candidates}
+# All top genes - GO
+sea_topcand <- BioNERO::enrichment_analysis(
+  genes = dfexport_candidates$gene,
+  background_genes = rownames(exp_fungi),
+  annotation = go_annotation
+)
+
+# All mined candidate genes - GO
+mined_cand <- c(
+  venn_pdata$Cgregata, venn_pdata$Fgraminearum,
+  venn_pdata$Fvirguliforme, venn_pdata$Mphaseolina,
+  venn_pdata$Ppachyrhizi
+)
+
+sea_minedcand <- BioNERO::enrichment_analysis(
+  genes = mined_cand,
+  background_genes = rownames(exp_fungi),
+  annotation = go_annotation
+)
+sea_minedcand[, -6]
+
+# All mined candidates - MapMan
+sea_minedcand_mapman <- BioNERO::enrichment_analysis(
+  genes = mined_cand,
+  background_genes = rownames(exp_fungi),
+  annotation = annotation_mapman
+)
+sea_minedcand_mapman[, -6]
+
+# All mined candidates - Interpro
+interpro_annotation <- as.data.frame(
+  read_tsv("ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/InterPro/interpro.gma.csv.gz", skip=8)
+)
+interpro_annotation <- interpro_annotation[, c(1,4)]
+
+sea_minedcand_interpro <- BioNERO::enrichment_analysis(
+  genes = mined_cand,
+  background_genes = rownames(exp_fungi),
+  annotation = interpro_annotation
+)
+sea_minedcand_interpro[, -6]
+```
+
+## Export module enrichment and network file for shiny app development
+
+```{r export_files}
+# Create files
+mod_enrich <- module_enrichment(
+       net = gcn_fungi,
+       background_genes = rownames(exp_fungi),
+       annotation_mapman)
+enrich_go <- module_enrichment(
+       net = gcn_fungi,
+       background_genes = rownames(exp_fungi),
+       go_annotation)
+write_tsv(enrich_go,
+          file=here::here("products", "result_files", "enrich_go.tsv"))
+
+enrich_interpro <- module_enrichment(
+       net = gcn_fungi,
+       background_genes = rownames(exp_fungi),
+       interpro_annotation)
+write_tsv(enrich_interpro,
+          file=here::here("products", "result_files", "enrich_interpro.tsv"))
+
+genes_modules <- gcn_fungi$genes_and_modules
+degree <- gcn_fungi$kIN
+
+edges <- lapply(unique(genes_modules$Modules), function(x) {
+  y <- get_edge_list(gcn_fungi, module = x, filter=TRUE,
+                     method="min_cor", rcutoff = 0.4)
+  return(y)
+})
+names(edges) <- unique(genes_modules$Modules)
+edges[names(edges) == "grey"] <- NULL
+
+greygenes <- genes_modules[genes_modules$Modules == "grey", 1]
+cor_matrix <- gcn_fungi$correlation_matrix[
+  !(rownames(gcn_fungi$correlation_matrix) %in% greygenes),
+  !(colnames(gcn_fungi$correlation_matrix) %in% greygenes)
+]
+cor_matrix[cor_matrix < 0.2 & cor_matrix > -0.2] <- NA
+edgelist <- cormat_to_edgelist(cor_matrix)
+
+# Export files
+save(genes_modules, file=here("products", "result_files", 
+                              "shiny_gmodules.rda"), compress="xz")
+save(degree, file=here("products", "result_files", 
+                              "shiny_degree.rda"), compress="xz")
+save(mod_enrich, file=here("products", "result_files", 
+                              "shiny_modenrich.rda"), compress="xz")
+save(edges, file=here("products", "result_files", 
+                              "shiny_edgelists.rda"), compress="xz")
+save(hubs, file=here("products", "result_files", 
+                              "shiny_hubs.rda"), compress="xz")
+
+
+```
+
+## Session information
+
+This document was created under the following conditions:
+
+```{r session_info} 
+sessionInfo()
+```
+
+
+

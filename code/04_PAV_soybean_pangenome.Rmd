@@ -1,0 +1,156 @@
+---
+title: "Candidate gene PAV in the soybean pangenome"
+author: "Fabricio Almeida-Silva"
+date: "5/26/2021"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo=TRUE,
+                      warning=FALSE, 
+                      message=FALSE,
+                      tidy.opts=list(width.cutoff=60),
+                      tidy=TRUE)
+```
+
+## PAV in the soybean pangenome
+
+Here, we will analyze patterns of presence/absence variation (PAV) for all mined candidate genes in the soybean pangenome. The data was retrieved from Torkamaneh *et al.,* 2021.
+
+```{r PAV}
+library(here)
+library(tidyverse)
+options(timeout=300)
+#download.file("https://soybase.org/data/public/Glycine_max/Wm82.gnm4.pan.W46N/glyma.Wm82.gnm4.pan.W46N.PanSoy_supp_tables.xlsx", destfile = here("data", "pansoy.xlsx"))
+
+# Load PAV matrix
+pav <- readxl::read_xlsx(here("data", "pansoy.xlsx"), sheet=4, skip=2)
+pav <- as.data.frame(pav)
+
+# Create tables of candidates
+load(here("products", "result_files", "cgregata_minedcand.rda"))
+load(here("products", "result_files", "fgraminearum_minedcand.rda"))
+load(here("products", "result_files", "fvirguliforme_minedcand.rda"))
+load(here("products", "result_files", "mphaseolina_minedcand.rda"))
+load(here("products", "result_files", "ppachyrhizi_minedcand.rda"))
+
+# Count frequency of genes in the genomes
+pav_cgr <- pav[pav$`Gene/ Accession` %in% mining_cgregata$gene, c(1,207)]
+pav_fgr <- pav[pav$`Gene/ Accession` %in% mining_fgraminearum$gene, c(1,207)]
+pav_fvi <- pav[pav$`Gene/ Accession` %in% mining_fvirguliforme$gene, c(1,207)]
+pav_mph <- pav[pav$`Gene/ Accession` %in% mining_mphaseolina$gene, c(1,207)]
+pav_ppa <- pav[pav$`Gene/ Accession` %in% mining_ppachyrhizi$gene, c(1,207)]
+freq_table <- rbind(pav_cgr, pav_fgr, pav_fvi, pav_mph, pav_ppa)
+freq_table$Species <- c(
+    rep("Cgregata", nrow(pav_cgr)),
+    rep("Fgraminearum", nrow(pav_fgr)),
+    rep("Fvirguliforme", nrow(pav_fvi)),
+    rep("Mphaseolina", nrow(pav_mph)),
+    rep("Ppachyrhizi", nrow(pav_ppa))
+)
+save(freq_table, 
+     file = here("products", "result_files", "pav_pangenome_table.rda"),
+     compress="xz")
+
+# Plot points
+library(ggsci)
+pav_plot <- freq_table %>%
+    arrange(Species, -Mean) %>%
+    mutate(index=1:nrow(freq_table)) %>%
+    mutate(key = case_when(Mean < 0.98 ~ `Gene/ Accession`,
+                           TRUE ~ "")) %>%
+    ggplot(., aes(x=index, y=Mean, label=key)) +
+    geom_point(aes(color=Species), size=1) +
+    scale_color_aaas() +
+    ggrepel::geom_text_repel(size = 3) +
+    theme_classic() +
+    labs(title="PAV of mined candidate genes in the soybean pangenome",
+         x="Gene index", y="Relative frequency")
+
+ggsave(pav_plot, filename = here("products", "plots", "pav.png"),
+       dpi = 300)    
+
+# Plot interactively
+library(ggiraph)
+pav_plot_int <- freq_table %>%
+    arrange(Species, -Mean) %>%
+    mutate(index=1:nrow(freq_table)) %>%
+    ggplot(., aes(x=index, y=Mean)) +
+    geom_point_interactive(aes(tooltip=Species, color=Species), size=1) +
+    scale_color_aaas() +
+    theme_classic() +
+    labs(title="PAV of mined candidate genes in the soybean pangenome",
+         x="Gene index", y="Relative frequency") +
+    theme(legend.position="bottom")
+girafe(code = print(pav_plot_int))
+```
+
+Now, let's visualize it as a heatmap of presence/absence.
+
+```{r binary_heatmap}
+# Create matrix
+mat <- pav[pav$`Gene/ Accession` %in% 
+               c(mining_cgregata$gene, mining_fgraminearum$gene,
+                 mining_fvirguliforme$gene, mining_mphaseolina$gene,
+                 mining_ppachyrhizi$gene), ]
+mat <- as.data.frame(mat)
+rownames(mat) <- mat$`Gene/ Accession`
+mat$`Gene/ Accession` <- NULL
+mat <- mat[, 1:205]
+
+# Load accession annotation
+coldata <- readxl::read_xlsx(here("data", "pansoy.xlsx"), sheet=1, skip=2)
+coldata <- as.data.frame(coldata)
+rownames(coldata) <- coldata$`GmHapMap ID`
+coldata <- coldata[, 3, drop=FALSE]
+colnames(coldata) <- "Origin"
+
+# Reorder columns and rows to match categories and remove low frequency countries
+count <- table(coldata$Origin)
+other <- names(count[count < 2])
+col_annot <- coldata
+col_annot$Origin[col_annot$Origin %in% other] <- "Other"
+col_annot <- col_annot[order(col_annot$Origin), , drop=FALSE]
+matplot <- mat[, rownames(col_annot)]
+matplot <- ceiling(matplot)
+n <- length(unique(col_annot$Origin))
+
+# Create custom annotation colors
+ann_colors <- list(Origin = ggsci::pal_d3("category20")(n))
+names(ann_colors$Origin) <- unique(col_annot$Origin)
+
+grid::gpar(fontface = "plain")
+library(pheatmap)
+hm2 <- pheatmap::pheatmap(as.matrix(matplot), 
+                          color = c("darkseagreen1", "springgreen4"),
+                          annotation_col = col_annot, 
+                          annotation_colors = ann_colors,
+                          cluster_cols = FALSE,
+                          show_rownames = FALSE, 
+                          fontsize_col = 5,
+                          legend=FALSE,
+                          border_color = NA)
+
+hm_ggplot <- ggplotify::as.ggplot(hm2)
+hm_ggplot <- hm_ggplot + 
+    ggtitle("PAV per accession and their geographic origins") +
+    theme(plot.title = element_text(hjust = 0.05))
+```
+
+Now, combining both plots.
+
+```{r combine_plots}
+final_pav <- ggpubr::ggarrange(pav_plot, hm_ggplot, nrow=2, 
+                               labels = c("A", "B"))
+ggsave(final_pav,
+       file=here::here("products", "plots", "PAV_analysis.png"),
+       dpi=600, width=14, height=9)
+```
+
+## Session information
+
+This document was created under the following conditions:
+
+```{r session_info}
+sessionInfo()
+```

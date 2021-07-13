@@ -1,0 +1,2346 @@
+Gene	Description
+Glyma.U026800	protein.degradation.metalloprotease
+Glyma.06G278000	protein.degradation.cysteine protease
+Glyma.16G065600	signalling.receptor kinases.leucine rich repeat
+Glyma.16G065500	signalling.receptor kinases.leucine rich repeat
+Glyma.16G065400	signalling.receptor kinases.leucine rich repeat
+Glyma.U045200	protein.degradation.cysteine protease
+Glyma.U044800	protein.degradation.cysteine protease
+Glyma.18G088000	stress.biotic
+Glyma.18G088300	stress.biotic
+Glyma.01G001800	signalling.receptor kinases.leucine rich repeat
+Glyma.01G004200	secondary metabolism.phenylpropanoids.lignin biosynthesis
+Glyma.01G005600	signalling.receptor kinases.leucine rich repeat
+Glyma.01G007400	signalling.receptor kinases.leucine rich repeat
+Glyma.01G007500	signalling.receptor kinases.leucine rich repeat
+Glyma.01G010000	secondary metabolism.phenylpropanoids.lignin biosynthesis
+Glyma.01G010500	stress.biotic
+Glyma.01G010700	stress.biotic
+Glyma.01G012000	stress.biotic
+Glyma.01G013100	stress.biotic
+Glyma.01G014300	stress.biotic
+Glyma.01G020900	secondary metabolism.phenylpropanoids.lignin biosynthesis
+Glyma.01G021000	secondary metabolism.phenylpropanoids.lignin biosynthesis
+Glyma.01G025400	hormone metabolism.ethylene.signal transduction
+Glyma.01G027000	misc.peroxidases
+Glyma.01G032400	stress.biotic.PR-proteins
+Glyma.01G032900	stress.biotic.PR-proteins
+Glyma.01G033300	stress.biotic.PR-proteins
+Glyma.01G035400	stress.biotic
+Glyma.01G035800	stress.biotic
+Glyma.01G036900	protein.degradation.metalloprotease
+Glyma.01G037100	protein.degradation.metalloprotease
+Glyma.01G037200	protein.degradation.metalloprotease
+Glyma.01G039000	stress.biotic.PR-proteins
+Glyma.01G039600	signalling.receptor kinases.leucine rich repeat
+Glyma.01G046900	stress.biotic.PR-proteins
+Glyma.01G055200	stress.biotic
+Glyma.01G056300	signalling.receptor kinases.leucine rich repeat
+Glyma.01G062900	signalling.receptor kinases.leucine rich repeat
+Glyma.01G065800	stress.biotic
+Glyma.01G072400	stress.biotic
+Glyma.01G075600	stress.biotic
+Glyma.01G077600	protein.degradation.serine protease
+Glyma.01G078800	misc.protease inhibitor/seed storage/lipid transfer protein (LTP) family protein
+Glyma.01G083200	signalling.receptor kinases.leucine rich repeat
+Glyma.01G087000	protein.degradation.metalloprotease
+Glyma.01G090200	signalling.receptor kinases.leucine rich repeat
+Glyma.01G112200	stress.biotic.PR-proteins
+Glyma.01G112300	stress.biotic.PR-proteins
+Glyma.01G117000	signalling.receptor kinases.leucine rich repeat
+Glyma.01G117100	signalling.receptor kinases.leucine rich repeat
+Glyma.01G117200	signalling.receptor kinases.leucine rich repeat
+Glyma.01G118300	signalling.receptor kinases.leucine rich repeat
+Glyma.01G119400	protein.degradation.metalloprotease
+Glyma.01G119700	stress.biotic.PR-proteins
+Glyma.01G119800	stress.biotic.PR-proteins
+Glyma.01G120000	signalling.receptor kinases.leucine rich repeat
+Glyma.01G120100	signalling.receptor kinases.leucine rich repeat
+Glyma.01G120300	signalling.receptor kinases.leucine rich repeat
+Glyma.01G120700	protein.degradation.serine protease
+Glyma.01G125200	signalling.receptor kinases.leucine rich repeat
+Glyma.01G125300	stress.biotic.PR-proteins
+Glyma.01G125400	stress.biotic.PR-proteins
+Glyma.01G125800	signalling.receptor kinases.leucine rich repeat
+Glyma.01G126600	stress.biotic.PR-proteins
+Glyma.01G126700	stress.biotic.PR-proteins
+Glyma.01G126900	signalling.receptor kinases.leucine rich repeat
+Glyma.01G127100	stress.biotic.PR-proteins
+Glyma.01G127200	stress.biotic.PR-proteins
+Glyma.01G127400	stress.biotic.PR-proteins
+Glyma.01G127700	stress.biotic
+Glyma.01G130500	misc.peroxidases
+Glyma.01G130800	misc.peroxidases
+Glyma.01G133100	stress.biotic
+Glyma.01G133300	signalling.receptor kinases.leucine rich repeat
+Glyma.01G138300	protein.degradation.metalloprotease
+Glyma.01G147800	stress.biotic
+Glyma.01G148400	stress.biotic
+Glyma.01G149200	stress.biotic
+Glyma.01G149700	protein.degradation.serine protease
+Glyma.01G150700	signalling.receptor kinases.leucine rich repeat
+Glyma.01G152200	signalling.receptor kinases.leucine rich repeat
+Glyma.01G152300	signalling.receptor kinases.leucine rich repeat
+Glyma.01G157000	signalling.receptor kinases.leucine rich repeat
+Glyma.01G157500	stress.biotic.signalling.MLO-like
+Glyma.01G160100	stress.biotic
+Glyma.01G163000	protein.degradation.aspartate protease
+Glyma.01G163100	misc.peroxidases
+Glyma.01G165200	stress.biotic.signalling.MLO-like
+Glyma.01G165400	stress.biotic
+Glyma.01G165600	stress.biotic
+Glyma.01G165800	stress.biotic
+Glyma.01G168100	signalling.receptor kinases.leucine rich repeat
+Glyma.01G169500	signalling.receptor kinases.leucine rich repeat
+Glyma.01G171000	stress.biotic
+Glyma.01G171100	misc.peroxidases
+Glyma.01G183300	stress.biotic.PR-proteins
+Glyma.01G183400	stress.biotic.PR-proteins
+Glyma.01G184200	misc.peroxidases
+Glyma.01G185300	protein.degradation.metalloprotease
+Glyma.01G187700	secondary metabolism.phenylpropanoids.lignin biosynthesis
+Glyma.01G191100	stress.biotic.signalling
+Glyma.01G192500	misc.peroxidases
+Glyma.01G196000	stress.biotic
+Glyma.01G197600	signalling.receptor kinases.leucine rich repeat
+Glyma.01G197800	signalling.receptor kinases.leucine rich repeat
+Glyma.01G200400	misc.peroxidases
+Glyma.01G203100	protein.degradation.serine protease
+Glyma.01G205200	stress.biotic
+Glyma.01G206600	hormone metabolism.ethylene.signal transduction
+Glyma.01G206700	hormone metabolism.ethylene.signal transduction
+Glyma.01G208800	protein.degradation.metalloprotease
+Glyma.01G213600	signalling.receptor kinases.leucine rich repeat
+Glyma.01G218800	signalling.receptor kinases.leucine rich repeat
+Glyma.01G222700	stress.biotic.respiratory burst
+Glyma.01G223400	stress.biotic
+Glyma.01G224000	signalling.receptor kinases.leucine rich repeat
+Glyma.01G232400	secondary metabolism.phenylpropanoids.lignin biosynthesis
+Glyma.01G234900	misc.protease inhibitor/seed storage/lipid transfer protein (LTP) family protein
+Glyma.01G235000	misc.protease inhibitor/seed storage/lipid transfer protein (LTP) family protein
+Glyma.01G241500	protein.degradation.metalloprotease
+Glyma.01G243200	signalling.receptor kinases.leucine rich repeat
+Glyma.01G244100	stress.biotic
+Glyma.01G244600	signalling.receptor kinases.leucine rich repeat
+Glyma.U008300	stress.biotic.PR-proteins
+Glyma.02G006200	hormone metabolism.ethylene.signal transduction
+Glyma.02G006300	hormone metabolism.ethylene.signal transduction
+Glyma.02G007400	stress.biotic
+Glyma.02G008900	misc.peroxidases
+Glyma.02G011800	protein.degradation.serine protease
+Glyma.02G013100	hormone metabolism.ethylene.induced-regulated-responsive-activated
+Glyma.02G023700	stress.biotic.PR-proteins
+Glyma.02G023800	stress.biotic.PR-proteins
+Glyma.02G023900	stress.biotic.PR-proteins
+Glyma.02G024000	stress.biotic.PR-proteins
+Glyma.02G026200	stress.biotic
+Glyma.02G027700	protein.degradation.metalloprotease
+Glyma.02G027800	protein.degradation.metalloprotease
+Glyma.02G027900	protein.degradation.metalloprotease
+Glyma.02G028000	protein.degradation.metalloprotease
+Glyma.02G028100	protein.degradation.metalloprotease
+Glyma.02G028200	protein.degradation.metalloprotease
+Glyma.02G028300	protein.degradation.metalloprotease
+Glyma.02G028800	protein.degradation.metalloprotease
+Glyma.02G028900	protein.degradation.metalloprotease
+Glyma.02G030500	stress.biotic
+Glyma.02G030700	stress.biotic
+Glyma.02G033000	stress.biotic.PR-proteins
+Glyma.02G034100	stress.biotic
+Glyma.02G036600	signalling.receptor kinases.leucine rich repeat
+Glyma.02G037800	misc.peroxidases
+Glyma.02G039300	hormone metabolism.ethylene.signal transduction
+Glyma.02G041800	stress.biotic.PR-proteins
+Glyma.02G042500	stress.biotic
+Glyma.02G045000	protein.degradation.aspartate protease
+Glyma.02G045100	protein.degradation.aspartate protease
+Glyma.02G047400	stress.biotic
+Glyma.02G050300	signalling.receptor kinases.leucine rich repeat
+Glyma.02G050500	protein.degradation.serine protease
+Glyma.02G051200	signalling.receptor kinases.leucine rich repeat
+Glyma.02G051300	signalling.receptor kinases.leucine rich repeat
+Glyma.02G052700	misc.peroxidases
+Glyma.02G052800	misc.peroxidases
+Glyma.02G053100	hormone metabolism.ethylene.induced-regulated-responsive-activated
+Glyma.02G060800	stress.biotic
+Glyma.02G063900	stress.biotic.signalling.MLO-like
+Glyma.02G064500	protein.degradation.serine protease
+Glyma.02G067600	hormone metabolism.ethylene.signal transduction
+Glyma.02G069000	protein.degradation.cysteine protease
+Glyma.02G083300	stress.biotic.PR-proteins
+Glyma.02G088900	misc.protease inhibitor/seed storage/lipid transfer protein (LTP) family protein
+Glyma.02G091200	protein.degradation.serine protease
+Glyma.02G097400	signalling.receptor kinases.leucine rich repeat
+Glyma.02G099300	protein.degradation.metalloprotease
+Glyma.02G101900	signalling.receptor kinases.leucine rich repeat
+Glyma.02G103500	secondary metabolism.phenylpropanoids.lignin biosynthesis
+Glyma.02G110500	stress.biotic
+Glyma.02G112300	stress.biotic
+Glyma.02G113600	stress.biotic
+Glyma.02G114800	signalling.receptor kinases.leucine rich repeat
+Glyma.02G120800	signalling.receptor kinases.leucine rich repeat
+Glyma.02G127300	misc.peroxidases
+Glyma.02G135100	misc.peroxidases
+Glyma.02G135200	misc.peroxidases
+Glyma.02G137400	hormone metabolism.ethylene.induced-regulated-responsive-activated
+Glyma.02G140000	protein.degradation.cysteine protease
+Glyma.02G148200	protein.degradation.aspartate protease
+Glyma.02G150900	signalling.receptor kinases.leucine rich repeat
+Glyma.02G151700	misc.peroxidases
+Glyma.02G152400	protein.degradation.serine protease
+Glyma.08G312600	stress.biotic
+Glyma.13G030500	protein.degradation.aspartate protease
+Glyma.02G169800	stress.biotic.PR-proteins
+Glyma.02G167700	hormone metabolism.ethylene.induced-regulated-responsive-activated
+Glyma.02G171600	misc.peroxidases
+Glyma.02G172000	protein.degradation.cysteine protease
+Glyma.02G183600	signalling.receptor kinases.leucine rich repeat
+Glyma.02G184300	stress.biotic
+Glyma.02G188400	stress.biotic.PR-proteins
+Glyma.02G189400	stress.biotic.signalling.MLO-like
+Glyma.02G193400	stress.biotic.PR-proteins
+Glyma.02G197800	stress.biotic
+Glyma.02G203600	signalling.receptor kinases.leucine rich repeat
+Glyma.02G204700	protein.degradation.serine protease
+Glyma.02G206300	signalling.receptor kinases.leucine rich repeat
+Glyma.02G213100	hormone metabolism.ethylene.induced-regulated-responsive-activated
+Glyma.02G214100	protein.degradation.cysteine protease
+Glyma.02G215700	protein.degradation.metalloprotease
+Glyma.02G219800	signalling.receptor kinases.leucine rich repeat
+Glyma.02G220900	stress.biotic
+Glyma.02G225300	protein.degradation.metalloprotease
+Glyma.02G226900	protein.degradation.serine protease
+Glyma.02G233800	misc.peroxidases
+Glyma.02G233900	misc.peroxidases
+Glyma.02G234000	misc.peroxidases
+Glyma.02G234200	misc.peroxidases
+Glyma.02G237000	signalling.receptor kinases.leucine rich repeat
+Glyma.02G244400	signalling.receptor kinases.leucine rich repeat
+Glyma.02G249500	stress.biotic
+Glyma.02G256100	signalling.receptor kinases.leucine rich repeat
+Glyma.02G259300	misc.peroxidases
+Glyma.02G259500	misc.peroxidases
+Glyma.02G261400	signalling.receptor kinases.leucine rich repeat
+Glyma.02G267400	hormone metabolism.ethylene.signal transduction
+Glyma.02G268900	stress.biotic.PR-proteins
+Glyma.02G269200	signalling.receptor kinases.leucine rich repeat
+Glyma.02G271200	signalling.receptor kinases.leucine rich repeat
+Glyma.02G274500	signalling.receptor kinases.leucine rich repeat
+Glyma.02G274500	signalling.receptor kinases.leucine rich repeat
+Glyma.02G274800	signalling.receptor kinases.leucine rich repeat
+Glyma.02G281100	signalling.receptor kinases.leucine rich repeat
+Glyma.02G284000	stress.biotic.PR-proteins
+Glyma.02G284100	stress.biotic.PR-proteins
+Glyma.02G284200	stress.biotic.PR-proteins
+Glyma.02G290300	stress.biotic.PR-proteins
+Glyma.02G290400	stress.biotic.PR-proteins
+Glyma.02G291000	protein.degradation.cysteine protease
+Glyma.02G294100	hormone metabolism.ethylene.signal transduction
+Glyma.02G297100	signalling.receptor kinases.leucine rich repeat
+Glyma.02G301700	stress.biotic
+Glyma.02G302600	signalling.receptor kinases.leucine rich repeat
+Glyma.02G309300	secondary metabolism.phenylpropanoids.lignin biosynthesis
+Glyma.16G185200	stress.biotic
+Glyma.16G175100	signalling.receptor kinases.leucine rich repeat
+Glyma.16G185500	signalling.receptor kinases.leucine rich repeat
+Glyma.03G007700	misc.peroxidases
+Glyma.03G007800	misc.peroxidases
+Glyma.03G017300	hormone metabolism.ethylene.signal transduction
+Glyma.03G023700	signalling.receptor kinases.leucine rich repeat
+Glyma.03G026800	signalling.receptor kinases.leucine rich repeat
+Glyma.03G027200	signalling.receptor kinases.leucine rich repeat
+Glyma.03G028800	protein.degradation.metalloprotease
+Glyma.03G034200	signalling.receptor kinases.leucine rich repeat
+Glyma.03G034400	stress.biotic
+Glyma.03G039300	stress.biotic
+Glyma.03G039200	stress.biotic
+Glyma.03G034800	stress.biotic
+Glyma.03G034900	stress.biotic
+Glyma.03G037000	stress.biotic
+Glyma.03G037100	stress.biotic
+Glyma.03G037300	stress.biotic
+Glyma.03G037400	stress.biotic
+Glyma.03G037800	misc.peroxidases
+Glyma.03G037900	misc.peroxidases
+Glyma.03G038100	misc.peroxidases
+Glyma.03G038200	misc.peroxidases
+Glyma.03G038300	misc.peroxidases
+Glyma.03G038500	misc.peroxidases
+Glyma.03G038600	misc.peroxidases
+Glyma.03G038700	misc.peroxidases
+Glyma.03G038800	stress.biotic
+Glyma.03G039500	stress.biotic
+Glyma.03G039700	misc.peroxidases
+Glyma.03G039800	misc.peroxidases
+Glyma.03G043500	stress.biotic
+Glyma.03G043600	stress.biotic
+Glyma.03G043900	stress.biotic
+Glyma.03G044000	stress.biotic
+Glyma.03G044300	stress.biotic.PR-proteins
+Glyma.03G044400	stress.biotic.PR-proteins
+Glyma.03G044500	stress.biotic.PR-proteins
+Glyma.03G044900	stress.biotic.PR-proteins
+Glyma.03G045700	stress.biotic
+Glyma.03G045800	stress.biotic.PR-proteins
+Glyma.03G046500	stress.biotic
+Glyma.03G047000	stress.biotic
+Glyma.03G047100	signalling.receptor kinases.leucine rich repeat
+Glyma.03G047900	stress.biotic.PR-proteins
+Glyma.03G048100	stress.biotic
+Glyma.03G048200	stress.biotic
+Glyma.03G047700	stress.biotic.PR-proteins
+Glyma.03G048800	stress.biotic.PR-proteins
+Glyma.03G048900	stress.biotic.PR-proteins
+Glyma.03G049100	stress.biotic.PR-proteins
+Glyma.03G047500	stress.biotic.PR-proteins
+Glyma.U005000	stress.biotic.PR-proteins
+Glyma.U004900	stress.biotic.PR-proteins
+Glyma.03G049300	signalling.receptor kinases.leucine rich repeat
+Glyma.03G050600	stress.biotic.PR-proteins
+Glyma.03G052400	signalling.receptor kinases.leucine rich repeat
+Glyma.03G052800	stress.biotic.PR-proteins
+Glyma.03G053000	signalling.receptor kinases.leucine rich repeat
+Glyma.03G053300	stress.biotic.PR-proteins
+Glyma.03G053500	stress.biotic.PR-proteins
+Glyma.03G053600	stress.biotic.PR-proteins
+Glyma.03G053800	signalling.receptor kinases.leucine rich repeat
+Glyma.03G053900	stress.biotic.PR-proteins
+Glyma.03G054100	stress.biotic.PR-proteins
+Glyma.03G054400	signalling.receptor kinases.leucine rich repeat
+Glyma.03G054800	signalling.receptor kinases.leucine rich repeat
+Glyma.03G055300	signalling.receptor kinases.leucine rich repeat
+Glyma.03G055500	protein.degradation.metalloprotease
+Glyma.03G060400	protein.degradation.aspartate protease
+Glyma.03G079800	protein.degradation.serine protease
+Glyma.03G077700	stress.biotic.PR-proteins
+Glyma.03G077400	stress.biotic.PR-proteins
+Glyma.03G075300	stress.biotic.PR-proteins
+Glyma.03G075200	stress.biotic
+Glyma.03G075100	stress.biotic.PR-proteins
+Glyma.03G073500	misc.protease inhibitor/seed storage/lipid transfer protein (LTP) family protein
+Glyma.03G070300	protein.degradation.serine protease
+Glyma.03G066500	signalling.receptor kinases.leucine rich repeat
+Glyma.03G087400	signalling.receptor kinases.leucine rich repeat
+Glyma.03G087500	stress.biotic.PR-proteins
+Glyma.03G087600	stress.biotic.PR-proteins
+Glyma.03G087700	stress.biotic.PR-proteins
+Glyma.03G088000	stress.biotic.PR-proteins
+Glyma.03G088100	stress.biotic.PR-proteins
+Glyma.03G089200	protein.degradation.metalloprotease
+Glyma.03G090900	protein.degradation.serine protease
+Glyma.03G093600	stress.biotic.signalling.MLO-like
+Glyma.03G093800	stress.biotic
+Glyma.03G095700	signalling.receptor kinases.leucine rich repeat
+Glyma.03G096200	signalling.receptor kinases.leucine rich repeat
+Glyma.03G096600	signalling.receptor kinases.leucine rich repeat
+Glyma.03G111700	hormone metabolism.ethylene.signal transduction
+Glyma.03G112000	hormone metabolism.ethylene.signal transduction
+Glyma.03G112800	hormone metabolism.ethylene.signal transduction
+Glyma.03G117700	protein.degradation.metalloprotease
+Glyma.03G125200	protein.degradation.serine protease
+Glyma.03G125400	protein.degradation.serine protease
+Glyma.03G125500	protein.degradation.serine protease
+Glyma.03G125600	protein.degradation.serine protease
+Glyma.03G135900	stress.biotic
+Glyma.03G136400	stress.biotic
+Glyma.03G137100	protein.degradation.metalloprotease
+Glyma.03G137200	stress.biotic
+Glyma.03G137300	signalling.receptor kinases.leucine rich repeat
+Glyma.03G140700	signalling.receptor kinases.leucine rich repeat
+Glyma.03G140800	hormone metabolism.ethylene.signal transduction
+Glyma.03G141600	signalling.receptor kinases.leucine rich repeat
+Glyma.03G145600	misc.peroxidases
+Glyma.03G147600	stress.biotic.PR-proteins
+Glyma.03G147700	stress.biotic.PR-proteins
+Glyma.03G147800	stress.biotic.PR-proteins
+Glyma.03G147900	stress.biotic.PR-proteins
+Glyma.03G148500	signalling.receptor kinases.leucine rich repeat
+Glyma.03G151900	protein.degradation.aspartate protease
+Glyma.03G156100	misc.protease inhibitor/seed storage/lipid transfer protein (LTP) family protein
+Glyma.03G159800	hormone metabolism.ethylene.signal transduction
+Glyma.03G162400	hormone metabolism.ethylene.signal transduction
+Glyma.03G162500	hormone metabolism.ethylene.signal transduction
+Glyma.03G162600	hormone metabolism.ethylene.signal transduction
+Glyma.03G162700	hormone metabolism.ethylene.signal transduction
+Glyma.03G165800	signalling.receptor kinases.leucine rich repeat
+Glyma.03G166200	signalling.receptor kinases.leucine rich repeat
+Glyma.03G166300	signalling.receptor kinases.leucine rich repeat
+Glyma.03G167500	signalling.receptor kinases.leucine rich repeat
+Glyma.03G175900	stress.biotic.PR-proteins
+Glyma.03G179200	stress.biotic.signalling.MLO-like
+Glyma.03G181600	secondary metabolism.phenylpropanoids.lignin biosynthesis
+Glyma.03G181700	secondary metabolism.phenylpropanoids.lignin biosynthesis
+Glyma.03G182500	protein.degradation.cysteine protease
+Glyma.03G188400	protein.degradation.aspartate protease
+Glyma.03G189800	signalling.receptor kinases.leucine rich repeat
+Glyma.03G201100	stress.biotic
+Glyma.03G201200	stress.biotic
+Glyma.03G201400	stress.biotic
+Glyma.03G201500	stress.biotic
+Glyma.03G201300	stress.biotic
+Glyma.03G208100	misc.peroxidases
+Glyma.03G208200	misc.peroxidases
+Glyma.03G210300	protein.degradation.cysteine protease
+Glyma.03G216700	hormone metabolism.ethylene.signal transduction
+Glyma.03G220200	protein.degradation.serine protease
+Glyma.03G226300	protein.degradation.cysteine protease
+Glyma.03G228200	protein.degradation.aspartate protease
+Glyma.03G231700	hormone metabolism.ethylene.induced-regulated-responsive-activated
+Glyma.03G235800	protein.degradation.serine protease
+Glyma.03G236300	stress.biotic.respiratory burst
+Glyma.03G239700	protein.degradation.aspartate protease
+Glyma.03G247500	stress.biotic
+Glyma.03G251700	hormone metabolism.ethylene.signal transduction
+Glyma.03G254300	stress.biotic
+Glyma.03G262500	signalling.receptor kinases.leucine rich repeat
+Glyma.04G002400	stress.biotic.signalling.MLO-like
+Glyma.04G014700	protein.degradation.cysteine protease
+Glyma.04G014800	protein.degradation.cysteine protease
+Glyma.04G015500	stress.biotic.signalling.MLO-like
+Glyma.04G015700	stress.biotic.signalling.MLO-like
+Glyma.04G017900	protein.degradation.metalloprotease
+Glyma.04G019100	protein.degradation.metalloprotease
+Glyma.04G023700	stress.biotic
+Glyma.04G026700	signalling.receptor kinases.leucine rich repeat
+Glyma.04G027600	protein.degradation.cysteine protease
+Glyma.04G028300	protein.degradation.cysteine protease
+Glyma.04G031500	secondary metabolism.phenylpropanoids.lignin biosynthesis
+Glyma.04G034300	stress.biotic
+Glyma.04G036200	protein.degradation.serine protease
+Glyma.04G041400	signalling.receptor kinases.leucine rich repeat
+Glyma.04G041500	protein.degradation.cysteine protease
+Glyma.04G056200	signalling.receptor kinases.leucine rich repeat
+Glyma.04G059600	misc.peroxidases
+Glyma.04G062900	hormone metabolism.ethylene.signal transduction
+Glyma.04G065600	misc.protease inhibitor/seed storage/lipid transfer protein (LTP) family protein
+Glyma.04G077100	signalling.receptor kinases.leucine rich repeat
+Glyma.04G077500	stress.biotic
+Glyma.04G082200	stress.biotic.PR-proteins
+Glyma.04G085200	signalling.receptor kinases.leucine rich repeat
+Glyma.04G086700	signalling.receptor kinases.leucine rich repeat
+Glyma.04G088700	signalling.receptor kinases.leucine rich repeat
+Glyma.04G088800	signalling.receptor kinases.leucine rich repeat
+Glyma.04G093800	protein.degradation.cysteine protease
+Glyma.04G096400	protein.degradation.cysteine protease
+Glyma.04G099500	misc.peroxidases
+Glyma.04G115700	signalling.receptor kinases.leucine rich repeat
+Glyma.04G123200	signalling.receptor kinases.leucine rich repeat
+Glyma.04G124100	stress.biotic.PR-proteins
+Glyma.04G125300	stress.biotic
+Glyma.04G134000	stress.biotic.PR-proteins
+Glyma.04G151200	signalling.receptor kinases.leucine rich repeat
+Glyma.04G155900	protein.degradation.serine protease
+Glyma.04G156600	secondary metabolism.phenylpropanoids.lignin biosynthesis
+Glyma.04G139800	stress.biotic.PR-proteins
+Glyma.04G137800	stress.biotic
+Glyma.20G056200	protein.degradation.serine protease
+Glyma.04G163900	protein.degradation.serine protease
+Glyma.04G165400	signalling.receptor kinases.leucine rich repeat
+Glyma.04G174700	signalling.receptor kinases.leucine rich repeat
+Glyma.04G176200	stress.biotic
+Glyma.04G177700	stress.biotic
+Glyma.04G180300	signalling.receptor kinases.leucine rich repeat
+Glyma.04G185400	signalling.receptor kinases.leucine rich repeat
+Glyma.04G190400	signalling.receptor kinases.leucine rich repeat
+Glyma.04G190700	protein.degradation.cysteine protease
+Glyma.04G194100	protein.degradation.aspartate protease
+Glyma.04G194200	secondary metabolism.phenylpropanoids.lignin biosynthesis
+Glyma.04G194400	signalling.receptor kinases.leucine rich repeat
+Glyma.04G200200	protein.degradation.serine protease
+Glyma.04G200400	protein.degradation.serine protease
+Glyma.04G203200	stress.biotic.respiratory burst
+Glyma.04G203300	protein.degradation.serine protease
+Glyma.04G208200	protein.degradation.aspartate protease
+Glyma.04G209700	stress.biotic
+Glyma.04G211400	signalling.receptor kinases.leucine rich repeat
+Glyma.04G213800	protein.degradation.metalloprotease
+Glyma.04G214700	stress.biotic.signalling
+Glyma.04G218300	signalling.receptor kinases.leucine rich repeat
+Glyma.04G219600	stress.biotic.PR-proteins
+Glyma.04G220400	signalling.receptor kinases.leucine rich repeat
+Glyma.04G220400	signalling.receptor kinases.leucine rich repeat
+Glyma.04G220600	misc.peroxidases
+Glyma.04G222800	signalling.receptor kinases.leucine rich repeat
+Glyma.04G223800	signalling.receptor kinases.leucine rich repeat
+Glyma.04G225800	stress.biotic
+Glyma.04G226300	protein.degradation.serine protease
+Glyma.04G227200	misc.peroxidases
+Glyma.04G230300	signalling.receptor kinases.leucine rich repeat
+Glyma.04G230500	signalling.receptor kinases.leucine rich repeat
+Glyma.04G235600	protein.degradation.serine protease
+Glyma.04G239000	signalling.receptor kinases.leucine rich repeat
+Glyma.04G239700	signalling.receptor kinases.leucine rich repeat
+Glyma.04G240600	protein.degradation.serine protease
+Glyma.04G248700	protein.degradation.aspartate protease
+Glyma.04G248800	protein.degradation.aspartate protease
+Glyma.04G254500	protein.degradation.serine protease
+Glyma.05G021100	stress.biotic.respiratory burst
+Glyma.05G024000	signalling.receptor kinases.leucine rich repeat
+Glyma.05G030100	signalling.receptor kinases.leucine rich repeat
+Glyma.05G035300	protein.degradation.serine protease
+Glyma.05G039100	signalling.receptor kinases.leucine rich repeat
+Glyma.05G039900	signalling.receptor kinases.leucine rich repeat
+Glyma.05G053600	protein.degradation.serine protease
+Glyma.05G055100	misc.protease inhibitor/seed storage/lipid transfer protein (LTP) family protein
+Glyma.05G057000	misc.protease inhibitor/seed storage/lipid transfer protein (LTP) family protein
+Glyma.05G057400	misc.protease inhibitor/seed storage/lipid transfer protein (LTP) family protein
+Glyma.05G057500	misc.protease inhibitor/seed storage/lipid transfer protein (LTP) family protein
+Glyma.05G057600	misc.protease inhibitor/seed storage/lipid transfer protein (LTP) family protein
+Glyma.05G057700	misc.protease inhibitor/seed storage/lipid transfer protein (LTP) family protein
+Glyma.05G063600	hormone metabolism.ethylene.signal transduction
+Glyma.05G064700	stress.biotic
+Glyma.05G065900	protein.degradation.serine protease
+Glyma.05G068600	protein.degradation.serine protease
+Glyma.05G075000	stress.biotic
+Glyma.05G015900	hormone metabolism.ethylene.signal transduction
+Glyma.05G014600	signalling.receptor kinases.leucine rich repeat
+Glyma.05G011600	signalling.receptor kinases.leucine rich repeat
+Glyma.05G007200	protein.degradation.serine protease
+Glyma.05G002200	misc.protease inhibitor/seed storage/lipid transfer protein (LTP) family protein
+Glyma.05G001900	protein.degradation.metalloprotease
+Glyma.05G082300	stress.biotic.PR-proteins
+Glyma.05G082200	stress.biotic.PR-proteins
+Glyma.05G075100	secondary metabolism.phenylpropanoids.lignin biosynthesis
+Glyma.05G085800	protein.degradation.serine protease
+Glyma.05G085500	signalling.receptor kinases.leucine rich repeat
+Glyma.05G082500	stress.biotic.PR-proteins
+Glyma.05G082400	stress.biotic.PR-proteins
+Glyma.05G096800	protein.degradation.cysteine protease
+Glyma.05G097400	signalling.receptor kinases.leucine rich repeat
+Glyma.05G102400	stress.biotic.signalling
+Glyma.05G103600	misc.peroxidases
+Glyma.05G110400	signalling.receptor kinases.leucine rich repeat
+Glyma.05G116900	stress.biotic
+Glyma.11G160500	stress.biotic.PR-proteins
+Glyma.05G119100	misc.protease inhibitor/seed storage/lipid transfer protein (LTP) family protein
+Glyma.05G123700	signalling.receptor kinases.leucine rich repeat
+Glyma.05G123900	signalling.receptor kinases.leucine rich repeat
+Glyma.05G124000	signalling.receptor kinases.leucine rich repeat
+Glyma.05G126400	signalling.receptor kinases.leucine rich repeat
+Glyma.05G128200	signalling.receptor kinases.leucine rich repeat
+Glyma.05G132000	protein.degradation.metalloprotease
+Glyma.05G134800	signalling.receptor kinases.leucine rich repeat
+Glyma.05G135900	stress.biotic
+Glyma.05G136900	signalling.receptor kinases.leucine rich repeat
+Glyma.05G141700	signalling.receptor kinases.leucine rich repeat
+Glyma.05G147000	secondary metabolism.phenylpropanoids.lignin biosynthesis
+Glyma.05G154600	misc.protease inhibitor/seed storage/lipid transfer protein (LTP) family protein
+Glyma.05G158600	protein.degradation.cysteine protease
+Glyma.05G159900	signalling.receptor kinases.leucine rich repeat
+Glyma.05G165600	stress.biotic.PR-proteins
+Glyma.05G165800	stress.biotic.PR-proteins
+Glyma.05G167200	protein.degradation.cysteine protease
+Glyma.05G169700	stress.biotic
+Glyma.05G170600	signalling.receptor kinases.leucine rich repeat
+Glyma.05G187700	secondary metabolism.phenylpropanoids.lignin biosynthesis
+Glyma.05G190000	stress.biotic.signalling
+Glyma.05G194100	stress.biotic
+Glyma.05G195100	protein.degradation.aspartate protease
+Glyma.05G198700	stress.biotic.respiratory burst
+Glyma.05G247300	signalling.receptor kinases.leucine rich repeat
+Glyma.05G245800	stress.biotic
+Glyma.05G229500	hormone metabolism.ethylene.induced-regulated-responsive-activated
+Glyma.05G225300	signalling.receptor kinases.leucine rich repeat
+Glyma.05G223700	protein.degradation.metalloprotease
+Glyma.05G223400	secondary metabolism.phenylpropanoids.lignin biosynthesis
+Glyma.05G223300	secondary metabolism.phenylpropanoids.lignin biosynthesis
+Glyma.05G222900	protein.degradation.metalloprotease
+Glyma.05G220900	signalling.receptor kinases.leucine rich repeat
+Glyma.05G214300	signalling.receptor kinases.leucine rich repeat
+Glyma.05G213400	stress.biotic.PR-proteins
+Glyma.05G213300	stress.biotic
+Glyma.05G212500	stress.biotic.respiratory burst
+Glyma.05G206300	signalling.receptor kinases.leucine rich repeat
+Glyma.05G204800	stress.biotic
+Glyma.05G204600	stress.biotic
+Glyma.05G201100	protein.degradation.serine protease
+Glyma.06G002000	stress.biotic.signalling.MLO-like
+Glyma.06G014700	protein.degradation.cysteine protease
+Glyma.06G014800	protein.degradation.cysteine protease
+Glyma.06G015500	stress.biotic.signalling.MLO-like
+Glyma.06G015700	stress.biotic.signalling.MLO-like
+Glyma.06G018200	protein.degradation.metalloprotease
+Glyma.06G019400	protein.degradation.metalloprotease
+Glyma.06G023900	stress.biotic
+Glyma.06G026600	signalling.receptor kinases.leucine rich repeat
+Glyma.06G027700	protein.degradation.cysteine protease
+Glyma.06G031600	secondary metabolism.phenylpropanoids.lignin biosynthesis
+Glyma.06G036300	protein.degradation.serine protease
+Glyma.06G042500	signalling.receptor kinases.leucine rich repeat
+Glyma.06G047400	protein.degradation.serine protease
+Glyma.06G056400	signalling.receptor kinases.leucine rich repeat
+Glyma.06G060100	misc.peroxidases
+Glyma.06G064000	hormone metabolism.ethylene.signal transduction
+Glyma.06G067000	misc.protease inhibitor/seed storage/lipid transfer protein (LTP) family protein
+Glyma.06G072300	stress.biotic
+Glyma.06G078600	stress.biotic
+Glyma.06G086800	signalling.receptor kinases.leucine rich repeat
+Glyma.06G088400	signalling.receptor kinases.leucine rich repeat
+Glyma.06G090700	signalling.receptor kinases.leucine rich repeat
+Glyma.06G090800	signalling.receptor kinases.leucine rich repeat
+Glyma.06G095600	protein.degradation.cysteine protease
+Glyma.06G107600	protein.degradation.serine protease
+Glyma.06G114200	protein.degradation.aspartate protease
+Glyma.06G122800	protein.degradation.serine protease
+Glyma.06G123700	stress.biotic
+Glyma.06G123800	stress.biotic
+Glyma.06G124200	signalling.receptor kinases.leucine rich repeat
+Glyma.06G124700	signalling.receptor kinases.leucine rich repeat
+Glyma.06G126000	protein.degradation.metalloprotease
+Glyma.06G129100	protein.degradation.serine protease
+Glyma.06G134700	signalling.receptor kinases.leucine rich repeat
+Glyma.06G139000	stress.biotic
+Glyma.06G141100	signalling.receptor kinases.leucine rich repeat
+Glyma.06G142500	signalling.receptor kinases.leucine rich repeat
+Glyma.06G145300	misc.peroxidases
+Glyma.06G145500	signalling.receptor kinases.leucine rich repeat
+Glyma.06G145500	signalling.receptor kinases.leucine rich repeat
+Glyma.06G145800	stress.biotic
+Glyma.06G146200	stress.biotic.PR-proteins
+Glyma.06G147600	signalling.receptor kinases.leucine rich repeat
+Glyma.06G151400	stress.biotic.signalling
+Glyma.06G156300	stress.biotic
+Glyma.06G157500	protein.degradation.aspartate protease
+Glyma.06G162200	protein.degradation.serine protease
+Glyma.06G162300	stress.biotic.respiratory burst
+Glyma.06G165200	protein.degradation.serine protease
+Glyma.06G165400	protein.degradation.serine protease
+Glyma.06G167200	stress.biotic
+Glyma.06G171900	secondary metabolism.phenylpropanoids.lignin biosynthesis
+Glyma.06G172000	protein.degradation.aspartate protease
+Glyma.06G174800	protein.degradation.cysteine protease
+Glyma.06G175100	signalling.receptor kinases.leucine rich repeat
+Glyma.06G181700	protein.degradation.serine protease
+Glyma.06G184400	signalling.receptor kinases.leucine rich repeat
+Glyma.06G187200	stress.biotic
+Glyma.06G187300	stress.biotic
+Glyma.06G187400	stress.biotic.signalling
+Glyma.06G189100	stress.biotic
+Glyma.06G190000	signalling.receptor kinases.leucine rich repeat
+Glyma.06G197600	signalling.receptor kinases.leucine rich repeat
+Glyma.06G205100	stress.biotic.PR-proteins
+Glyma.06G211600	signalling.receptor kinases.leucine rich repeat
+Glyma.06G215000	signalling.receptor kinases.leucine rich repeat
+Glyma.06G220200	signalling.receptor kinases.leucine rich repeat
+Glyma.06G217800	stress.biotic.PR-proteins
+Glyma.06G221400	signalling.receptor kinases.leucine rich repeat
+Glyma.06G221700	misc.peroxidases
+Glyma.06G232500	stress.biotic
+Glyma.01G095400	stress.biotic
+Glyma.06G236400	hormone metabolism.ethylene.signal transduction
+Glyma.06G238700	signalling.receptor kinases.leucine rich repeat
+Glyma.06G239000	stress.biotic.PR-proteins
+Glyma.06G246800	stress.biotic.signalling.MLO-like
+Glyma.06G248700	stress.biotic.PR-proteins
+Glyma.06G254300	stress.biotic
+Glyma.06G256000	stress.biotic.PR-proteins
+Glyma.06G256300	stress.biotic.PR-proteins
+Glyma.06G259100	stress.biotic.PR-proteins
+Glyma.06G259400	stress.biotic.PR-proteins
+Glyma.06G259800	stress.biotic.PR-proteins
+Glyma.06G260000	hormone metabolism.ethylene.induced-regulated-responsive-activated
+Glyma.06G260100	stress.biotic.PR-proteins
+Glyma.06G260500	stress.biotic.PR-proteins
+Glyma.06G261500	stress.biotic.PR-proteins
+Glyma.06G263500	stress.biotic.PR-proteins
+Glyma.06G263700	stress.biotic.PR-proteins
+Glyma.06G263900	stress.biotic.PR-proteins
+Glyma.06G264100	stress.biotic.PR-proteins
+Glyma.06G265000	stress.biotic.PR-proteins
+Glyma.06G265200	stress.biotic.PR-proteins
+Glyma.06G267300	stress.biotic.PR-proteins
+Glyma.06G267400	stress.biotic.PR-proteins
+Glyma.06G267600	stress.biotic.PR-proteins
+Glyma.06G268100	stress.biotic.PR-proteins
+Glyma.06G268500	stress.biotic.PR-proteins
+Glyma.06G268600	stress.biotic.PR-proteins
+Glyma.06G268700	stress.biotic.PR-proteins
+Glyma.06G269200	stress.biotic
+Glyma.06G272600	protein.degradation.cysteine protease
+Glyma.06G272800	protein.degradation.cysteine protease
+Glyma.06G273000	protein.degradation.cysteine protease
+Glyma.06G273100	protein.degradation.cysteine protease
+Glyma.06G273200	protein.degradation.cysteine protease
+Glyma.06G273400	protein.degradation.cysteine protease
+Glyma.06G273500	protein.degradation.cysteine protease
+Glyma.06G273600	protein.degradation.cysteine protease
+Glyma.06G273700	protein.degradation.cysteine protease
+Glyma.06G273800	protein.degradation.cysteine protease
+Glyma.06G273900	protein.degradation.cysteine protease
+Glyma.06G274100	protein.degradation.cysteine protease
+Glyma.06G275100	protein.degradation.cysteine protease
+Glyma.06G275200	protein.degradation.cysteine protease
+Glyma.06G275300	protein.degradation.cysteine protease
+Glyma.06G275900	misc.peroxidases
+Glyma.06G276200	hormone metabolism.ethylene.induced-regulated-responsive-activated
+Glyma.06G276300	hormone metabolism.ethylene.induced-regulated-responsive-activated
+Glyma.06G279100	protein.degradation.cysteine protease
+Glyma.06G279900	protein.degradation.cysteine protease
+Glyma.06G280100	protein.degradation.cysteine protease
+Glyma.06G280900	protein.degradation.cysteine protease
+Glyma.06G281400	protein.degradation.cysteine protease
+Glyma.06G283000	protein.degradation.cysteine protease
+Glyma.06G283100	protein.degradation.cysteine protease
+Glyma.06G285500	stress.biotic.PR-proteins
+Glyma.06G286800	stress.biotic.signalling.MLO-like
+Glyma.06G288600	signalling.receptor kinases.leucine rich repeat
+Glyma.06G290000	hormone metabolism.ethylene.signal transduction
+Glyma.06G293500	protein.degradation.metalloprotease
+Glyma.06G302600	misc.peroxidases
+Glyma.06G302700	misc.peroxidases
+Glyma.06G306700	protein.degradation.metalloprotease
+Glyma.06G307300	stress.biotic.PR-proteins
+Glyma.06G307400	stress.biotic.PR-proteins
+Glyma.06G310000	stress.biotic.PR-proteins
+Glyma.06G311000	stress.biotic
+Glyma.06G311100	stress.biotic
+Glyma.06G311200	stress.biotic
+Glyma.06G312100	stress.biotic
+Glyma.06G316300	stress.biotic
+Glyma.06G318300	stress.biotic
+Glyma.06G318600	stress.biotic
+Glyma.06G319700	signalling.receptor kinases.leucine rich repeat
+Glyma.06G320300	stress.biotic
+Glyma.06G320600	signalling.receptor kinases.leucine rich repeat
+Glyma.16G186700	signalling.receptor kinases.leucine rich repeat
+Glyma.16G182900	stress.biotic
+Glyma.07G007800	stress.biotic.PR-proteins
+Glyma.07G018500	hormone metabolism.ethylene.induced-regulated-responsive-activated
+Glyma.07G022800	hormone metabolism.ethylene.signal transduction
+Glyma.07G025800	hormone metabolism.ethylene.signal transduction
+Glyma.07G037000	stress.biotic.PR-proteins
+Glyma.07G040600	stress.biotic.PR-proteins.proteinase inhibitors.trypsin inhibitor
+Glyma.07G041200	signalling.receptor kinases.leucine rich repeat
+Glyma.07G047200	signalling.receptor kinases.leucine rich repeat
+Glyma.07G061600	stress.biotic
+Glyma.07G061800	stress.biotic
+Glyma.07G062900	stress.biotic.PR-proteins
+Glyma.07G063300	stress.biotic
+Glyma.07G065000	stress.biotic.PR-proteins
+Glyma.07G065500	stress.biotic.PR-proteins
+Glyma.07G063600	stress.biotic.PR-proteins
+Glyma.07G064100	stress.biotic.PR-proteins
+Glyma.07G065600	stress.biotic.PR-proteins
+Glyma.07G067900	stress.biotic.PR-proteins
+Glyma.07G075700	stress.biotic
+Glyma.07G077700	stress.biotic
+Glyma.07G078600	hormone metabolism.ethylene.signal transduction
+Glyma.07G080600	signalling.receptor kinases.leucine rich repeat
+Glyma.07G083500	hormone metabolism.ethylene.induced-regulated-responsive-activated
+Glyma.07G090000	protein.degradation.aspartate protease
+Glyma.07G090600	misc.protease inhibitor/seed storage/lipid transfer protein (LTP) family protein
+Glyma.07G096700	misc.protease inhibitor/seed storage/lipid transfer protein (LTP) family protein
+Glyma.07G103500	signalling.receptor kinases.leucine rich repeat
+Glyma.07G103700	stress.biotic
+Glyma.07G103800	stress.biotic
+Glyma.07G103900	stress.biotic
+Glyma.07G123000	stress.biotic.PR-proteins
+Glyma.07G114300	hormone metabolism.ethylene.signal transduction
+Glyma.07G113800	hormone metabolism.ethylene.signal transduction
+Glyma.07G112700	secondary metabolism.phenylpropanoids.lignin biosynthesis
+Glyma.07G109400	protein.degradation.metalloprotease
+Glyma.07G126000	signalling.receptor kinases.leucine rich repeat
+Glyma.07G127700	secondary metabolism.phenylpropanoids.lignin biosynthesis
+Glyma.07G130700	signalling.receptor kinases.leucine rich repeat
+Glyma.07G130800	stress.biotic.respiratory burst
+Glyma.07G132800	protein.degradation.serine protease
+Glyma.07G135100	stress.biotic
+Glyma.07G139400	misc.protease inhibitor/seed storage/lipid transfer protein (LTP) family protein
+Glyma.07G141300	misc.protease inhibitor/seed storage/lipid transfer protein (LTP) family protein
+Glyma.07G141400	signalling.receptor kinases.leucine rich repeat
+Glyma.07G141500	misc.protease inhibitor/seed storage/lipid transfer protein (LTP) family protein
+Glyma.07G143500	signalling.receptor kinases.leucine rich repeat
+Glyma.07G143900	signalling.receptor kinases.leucine rich repeat
+Glyma.07G144100	signalling.receptor kinases.leucine rich repeat
+Glyma.07G147800	signalling.receptor kinases.leucine rich repeat
+Glyma.07G152700	protein.degradation.metalloprotease
+Glyma.07G153200	signalling.receptor kinases.leucine rich repeat
+Glyma.07G153300	stress.biotic.PR-proteins
+Glyma.07G153500	signalling.receptor kinases.leucine rich repeat
+Glyma.07G154900	stress.biotic.PR-proteins
+Glyma.07G155000	signalling.receptor kinases.leucine rich repeat
+Glyma.07G155800	signalling.receptor kinases.leucine rich repeat
+Glyma.07G156000	signalling.receptor kinases.leucine rich repeat
+Glyma.07G157100	stress.biotic.PR-proteins
+Glyma.07G172400	protein.degradation.serine protease
+Glyma.07G174700	protein.degradation.cysteine protease
+Glyma.07G175200	secondary metabolism.phenylpropanoids.lignin biosynthesis
+Glyma.07G177000	stress.biotic
+Glyma.07G186200	stress.biotic
+Glyma.07G186300	stress.biotic
+Glyma.07G186400	stress.biotic
+Glyma.07G188100	hormone metabolism.ethylene.induced-regulated-responsive-activated
+Glyma.07G192700	protein.degradation.serine protease
+Glyma.07G193000	stress.biotic.PR-proteins
+Glyma.07G199700	hormone metabolism.ethylene.signal transduction
+Glyma.07G201600	signalling.receptor kinases.leucine rich repeat
+Glyma.07G203300	stress.biotic
+Glyma.07G203400	misc.peroxidases
+Glyma.07G205300	protein.degradation.cysteine protease
+Glyma.07G205400	protein.degradation.cysteine protease
+Glyma.07G208000	hormone metabolism.ethylene.induced-regulated-responsive-activated
+Glyma.07G209900	misc.peroxidases
+Glyma.07G214700	secondary metabolism.phenylpropanoids.lignin biosynthesis
+Glyma.07G215700	signalling.receptor kinases.leucine rich repeat
+Glyma.07G215900	signalling.receptor kinases.leucine rich repeat
+Glyma.07G218400	protein.degradation.serine protease
+Glyma.07G236600	protein.degradation.serine protease
+Glyma.07G237400	misc.peroxidases
+Glyma.07G239900	stress.biotic.PR-proteins
+Glyma.07G240100	hormone metabolism.ethylene.signal transduction
+Glyma.07G246900	protein.degradation.cysteine protease
+Glyma.07G257500	protein.degradation.aspartate protease
+Glyma.07G259300	stress.biotic
+Glyma.07G260300	misc.peroxidases
+Glyma.07G262600	protein.degradation.aspartate protease
+Glyma.07G263000	misc.peroxidases
+Glyma.07G266000	protein.degradation.cysteine protease
+Glyma.08G002100	stress.biotic
+Glyma.08G002600	protein.degradation.aspartate protease
+Glyma.08G005900	stress.biotic.respiratory burst
+Glyma.08G008400	protein.degradation.serine protease
+Glyma.08G008700	protein.degradation.serine protease
+Glyma.08G013200	signalling.receptor kinases.leucine rich repeat
+Glyma.08G018900	stress.biotic.respiratory burst
+Glyma.08G019800	stress.biotic
+Glyma.08G019900	stress.biotic.PR-proteins
+Glyma.08G020800	signalling.receptor kinases.leucine rich repeat
+Glyma.08G023900	protein.degradation.metalloprotease
+Glyma.08G027400	signalling.receptor kinases.leucine rich repeat
+Glyma.08G029900	protein.degradation.metalloprotease
+Glyma.08G030000	protein.degradation.metalloprotease
+Glyma.08G030400	secondary metabolism.phenylpropanoids.lignin biosynthesis
+Glyma.08G030500	secondary metabolism.phenylpropanoids.lignin biosynthesis
+Glyma.08G030800	protein.degradation.metalloprotease
+Glyma.08G032100	signalling.receptor kinases.leucine rich repeat
+Glyma.08G036900	hormone metabolism.ethylene.induced-regulated-responsive-activated
+Glyma.08G040900	hormone metabolism.ethylene.signal transduction
+Glyma.08G053600	stress.biotic
+Glyma.08G055700	signalling.receptor kinases.leucine rich repeat
+Glyma.08G059400	signalling.receptor kinases.leucine rich repeat
+Glyma.08G061300	hormone metabolism.ethylene.induced-regulated-responsive-activated
+Glyma.08G062700	signalling.receptor kinases.leucine rich repeat
+Glyma.08G072000	stress.biotic
+Glyma.08G074100	misc.protease inhibitor/seed storage/lipid transfer protein (LTP) family protein
+Glyma.08G078900	signalling.receptor kinases.leucine rich repeat
+Glyma.08G079400	signalling.receptor kinases.leucine rich repeat
+Glyma.08G083000	signalling.receptor kinases.leucine rich repeat
+Glyma.08G083300	signalling.receptor kinases.leucine rich repeat
+Glyma.08G086600	protein.degradation.metalloprotease
+Glyma.08G090000	signalling.receptor kinases.leucine rich repeat
+Glyma.08G091200	stress.biotic
+Glyma.08G092200	signalling.receptor kinases.leucine rich repeat
+Glyma.08G097400	signalling.receptor kinases.leucine rich repeat
+Glyma.08G103900	secondary metabolism.phenylpropanoids.lignin biosynthesis
+Glyma.08G112300	misc.protease inhibitor/seed storage/lipid transfer protein (LTP) family protein
+Glyma.08G116300	protein.degradation.cysteine protease
+Glyma.08G116400	protein.degradation.cysteine protease
+Glyma.08G116900	protein.degradation.cysteine protease
+Glyma.08G119000	stress.biotic
+Glyma.08G119200	stress.biotic
+Glyma.08G123300	stress.biotic.PR-proteins
+Glyma.08G123800	signalling.receptor kinases.leucine rich repeat
+Glyma.08G125500	protein.degradation.cysteine protease
+Glyma.08G128000	stress.biotic
+Glyma.08G128800	signalling.receptor kinases.leucine rich repeat
+Glyma.08G128900	signalling.receptor kinases.leucine rich repeat
+Glyma.08G145900	secondary metabolism.phenylpropanoids.lignin biosynthesis
+Glyma.08G147600	stress.biotic.signalling
+Glyma.08G152200	misc.protease inhibitor/seed storage/lipid transfer protein (LTP) family protein
+Glyma.08G152800	signalling.receptor kinases.leucine rich repeat
+Glyma.08G154400	stress.biotic.PR-proteins
+Glyma.08G161700	misc.protease inhibitor/seed storage/lipid transfer protein (LTP) family protein
+Glyma.08G162700	misc.peroxidases
+Glyma.08G168000	misc.peroxidases
+Glyma.08G169800	hormone metabolism.jasmonate.induced-regulated-responsive-activated
+Glyma.08G172700	stress.biotic
+Glyma.08G174500	signalling.receptor kinases.leucine rich repeat
+Glyma.08G175700	secondary metabolism.phenylpropanoids.lignin biosynthesis
+Glyma.08G179500	signalling.receptor kinases.leucine rich repeat
+Glyma.08G179600	misc.peroxidases
+Glyma.08G179700	misc.peroxidases
+Glyma.08G179800	misc.peroxidases
+Glyma.08G181500	misc.peroxidases
+Glyma.08G188600	stress.biotic.signalling.MLO-like
+Glyma.08G190600	stress.biotic.PR-proteins
+Glyma.08G192900	stress.biotic.PR-proteins
+Glyma.08G203600	hormone metabolism.ethylene.induced-regulated-responsive-activated
+Glyma.08G205100	stress.biotic.PR-proteins
+Glyma.08G219000	hormone metabolism.ethylene.signal transduction
+Glyma.08G228700	protein.degradation.serine protease
+Glyma.08G231100	signalling.receptor kinases.leucine rich repeat
+Glyma.08G232500	misc.protease inhibitor/seed storage/lipid transfer protein (LTP) family protein
+Glyma.08G235300	stress.biotic
+Glyma.08G235400	stress.biotic.PR-proteins.proteinase inhibitors.trypsin inhibitor
+Glyma.08G237500	protein.degradation.metalloprotease
+Glyma.08G238000	stress.biotic
+Glyma.08G245500	protein.degradation.serine protease
+Glyma.08G245600	stress.biotic
+Glyma.08G245700	stress.biotic
+Glyma.08G246000	stress.biotic
+Glyma.08G246100	signalling.receptor kinases.leucine rich repeat
+Glyma.08G246300	stress.biotic
+Glyma.08G247900	stress.biotic
+Glyma.08G250200	stress.biotic
+Glyma.08G257800	protein.degradation.serine protease
+Glyma.08G258300	stress.biotic.PR-proteins
+Glyma.08G258800	protein.degradation.aspartate protease
+Glyma.08G259000	stress.biotic
+Glyma.08G259200	stress.biotic
+Glyma.08G268000	stress.biotic
+Glyma.08G268400	misc.protease inhibitor/seed storage/lipid transfer protein (LTP) family protein
+Glyma.08G270900	stress.biotic
+Glyma.08G280500	secondary metabolism.phenylpropanoids.lignin biosynthesis
+Glyma.08G281900	hormone metabolism.ethylene.signal transduction
+Glyma.08G286900	stress.biotic
+Glyma.08G292100	misc.peroxidases
+Glyma.08G292300	protein.degradation.metalloprotease
+Glyma.08G293600	stress.biotic.PR-proteins
+Glyma.08G294200	signalling.receptor kinases.leucine rich repeat
+Glyma.08G295000	stress.biotic.PR-proteins
+Glyma.08G295100	stress.biotic.PR-proteins
+Glyma.08G299700	stress.biotic
+Glyma.08G300300	stress.biotic
+Glyma.08G301200	stress.biotic.PR-proteins
+Glyma.08G301800	stress.biotic
+Glyma.08G302900	signalling.receptor kinases.leucine rich repeat
+Glyma.08G303500	stress.biotic
+Glyma.08G303600	stress.biotic.PR-proteins
+Glyma.08G303700	stress.biotic.PR-proteins
+Glyma.08G305400	stress.biotic
+Glyma.08G305600	stress.biotic
+Glyma.08G308100	stress.biotic
+Glyma.08G317400	stress.biotic
+Glyma.08G317700	stress.biotic
+Glyma.08G318000	stress.biotic
+Glyma.08G319300	stress.biotic
+Glyma.08G320700	hormone metabolism.ethylene.signal transduction
+Glyma.08G323200	stress.biotic
+Glyma.08G328800	stress.biotic
+Glyma.08G329700	secondary metabolism.phenylpropanoids.lignin biosynthesis
+Glyma.08G333200	signalling.receptor kinases.leucine rich repeat
+Glyma.08G341000	stress.biotic.PR-proteins.proteinase inhibitors.trypsin inhibitor
+Glyma.08G341300	stress.biotic.PR-proteins.proteinase inhibitors.trypsin inhibitor
+Glyma.08G341400	stress.biotic.PR-proteins.proteinase inhibitors.trypsin inhibitor
+Glyma.08G341700	stress.biotic.PR-proteins.proteinase inhibitors.trypsin inhibitor
+Glyma.08G342200	stress.biotic.PR-proteins.proteinase inhibitors.trypsin inhibitor
+Glyma.08G342300	stress.biotic.PR-proteins.proteinase inhibitors.trypsin inhibitor
+Glyma.08G357200	signalling.receptor kinases.leucine rich repeat
+Glyma.08G357200	signalling.receptor kinases.leucine rich repeat
+Glyma.08G357400	signalling.receptor kinases.leucine rich repeat
+Glyma.09G002500	misc.peroxidases
+Glyma.09G002600	hormone metabolism.ethylene.signal transduction
+Glyma.09G002900	protein.degradation.serine protease
+Glyma.09G003600	stress.biotic
+Glyma.09G005600	protein.degradation.aspartate protease
+Glyma.09G010900	protein.degradation.cysteine protease
+Glyma.09G014400	misc.protease inhibitor/seed storage/lipid transfer protein (LTP) family protein
+Glyma.09G020500	stress.biotic
+Glyma.09G020600	stress.biotic
+Glyma.09G020700	stress.biotic
+Glyma.09G022300	misc.peroxidases
+Glyma.09G022400	misc.peroxidases
+Glyma.09G022500	misc.peroxidases
+Glyma.09G022700	misc.peroxidases
+Glyma.09G022800	misc.peroxidases
+Glyma.09G022900	misc.peroxidases
+Glyma.09G023000	misc.peroxidases
+Glyma.09G024500	secondary metabolism.phenylpropanoids.lignin biosynthesis
+Glyma.09G024900	signalling.receptor kinases.leucine rich repeat
+Glyma.09G026200	hormone metabolism.ethylene.induced-regulated-responsive-activated
+Glyma.09G038500	stress.biotic
+Glyma.09G044400	protein.degradation.cysteine protease
+Glyma.09G048300	signalling.receptor kinases.leucine rich repeat
+Glyma.09G048400	misc.peroxidases
+Glyma.09G049000	signalling.receptor kinases.leucine rich repeat
+Glyma.09G049500	protein.degradation.serine protease
+Glyma.09G050300	signalling.receptor kinases.leucine rich repeat
+Glyma.09G052600	protein.degradation.metalloprotease
+Glyma.09G052800	hormone metabolism.ethylene.signal transduction
+Glyma.09G052900	hormone metabolism.ethylene.signal transduction
+Glyma.09G053000	hormone metabolism.ethylene.signal transduction
+Glyma.09G056400	stress.biotic.PR-proteins
+Glyma.09G057000	stress.biotic.PR-proteins
+Glyma.09G057100	misc.peroxidases
+Glyma.09G062100	stress.biotic
+Glyma.16G163400	signalling.receptor kinases.leucine rich repeat
+Glyma.09G065800	misc.peroxidases
+Glyma.09G065900	protein.degradation.metalloprotease
+Glyma.09G069800	protein.degradation.cysteine protease
+Glyma.09G070900	stress.biotic.PR-proteins.proteinase inhibitors.trypsin inhibitor
+Glyma.09G073200	stress.biotic.respiratory burst
+Glyma.09G075500	stress.biotic.PR-proteins
+Glyma.09G079900	protein.degradation.aspartate protease
+Glyma.09G090500	stress.biotic
+Glyma.09G097500	signalling.receptor kinases.leucine rich repeat
+Glyma.09G109800	misc.peroxidases
+Glyma.09G110600	protein.degradation.cysteine protease
+Glyma.09G115300	signalling.receptor kinases.leucine rich repeat
+Glyma.09G126200	stress.biotic
+Glyma.09G137200	protein.degradation.serine protease
+Glyma.09G137300	protein.degradation.serine protease
+Glyma.09G137500	protein.degradation.serine protease
+Glyma.09G143800	protein.degradation.serine protease
+Glyma.09G145600	signalling.receptor kinases.leucine rich repeat
+Glyma.09G148600	misc.peroxidases
+Glyma.09G152400	signalling.receptor kinases.leucine rich repeat
+Glyma.09G154600	signalling.receptor kinases.leucine rich repeat
+Glyma.09G155200	protein.degradation.serine protease
+Glyma.09G155500	stress.biotic.PR-proteins.proteinase inhibitors.trypsin inhibitor
+Glyma.09G156700	misc.peroxidases
+Glyma.09G160600	signalling.receptor kinases.leucine rich repeat
+Glyma.09G161100	signalling.receptor kinases.leucine rich repeat
+Glyma.09G161400	stress.biotic.PR-proteins
+Glyma.09G162500	stress.biotic.PR-proteins.proteinase inhibitors.trypsin inhibitor
+Glyma.09G162600	stress.biotic.PR-proteins.proteinase inhibitors.trypsin inhibitor
+Glyma.09G162700	stress.biotic.PR-proteins.proteinase inhibitors.trypsin inhibitor
+Glyma.09G162800	stress.biotic.PR-proteins.proteinase inhibitors.trypsin inhibitor
+Glyma.09G163000	stress.biotic.PR-proteins.proteinase inhibitors.trypsin inhibitor
+Glyma.09G163100	stress.biotic.PR-proteins.proteinase inhibitors.trypsin inhibitor
+Glyma.09G163200	stress.biotic.PR-proteins.proteinase inhibitors.trypsin inhibitor
+Glyma.09G163300	stress.biotic.PR-proteins.proteinase inhibitors.trypsin inhibitor
+Glyma.09G163600	stress.biotic.PR-proteins.proteinase inhibitors.trypsin inhibitor
+Glyma.09G163700	stress.biotic.PR-proteins.proteinase inhibitors.trypsin inhibitor
+Glyma.09G163800	stress.biotic.PR-proteins.proteinase inhibitors.trypsin inhibitor
+Glyma.09G163900	stress.biotic.PR-proteins.proteinase inhibitors.trypsin inhibitor
+Glyma.09G173800	signalling.receptor kinases.leucine rich repeat
+Glyma.09G181100	misc.protease inhibitor/seed storage/lipid transfer protein (LTP) family protein
+Glyma.09G185900	protein.degradation.aspartate protease
+Glyma.09G196300	signalling.receptor kinases.leucine rich repeat
+Glyma.09G196800	stress.biotic.signalling.MLO-like
+Glyma.09G201100	secondary metabolism.phenylpropanoids.lignin biosynthesis
+Glyma.09G201200	secondary metabolism.phenylpropanoids.lignin biosynthesis
+Glyma.09G202800	stress.biotic.PR-proteins
+Glyma.09G207800	stress.biotic
+Glyma.09G208900	stress.biotic
+Glyma.09G210400	stress.biotic
+Glyma.09G210600	stress.biotic
+Glyma.09G211100	secondary metabolism.phenylpropanoids.lignin biosynthesis
+Glyma.09G212100	stress.biotic
+Glyma.09G213800	protein.degradation.serine protease
+Glyma.09G215700	signalling.receptor kinases.leucine rich repeat
+Glyma.09G216400	signalling.receptor kinases.leucine rich repeat
+Glyma.09G217200	signalling.receptor kinases.leucine rich repeat
+Glyma.09G217500	signalling.receptor kinases.leucine rich repeat
+Glyma.09G226700	protein.degradation.serine protease
+Glyma.09G230300	signalling.receptor kinases.leucine rich repeat
+Glyma.09G237900	protein.degradation.metalloprotease
+Glyma.09G243400	signalling.receptor kinases.leucine rich repeat
+Glyma.09G243600	signalling.receptor kinases.leucine rich repeat
+Glyma.09G246600	signalling.receptor kinases.leucine rich repeat
+Glyma.09G249300	protein.degradation.aspartate protease
+Glyma.09G249500	protein.degradation.serine protease
+Glyma.09G251800	signalling.receptor kinases.leucine rich repeat
+Glyma.09G258200	stress.biotic
+Glyma.09G261000	stress.biotic
+Glyma.09G265700	stress.biotic
+Glyma.09G272900	signalling.receptor kinases.leucine rich repeat
+Glyma.09G274600	signalling.receptor kinases.leucine rich repeat
+Glyma.09G275400	stress.biotic
+Glyma.09G277800	misc.peroxidases
+Glyma.09G277900	misc.peroxidases
+Glyma.09G284400	misc.peroxidases
+Glyma.09G284700	misc.peroxidases
+Glyma.10G007000	hormone metabolism.ethylene.signal transduction
+Glyma.10G007100	hormone metabolism.ethylene.signal transduction
+Glyma.10G008500	hormone metabolism.ethylene.signal transduction
+Glyma.10G009400	misc.peroxidases
+Glyma.10G012300	protein.degradation.serine protease
+Glyma.10G013700	hormone metabolism.ethylene.induced-regulated-responsive-activated
+Glyma.10G021800	protein.degradation.serine protease
+Glyma.10G022500	misc.peroxidases
+Glyma.10G023100	signalling.receptor kinases.leucine rich repeat
+Glyma.10G025600	protein.degradation.aspartate protease
+Glyma.10G028100	misc.protease inhibitor/seed storage/lipid transfer protein (LTP) family protein
+Glyma.10G028200	misc.protease inhibitor/seed storage/lipid transfer protein (LTP) family protein
+Glyma.10G036300	hormone metabolism.ethylene.signal transduction
+Glyma.10G036600	hormone metabolism.ethylene.signal transduction
+Glyma.10G036700	hormone metabolism.ethylene.signal transduction
+Glyma.10G038800	signalling.receptor kinases.leucine rich repeat
+Glyma.10G040500	signalling.receptor kinases.leucine rich repeat
+Glyma.10G047000	stress.biotic
+Glyma.10G050800	misc.peroxidases
+Glyma.10G057500	protein.degradation.cysteine protease
+Glyma.10G058200	secondary metabolism.phenylpropanoids.lignin biosynthesis
+Glyma.10G060300	stress.biotic
+Glyma.10G060800	stress.biotic
+Glyma.10G060900	stress.biotic
+Glyma.10G061000	stress.biotic
+Glyma.10G061100	stress.biotic
+Glyma.10G061800	stress.biotic
+Glyma.10G062100	stress.biotic
+Glyma.10G063600	protein.degradation.aspartate protease
+Glyma.10G065200	signalling.receptor kinases.leucine rich repeat
+Glyma.10G071200	protein.degradation.metalloprotease
+Glyma.10G079400	stress.biotic
+Glyma.10G079700	stress.biotic
+Glyma.10G079900	stress.biotic
+Glyma.10G093300	protein.degradation.cysteine protease
+Glyma.10G110100	signalling.receptor kinases.leucine rich repeat
+Glyma.10G109100	protein.degradation.serine protease
+Glyma.10G108700	stress.biotic.PR-proteins
+Glyma.10G104300	protein.degradation.serine protease
+Glyma.10G102100	protein.degradation.serine protease
+Glyma.10G100300	stress.biotic
+Glyma.10G118900	hormone metabolism.ethylene.signal transduction
+Glyma.10G119100	hormone metabolism.ethylene.signal transduction
+Glyma.10G120400	stress.biotic
+Glyma.10G126700	signalling.receptor kinases.leucine rich repeat
+Glyma.10G127500	stress.biotic.PR-proteins
+Glyma.10G129000	signalling.receptor kinases.leucine rich repeat
+Glyma.10G129400	signalling.receptor kinases.leucine rich repeat
+Glyma.10G138400	stress.biotic
+Glyma.10G143500	protein.degradation.aspartate protease
+Glyma.10G146000	protein.degradation.metalloprotease
+Glyma.10G147200	protein.degradation.serine protease
+Glyma.10G147700	hormone metabolism.ethylene.induced-regulated-responsive-activated
+Glyma.10G152200	stress.biotic.respiratory burst
+Glyma.10G162600	stress.biotic
+Glyma.10G162700	stress.biotic
+Glyma.10G164700	signalling.receptor kinases.leucine rich repeat
+Glyma.10G164800	protein.degradation.metalloprotease
+Glyma.10G167300	hormone metabolism.ethylene.signal transduction
+Glyma.10G171300	protein.degradation.aspartate protease
+Glyma.10G176800	protein.degradation.serine protease
+Glyma.10G177300	signalling.receptor kinases.leucine rich repeat
+Glyma.10G180500	protein.degradation.aspartate protease
+Glyma.10G184300	stress.biotic.PR-proteins
+Glyma.10G184400	stress.biotic.PR-proteins
+Glyma.10G186800	hormone metabolism.ethylene.signal transduction
+Glyma.10G186900	hormone metabolism.ethylene.signal transduction
+Glyma.10G187000	hormone metabolism.ethylene.signal transduction
+Glyma.10G188500	hormone metabolism.ethylene.signal transduction
+Glyma.10G191300	protein.degradation.serine protease
+Glyma.10G191700	misc.peroxidases
+Glyma.10G194200	hormone metabolism.ethylene.signal transduction
+Glyma.10G195700	signalling.receptor kinases.leucine rich repeat
+Glyma.10G197800	secondary metabolism.phenylpropanoids.lignin biosynthesis
+Glyma.10G197900	secondary metabolism.phenylpropanoids.lignin biosynthesis
+Glyma.10G198100	misc.peroxidases
+Glyma.10G202000	protein.degradation.cysteine protease
+Glyma.10G205300	signalling.receptor kinases.leucine rich repeat
+Glyma.10G206300	hormone metabolism.ethylene.induced-regulated-responsive-activated
+Glyma.10G207100	protein.degradation.cysteine protease
+Glyma.10G207300	protein.degradation.serine protease
+Glyma.10G209100	protein.degradation.cysteine protease
+Glyma.10G209800	secondary metabolism.phenylpropanoids.lignin biosynthesis
+Glyma.10G212100	protein.degradation.serine protease
+Glyma.10G212300	stress.biotic.signalling.MLO-like
+Glyma.10G212500	protein.degradation.serine protease
+Glyma.10G219800	misc.peroxidases
+Glyma.10G220700	signalling.receptor kinases.leucine rich repeat
+Glyma.10G222400	misc.peroxidases
+Glyma.10G222500	misc.peroxidases
+Glyma.10G223200	hormone metabolism.ethylene.signal transduction
+Glyma.10G227700	stress.biotic
+Glyma.10G228000	signalling.receptor kinases.leucine rich repeat
+Glyma.10G228100	signalling.receptor kinases.leucine rich repeat
+Glyma.10G228200	signalling.receptor kinases.leucine rich repeat
+Glyma.U037600	signalling.receptor kinases.leucine rich repeat
+Glyma.10G228600	signalling.receptor kinases.leucine rich repeat
+Glyma.10G228800	signalling.receptor kinases.leucine rich repeat
+Glyma.10G234500	protein.degradation.serine protease
+Glyma.10G237900	signalling.receptor kinases.leucine rich repeat
+Glyma.10G238200	protein.degradation.serine protease
+Glyma.10G240300	misc.peroxidases
+Glyma.10G242200	stress.biotic.signalling
+Glyma.10G242300	signalling.receptor kinases.leucine rich repeat
+Glyma.10G246800	misc.protease inhibitor/seed storage/lipid transfer protein (LTP) family protein
+Glyma.10G257800	protein.degradation.serine protease
+Glyma.10G258800	signalling.receptor kinases.leucine rich repeat
+Glyma.10G261100	hormone metabolism.ethylene.induced-regulated-responsive-activated
+Glyma.10G261200	stress.biotic
+Glyma.10G261600	signalling.receptor kinases.leucine rich repeat
+Glyma.10G262400	secondary metabolism.phenylpropanoids.lignin biosynthesis
+Glyma.10G263200	signalling.receptor kinases.leucine rich repeat
+Glyma.10G270600	signalling.receptor kinases.leucine rich repeat
+Glyma.10G271900	signalling.receptor kinases.leucine rich repeat
+Glyma.10G288400	signalling.receptor kinases.leucine rich repeat
+Glyma.11G000600	signalling.receptor kinases.leucine rich repeat
+Glyma.11G001200	signalling.receptor kinases.leucine rich repeat
+Glyma.11G001300	signalling.receptor kinases.leucine rich repeat
+Glyma.11G007900	misc.protease inhibitor/seed storage/lipid transfer protein (LTP) family protein
+Glyma.11G008000	misc.protease inhibitor/seed storage/lipid transfer protein (LTP) family protein
+Glyma.11G010500	secondary metabolism.phenylpropanoids.lignin biosynthesis
+Glyma.11G012900	protein.degradation.aspartate protease
+Glyma.11G019100	signalling.receptor kinases.leucine rich repeat
+Glyma.11G020700	stress.biotic.respiratory burst
+Glyma.11G024700	signalling.receptor kinases.leucine rich repeat
+Glyma.11G025600	stress.biotic
+Glyma.11G028300	signalling.receptor kinases.leucine rich repeat
+Glyma.11G033400	protein.degradation.metalloprotease
+Glyma.11G035000	stress.biotic
+Glyma.11G036500	hormone metabolism.ethylene.signal transduction
+Glyma.11G037700	stress.biotic
+Glyma.11G043800	signalling.receptor kinases.leucine rich repeat
+Glyma.11G044100	signalling.receptor kinases.leucine rich repeat
+Glyma.11G045700	stress.biotic
+Glyma.11G049600	misc.peroxidases
+Glyma.11G051100	stress.biotic.signalling
+Glyma.11G054500	secondary metabolism.phenylpropanoids.lignin biosynthesis
+Glyma.11G058100	misc.peroxidases
+Glyma.11G058900	stress.biotic.PR-proteins
+Glyma.11G059000	stress.biotic.PR-proteins
+Glyma.11G064200	protein.degradation.cysteine protease
+Glyma.11G072000	misc.peroxidases
+Glyma.11G072100	stress.biotic
+Glyma.11G073800	signalling.receptor kinases.leucine rich repeat
+Glyma.11G075200	signalling.receptor kinases.leucine rich repeat
+Glyma.11G077700	stress.biotic
+Glyma.11G077800	stress.biotic
+Glyma.11G078000	stress.biotic.signalling.MLO-like
+Glyma.11G080300	misc.peroxidases
+Glyma.11G080400	protein.degradation.aspartate protease
+Glyma.11G087500	stress.biotic.signalling.MLO-like
+Glyma.11G087900	signalling.receptor kinases.leucine rich repeat
+Glyma.11G091600	secondary metabolism.phenylpropanoids.lignin biosynthesis
+Glyma.11G100300	protein.degradation.serine protease
+Glyma.11G101200	misc.peroxidases
+Glyma.11G105000	signalling.receptor kinases.leucine rich repeat
+Glyma.11G106100	stress.biotic
+Glyma.11G106200	stress.biotic
+Glyma.11G112100	stress.biotic
+Glyma.11G112200	stress.biotic
+Glyma.11G113500	protein.degradation.cysteine protease
+Glyma.11G114100	signalling.receptor kinases.leucine rich repeat
+Glyma.11G114200	signalling.receptor kinases.leucine rich repeat
+Glyma.11G119300	protein.degradation.serine protease
+Glyma.11G124500	stress.biotic
+Glyma.11G130500	secondary metabolism.phenylpropanoids.lignin biosynthesis
+Glyma.11G131300	signalling.receptor kinases.leucine rich repeat
+Glyma.11G137700	protein.degradation.metalloprotease
+Glyma.11G140800	stress.biotic
+Glyma.11G144000	stress.biotic.PR-proteins
+Glyma.11G144200	stress.biotic.PR-proteins
+Glyma.11G144400	stress.biotic.PR-proteins
+Glyma.U019600	stress.biotic.signalling.MLO-like
+Glyma.U012600	stress.biotic
+Glyma.11G181500	protein.degradation.cysteine protease
+Glyma.11G190800	protein.degradation.aspartate protease
+Glyma.11G191200	protein.degradation.serine protease
+Glyma.11G193800	protein.degradation.serine protease
+Glyma.11G193900	protein.degradation.serine protease
+Glyma.11G194500	secondary metabolism.phenylpropanoids.lignin biosynthesis
+Glyma.11G144900	protein.degradation.cysteine protease
+Glyma.11G150700	stress.biotic.PR-proteins
+Glyma.11G151900	stress.biotic
+Glyma.11G153000	stress.biotic.PR-proteins
+Glyma.U023200	protein.degradation.serine protease
+Glyma.U022900	signalling.receptor kinases.leucine rich repeat
+Glyma.11G162100	misc.peroxidases
+Glyma.11G161800	misc.peroxidases
+Glyma.11G161600	misc.peroxidases
+Glyma.11G197100	misc.peroxidases
+Glyma.11G199700	signalling.receptor kinases.leucine rich repeat
+Glyma.11G207600	protein.degradation.serine protease
+Glyma.11G212800	stress.biotic
+Glyma.11G218000	protein.degradation.serine protease
+Glyma.11G220700	stress.biotic
+Glyma.11G233500	signalling.receptor kinases.leucine rich repeat
+Glyma.11G237900	protein.degradation.aspartate protease
+Glyma.11G256100	misc.protease inhibitor/seed storage/lipid transfer protein (LTP) family protein
+Glyma.11G253300	protein.degradation.cysteine protease
+Glyma.11G248900	protein.degradation.cysteine protease
+Glyma.12G000700	stress.biotic
+Glyma.12G002500	signalling.receptor kinases.leucine rich repeat
+Glyma.12G006300	signalling.receptor kinases.leucine rich repeat
+Glyma.12G007000	signalling.receptor kinases.leucine rich repeat
+Glyma.12G007300	signalling.receptor kinases.leucine rich repeat
+Glyma.12G010100	protein.degradation.serine protease
+Glyma.12G011700	stress.biotic
+Glyma.12G025600	protein.degradation.serine protease
+Glyma.12G025900	protein.degradation.serine protease
+Glyma.12G026400	protein.degradation.serine protease
+Glyma.12G027100	stress.biotic.PR-proteins
+Glyma.12G030000	signalling.receptor kinases.leucine rich repeat
+Glyma.12G030300	stress.biotic.PR-proteins
+Glyma.12G031000	stress.biotic
+Glyma.12G031200	stress.biotic
+Glyma.12G038300	stress.biotic
+Glyma.12G039400	protein.degradation.cysteine protease
+Glyma.12G040000	signalling.receptor kinases.leucine rich repeat
+Glyma.12G044500	protein.degradation.serine protease
+Glyma.12G049100	stress.biotic
+Glyma.12G049200	stress.biotic
+Glyma.12G054800	secondary metabolism.phenylpropanoids.lignin biosynthesis
+Glyma.12G055500	signalling.receptor kinases.leucine rich repeat
+Glyma.12G055600	signalling.receptor kinases.leucine rich repeat
+Glyma.12G061200	protein.degradation.metalloprotease
+Glyma.12G061400	protein.degradation.metalloprotease
+Glyma.12G064300	stress.biotic
+Glyma.12G067400	stress.biotic.PR-proteins
+Glyma.12G070600	stress.biotic.signalling.MLO-like
+Glyma.12G072600	protein.degradation.cysteine protease
+Glyma.12G077100	protein.degradation.cysteine protease
+Glyma.12G077200	protein.degradation.cysteine protease
+Glyma.12G079600	secondary metabolism.phenylpropanoids.lignin biosynthesis
+Glyma.12G083100	protein.degradation.serine protease
+Glyma.12G083600	protein.degradation.aspartate protease
+Glyma.12G091600	protein.degradation.cysteine protease
+Glyma.12G097400	stress.biotic.PR-proteins
+Glyma.12G098200	protein.degradation.metalloprotease
+Glyma.12G101000	misc.peroxidases
+Glyma.12G101200	misc.peroxidases
+Glyma.12G111900	protein.degradation.metalloprotease
+Glyma.12G117000	hormone metabolism.ethylene.signal transduction
+Glyma.12G119300	stress.biotic.signalling.MLO-like
+Glyma.12G120900	protein.degradation.cysteine protease
+Glyma.12G123100	signalling.receptor kinases.leucine rich repeat
+Glyma.12G123400	signalling.receptor kinases.leucine rich repeat
+Glyma.12G123500	protein.degradation.cysteine protease
+Glyma.12G123600	protein.degradation.cysteine protease
+Glyma.12G124700	stress.biotic
+Glyma.12G125100	protein.degradation.cysteine protease
+Glyma.12G126000	protein.degradation.cysteine protease
+Glyma.12G127200	protein.degradation.cysteine protease
+Glyma.12G127300	protein.degradation.cysteine protease
+Glyma.12G129100	hormone metabolism.ethylene.induced-regulated-responsive-activated
+Glyma.12G129500	misc.peroxidases
+Glyma.12G130500	protein.degradation.cysteine protease
+Glyma.12G130600	protein.degradation.cysteine protease
+Glyma.12G130700	protein.degradation.cysteine protease
+Glyma.12G131000	protein.degradation.cysteine protease
+Glyma.12G131100	protein.degradation.cysteine protease
+Glyma.12G131200	protein.degradation.cysteine protease
+Glyma.12G131500	protein.degradation.cysteine protease
+Glyma.12G132000	stress.biotic.PR-proteins
+Glyma.12G132200	stress.biotic.PR-proteins
+Glyma.12G133000	stress.biotic.PR-proteins
+Glyma.12G135600	stress.biotic.PR-proteins
+Glyma.12G135700	protein.degradation.aspartate protease
+Glyma.12G136700	stress.biotic.PR-proteins
+Glyma.12G138400	stress.biotic.PR-proteins
+Glyma.12G138500	stress.biotic.PR-proteins
+Glyma.12G140700	protein.degradation.cysteine protease
+Glyma.12G141700	hormone metabolism.ethylene.induced-regulated-responsive-activated
+Glyma.12G150200	stress.biotic.PR-proteins
+Glyma.12G150600	stress.biotic.signalling.MLO-like
+Glyma.12G152400	signalling.receptor kinases.leucine rich repeat
+Glyma.12G156600	stress.biotic
+Glyma.12G161900	signalling.receptor kinases.leucine rich repeat
+Glyma.12G162700	hormone metabolism.ethylene.signal transduction
+Glyma.U025000	signalling.receptor kinases.leucine rich repeat
+Glyma.12G163000	stress.biotic.PR-proteins
+Glyma.12G169300	stress.biotic.signalling.MLO-like
+Glyma.12G170700	signalling.receptor kinases.leucine rich repeat
+Glyma.12G171100	stress.biotic.signalling.MLO-like
+Glyma.12G171300	stress.biotic.signalling.MLO-like
+Glyma.12G177900	protein.degradation.serine protease
+Glyma.12G179800	protein.degradation.aspartate protease
+Glyma.12G192400	protein.degradation.aspartate protease
+Glyma.12G195500	misc.peroxidases
+Glyma.12G195600	misc.peroxidases
+Glyma.12G204200	misc.protease inhibitor/seed storage/lipid transfer protein (LTP) family protein
+Glyma.12G206800	signalling.receptor kinases.leucine rich repeat
+Glyma.12G208200	protein.degradation.cysteine protease
+Glyma.12G211900	misc.peroxidases
+Glyma.12G212500	stress.biotic.PR-proteins
+Glyma.12G214100	stress.biotic
+Glyma.12G216800	hormone metabolism.ethylene.induced-regulated-responsive-activated
+Glyma.12G218500	stress.biotic
+Glyma.12G221600	stress.biotic.PR-proteins
+Glyma.12G222700	signalling.receptor kinases.leucine rich repeat
+Glyma.12G223100	stress.biotic.signalling.MLO-like
+Glyma.12G225800	signalling.receptor kinases.leucine rich repeat
+Glyma.12G226600	hormone metabolism.ethylene.signal transduction
+Glyma.12G230500	stress.biotic
+Glyma.12G233700	signalling.receptor kinases.leucine rich repeat
+Glyma.12G234700	stress.biotic
+Glyma.12G234800	stress.biotic.PR-proteins.proteinase inhibitors.trypsin inhibitor
+Glyma.12G236500	stress.biotic.PR-proteins
+Glyma.12G238600	signalling.receptor kinases.leucine rich repeat
+Glyma.12G238900	stress.biotic
+Glyma.12G239200	stress.biotic.PR-proteins
+Glyma.12G239700	stress.biotic.PR-proteins
+Glyma.12G239800	stress.biotic.PR-proteins
+Glyma.12G240100	stress.biotic.PR-proteins
+Glyma.12G241700	hormone metabolism.ethylene.signal transduction
+Glyma.12G241800	misc.peroxidases
+Glyma.03G046000	stress.biotic.PR-proteins
+Glyma.13G098400	misc.peroxidases
+Glyma.13G095600	secondary metabolism.phenylpropanoids.lignin biosynthesis
+Glyma.13G094200	stress.biotic
+Glyma.13G094100	stress.biotic
+Glyma.13G092200	stress.biotic
+Glyma.13G086200	protein.degradation.aspartate protease
+Glyma.13G082700	stress.biotic
+Glyma.13G078200	stress.biotic.PR-proteins
+Glyma.13G076200	stress.biotic.PR-proteins
+Glyma.13G075700	misc.protease inhibitor/seed storage/lipid transfer protein (LTP) family protein
+Glyma.13G075200	protein.degradation.serine protease
+Glyma.13G075100	protein.degradation.serine protease
+Glyma.13G072200	stress.biotic
+Glyma.13G071900	stress.biotic
+Glyma.13G071800	protein.degradation.cysteine protease
+Glyma.13G069400	misc.peroxidases
+Glyma.13G067200	signalling.receptor kinases.leucine rich repeat
+Glyma.13G063400	protein.degradation.serine protease
+Glyma.13G050500	signalling.receptor kinases.leucine rich repeat
+Glyma.13G049800	protein.degradation.metalloprotease
+Glyma.13G048900	stress.biotic
+Glyma.13G048800	stress.biotic
+Glyma.13G048700	stress.biotic
+Glyma.13G048600	stress.biotic
+Glyma.13G046700	protein.degradation.serine protease
+Glyma.13G041700	protein.degradation.metalloprotease
+Glyma.13G039900	signalling.receptor kinases.leucine rich repeat
+Glyma.13G039700	signalling.receptor kinases.leucine rich repeat
+Glyma.13G003400	protein.degradation.cysteine protease
+Glyma.13G003500	signalling.receptor kinases.leucine rich repeat
+Glyma.13G005800	signalling.receptor kinases.leucine rich repeat
+Glyma.13G029200	protein.degradation.serine protease
+Glyma.13G028800	protein.degradation.serine protease
+Glyma.13G028500	protein.degradation.serine protease
+Glyma.13G028100	stress.biotic.PR-proteins
+Glyma.13G106400	misc.peroxidases
+Glyma.13G111500	stress.biotic.PR-proteins.proteinase inhibitors.trypsin inhibitor
+Glyma.13G111800	signalling.receptor kinases.leucine rich repeat
+Glyma.13G116700	protein.degradation.aspartate protease
+Glyma.13G122500	hormone metabolism.ethylene.signal transduction
+Glyma.13G122600	hormone metabolism.ethylene.signal transduction
+Glyma.13G122700	hormone metabolism.ethylene.signal transduction
+Glyma.13G122800	hormone metabolism.ethylene.signal transduction
+Glyma.13G122900	hormone metabolism.ethylene.signal transduction
+Glyma.13G123000	hormone metabolism.ethylene.signal transduction
+Glyma.13G123100	hormone metabolism.ethylene.signal transduction
+Glyma.13G127100	signalling.receptor kinases.leucine rich repeat
+Glyma.13G138300	misc.peroxidases
+Glyma.13G144300	protein.degradation.cysteine protease
+Glyma.13G145000	secondary metabolism.phenylpropanoids.lignin biosynthesis
+Glyma.13G148100	protein.degradation.aspartate protease
+Glyma.13G150000	signalling.receptor kinases.leucine rich repeat
+Glyma.11G209600	protein.degradation.metalloprotease
+Glyma.13G155800	stress.biotic
+Glyma.13G159900	protein.degradation.serine protease
+Glyma.13G160400	misc.protease inhibitor/seed storage/lipid transfer protein (LTP) family protein
+Glyma.13G167100	misc.peroxidases
+Glyma.13G172300	misc.peroxidases
+Glyma.13G172400	stress.biotic
+Glyma.13G174900	signalling.receptor kinases.leucine rich repeat
+Glyma.13G183700	protein.degradation.serine protease
+Glyma.13G184800	stress.biotic
+Glyma.13G184900	stress.biotic
+Glyma.13G187900	stress.biotic
+Glyma.13G188300	stress.biotic
+Glyma.13G189500	protein.degradation.cysteine protease
+Glyma.13G190000	stress.biotic
+Glyma.13G190300	stress.biotic
+Glyma.13G190400	stress.biotic
+Glyma.13G190800	stress.biotic
+Glyma.13G192100	stress.biotic
+Glyma.13G193100	stress.biotic
+Glyma.13G193300	stress.biotic
+Glyma.13G194100	stress.biotic
+Glyma.13G194500	stress.biotic
+Glyma.13G194600	stress.biotic.PR-proteins
+Glyma.13G194700	stress.biotic.PR-proteins
+Glyma.13G194800	stress.biotic.PR-proteins
+Glyma.13G195100	stress.biotic.PR-proteins
+Glyma.13G195600	stress.biotic
+Glyma.13G194900	stress.biotic.PR-proteins
+Glyma.13G204300	signalling.receptor kinases.leucine rich repeat
+Glyma.13G219200	signalling.receptor kinases.leucine rich repeat
+Glyma.13G219400	protein.degradation.serine protease
+Glyma.13G221900	protein.degradation.serine protease
+Glyma.13G227700	signalling.receptor kinases.leucine rich repeat
+Glyma.13G227800	signalling.receptor kinases.leucine rich repeat
+Glyma.13G229100	protein.degradation.cysteine protease
+Glyma.13G233800	hormone metabolism.ethylene.signal transduction
+Glyma.13G233900	hormone metabolism.ethylene.signal transduction
+Glyma.13G234400	stress.biotic.signalling.MLO-like
+Glyma.13G235000	signalling.receptor kinases.leucine rich repeat
+Glyma.13G236500	hormone metabolism.ethylene.signal transduction
+Glyma.13G242800	stress.biotic.PR-proteins
+Glyma.13G242900	stress.biotic.PR-proteins
+Glyma.13G243000	stress.biotic.PR-proteins
+Glyma.13G243500	protein.degradation.serine protease
+Glyma.13G249800	hormone metabolism.ethylene.induced-regulated-responsive-activated
+Glyma.13G251600	stress.biotic
+Glyma.13G252300	stress.biotic
+Glyma.13G252000	stress.biotic
+Glyma.13G252400	stress.biotic
+Glyma.13G252600	stress.biotic
+Glyma.13G253300	signalling.receptor kinases.leucine rich repeat
+Glyma.13G255300	secondary metabolism.phenylpropanoids.lignin biosynthesis
+Glyma.13G259900	stress.biotic
+Glyma.09G184800	hormone metabolism.ethylene.signal transduction
+Glyma.13G260600	stress.biotic.PR-proteins
+Glyma.13G268100	signalling.receptor kinases.leucine rich repeat
+Glyma.13G269100	stress.biotic
+Glyma.13G274100	hormone metabolism.ethylene.signal transduction
+Glyma.13G275100	signalling.receptor kinases.leucine rich repeat
+Glyma.13G278400	stress.biotic.signalling.MLO-like
+Glyma.13G278800	signalling.receptor kinases.leucine rich repeat
+Glyma.13G279700	stress.biotic.PR-proteins
+Glyma.13G284400	hormone metabolism.ethylene.induced-regulated-responsive-activated
+Glyma.13G287500	stress.biotic
+Glyma.13G292900	protein.degradation.cysteine protease
+Glyma.13G294100	signalling.receptor kinases.leucine rich repeat
+Glyma.13G306900	misc.peroxidases
+Glyma.13G307000	misc.peroxidases
+Glyma.13G310000	protein.degradation.aspartate protease
+Glyma.13G321700	protein.degradation.serine protease
+Glyma.13G322600	protein.degradation.serine protease
+Glyma.13G323000	secondary metabolism.phenylpropanoids.lignin biosynthesis
+Glyma.13G327800	stress.biotic.signalling.MLO-like
+Glyma.13G336700	protein.degradation.serine protease
+Glyma.13G341500	signalling.receptor kinases.leucine rich repeat
+Glyma.13G342600	secondary metabolism.phenylpropanoids.lignin biosynthesis
+Glyma.13G346100	misc.peroxidases
+Glyma.13G346700	stress.biotic
+Glyma.13G355400	protein.degradation.metalloprotease
+Glyma.13G365900	signalling.receptor kinases.leucine rich repeat
+Glyma.13G371200	signalling.receptor kinases.leucine rich repeat
+Glyma.13G372000	secondary metabolism.phenylpropanoids.lignin biosynthesis
+Glyma.14G008700	stress.biotic
+Glyma.14G011500	signalling.receptor kinases.leucine rich repeat
+Glyma.14G012500	stress.biotic
+Glyma.14G015500	signalling.receptor kinases.leucine rich repeat
+Glyma.14G016500	signalling.receptor kinases.leucine rich repeat
+Glyma.14G020100	hormone metabolism.ethylene.signal transduction
+Glyma.14G023700	protein.degradation.cysteine protease
+Glyma.14G024400	stress.biotic.PR-proteins
+Glyma.14G024500	stress.biotic.PR-proteins
+Glyma.14G033500	signalling.receptor kinases.leucine rich repeat
+Glyma.14G038200	protein.degradation.cysteine protease
+Glyma.14G038300	protein.degradation.cysteine protease
+Glyma.14G038500	protein.degradation.cysteine protease
+Glyma.14G041200	signalling.receptor kinases.leucine rich repeat
+Glyma.14G041600	signalling.receptor kinases.leucine rich repeat
+Glyma.14G042100	signalling.receptor kinases.leucine rich repeat
+Glyma.14G042300	signalling.receptor kinases.leucine rich repeat
+Glyma.14G042400	signalling.receptor kinases.leucine rich repeat
+Glyma.14G042500	signalling.receptor kinases.leucine rich repeat
+Glyma.14G042700	signalling.receptor kinases.leucine rich repeat
+Glyma.14G043300	signalling.receptor kinases.leucine rich repeat
+Glyma.14G044400	signalling.receptor kinases.leucine rich repeat
+Glyma.14G047900	signalling.receptor kinases.leucine rich repeat
+Glyma.14G048300	signalling.receptor kinases.leucine rich repeat
+Glyma.14G048600	stress.biotic.PR-proteins
+Glyma.14G050100	hormone metabolism.ethylene.signal transduction
+Glyma.14G053600	misc.peroxidases
+Glyma.14G053700	misc.peroxidases
+Glyma.14G055900	signalling.receptor kinases.leucine rich repeat
+Glyma.14G060300	signalling.receptor kinases.leucine rich repeat
+Glyma.14G060400	signalling.receptor kinases.leucine rich repeat
+Glyma.14G070800	misc.peroxidases
+Glyma.14G077300	stress.biotic
+Glyma.14G077400	stress.biotic
+Glyma.14G079500	stress.biotic.PR-proteins
+Glyma.14G079600	stress.biotic.PR-proteins
+Glyma.14G080500	protein.degradation.serine protease
+Glyma.14G085400	signalling.receptor kinases.leucine rich repeat
+Glyma.14G085600	protein.degradation.cysteine protease
+Glyma.14G085800	protein.degradation.cysteine protease
+Glyma.14G095700	protein.degradation.metalloprotease
+Glyma.14G096000	protein.degradation.metalloprotease
+Glyma.14G096100	protein.degradation.metalloprotease
+Glyma.14G098600	signalling.receptor kinases.leucine rich repeat
+Glyma.14G104400	misc.peroxidases
+Glyma.14G106400	signalling.receptor kinases.leucine rich repeat
+Glyma.14G111600	hormone metabolism.ethylene.signal transduction
+Glyma.14G115500	misc.protease inhibitor/seed storage/lipid transfer protein (LTP) family protein
+Glyma.14G137700	signalling.receptor kinases.leucine rich repeat
+Glyma.14G144300	signalling.receptor kinases.leucine rich repeat
+Glyma.14G151100	stress.biotic.PR-proteins
+Glyma.14G152300	protein.degradation.aspartate protease
+Glyma.14G152600	stress.biotic.PR-proteins
+Glyma.14G122200	protein.degradation.serine protease
+Glyma.14G124400	signalling.receptor kinases.leucine rich repeat
+Glyma.14G124700	signalling.receptor kinases.leucine rich repeat
+Glyma.14G124900	protein.degradation.metalloprotease
+Glyma.14G163700	stress.biotic
+Glyma.14G168300	stress.biotic.PR-proteins
+Glyma.14G168500	protein.degradation.aspartate protease
+Glyma.14G173100	stress.biotic
+Glyma.14G173300	signalling.receptor kinases.leucine rich repeat
+Glyma.14G173400	signalling.receptor kinases.leucine rich repeat
+Glyma.14G173600	signalling.receptor kinases.leucine rich repeat
+Glyma.14G173900	signalling.receptor kinases.leucine rich repeat
+Glyma.14G181000	hormone metabolism.ethylene.induced-regulated-responsive-activated
+Glyma.14G186600	stress.biotic
+Glyma.14G187900	signalling.receptor kinases.leucine rich repeat
+Glyma.14G188400	stress.biotic
+Glyma.14G192100	protein.degradation.metalloprotease
+Glyma.14G193900	protein.degradation.serine protease
+Glyma.14G199400	stress.biotic
+Glyma.14G201600	misc.peroxidases
+Glyma.14G201700	misc.peroxidases
+Glyma.14G201800	misc.peroxidases
+Glyma.14G201900	stress.biotic
+Glyma.14G204500	stress.biotic
+Glyma.14G204600	stress.biotic
+Glyma.14G204700	stress.biotic
+Glyma.14G205000	stress.biotic
+Glyma.14G205300	stress.biotic
+Glyma.14G206000	signalling.receptor kinases.leucine rich repeat
+Glyma.14G206500	stress.biotic
+Glyma.14G206900	stress.biotic
+Glyma.14G214700	signalling.receptor kinases.leucine rich repeat
+Glyma.14G223200	secondary metabolism.phenylpropanoids.lignin biosynthesis
+Glyma.14G221400	misc.peroxidases
+Glyma.14G221200	secondary metabolism.phenylpropanoids.lignin biosynthesis
+Glyma.14G219600	stress.biotic
+Glyma.14G216300	protein.degradation.cysteine protease
+Glyma.15G000600	signalling.receptor kinases.leucine rich repeat
+Glyma.15G001500	signalling.receptor kinases.leucine rich repeat
+Glyma.15G001700	secondary metabolism.phenylpropanoids.lignin biosynthesis
+Glyma.15G004200	hormone metabolism.ethylene.signal transduction
+Glyma.15G009000	protein.degradation.serine protease
+Glyma.15G017300	hormone metabolism.ethylene.induced-regulated-responsive-activated
+Glyma.15G018800	protein.degradation.metalloprotease
+Glyma.15G024800	stress.biotic.PR-proteins
+Glyma.15G028200	misc.peroxidases
+Glyma.15G029600	signalling.receptor kinases.leucine rich repeat
+Glyma.15G031700	secondary metabolism.phenylpropanoids.lignin biosynthesis
+Glyma.15G037600	protein.degradation.serine protease
+Glyma.15G050800	misc.peroxidases
+Glyma.15G052200	misc.protease inhibitor/seed storage/lipid transfer protein (LTP) family protein
+Glyma.15G052600	misc.peroxidases
+Glyma.15G052700	misc.peroxidases
+Glyma.15G052800	misc.peroxidases
+Glyma.15G052900	signalling.receptor kinases.leucine rich repeat
+Glyma.15G059500	secondary metabolism.phenylpropanoids.lignin biosynthesis
+Glyma.15G062300	stress.biotic
+Glyma.15G062400	stress.biotic
+Glyma.15G062500	stress.biotic
+Glyma.15G062700	stress.biotic
+Glyma.15G062800	stress.biotic
+Glyma.15G062900	stress.biotic
+Glyma.15G064500	hormone metabolism.ethylene.induced-regulated-responsive-activated
+Glyma.15G070200	protein.degradation.serine protease
+Glyma.15G070400	stress.biotic.PR-proteins
+Glyma.15G070500	stress.biotic.PR-proteins
+Glyma.15G070700	stress.biotic.PR-proteins
+Glyma.15G077100	hormone metabolism.ethylene.signal transduction
+Glyma.15G082200	protein.degradation.cysteine protease
+Glyma.15G083400	protein.degradation.cysteine protease
+Glyma.15G085400	hormone metabolism.ethylene.signal transduction
+Glyma.15G088400	signalling.receptor kinases.leucine rich repeat
+Glyma.15G090300	protein.degradation.serine protease
+Glyma.15G092800	protein.degradation.serine protease
+Glyma.15G093000	signalling.receptor kinases.leucine rich repeat
+Glyma.15G110200	protein.degradation.aspartate protease
+Glyma.15G115300	protein.degradation.cysteine protease
+Glyma.15G119100	misc.protease inhibitor/seed storage/lipid transfer protein (LTP) family protein
+Glyma.15G124500	stress.biotic.signalling.MLO-like
+Glyma.15G125600	stress.biotic
+Glyma.15G126900	stress.biotic
+Glyma.15G127100	stress.biotic
+Glyma.15G128600	misc.peroxidases
+Glyma.15G128700	misc.peroxidases
+Glyma.15G128800	misc.peroxidases
+Glyma.15G129200	misc.peroxidases
+Glyma.15G130500	secondary metabolism.phenylpropanoids.lignin biosynthesis
+Glyma.15G130900	signalling.receptor kinases.leucine rich repeat
+Glyma.15G130900	signalling.receptor kinases.leucine rich repeat
+Glyma.15G132400	hormone metabolism.ethylene.induced-regulated-responsive-activated
+Glyma.15G143600	stress.biotic
+Glyma.15G148700	protein.degradation.cysteine protease
+Glyma.15G152200	stress.biotic.PR-proteins
+Glyma.15G155600	signalling.receptor kinases.leucine rich repeat
+Glyma.15G155700	misc.peroxidases
+Glyma.15G156200	protein.degradation.serine protease
+Glyma.15G158900	protein.degradation.metalloprotease
+Glyma.15G159100	hormone metabolism.ethylene.signal transduction
+Glyma.15G159200	hormone metabolism.ethylene.signal transduction
+Glyma.15G160900	stress.biotic.PR-proteins
+Glyma.15G162700	stress.biotic.PR-proteins
+Glyma.15G163500	misc.peroxidases
+Glyma.15G168500	stress.biotic
+Glyma.15G177800	protein.degradation.cysteine protease
+Glyma.15G178800	stress.biotic.PR-proteins.proteinase inhibitors.trypsin inhibitor
+Glyma.15G179300	signalling.receptor kinases.leucine rich repeat
+Glyma.15G182000	stress.biotic.respiratory burst
+Glyma.15G186400	protein.degradation.aspartate protease
+Glyma.15G186800	stress.biotic
+Glyma.15G189000	misc.peroxidases
+Glyma.15G197900	hormone metabolism.ethylene.signal transduction
+Glyma.15G202700	signalling.receptor kinases.leucine rich repeat
+Glyma.15G206800	stress.biotic
+Glyma.15G203600	signalling.receptor kinases.leucine rich repeat
+Glyma.15G209300	signalling.receptor kinases.leucine rich repeat
+Glyma.15G218200	signalling.receptor kinases.leucine rich repeat
+Glyma.15G219500	stress.biotic.signalling.MLO-like
+Glyma.15G205200	stress.biotic.PR-proteins
+Glyma.15G225000	protein.degradation.cysteine protease
+Glyma.15G225200	stress.biotic
+Glyma.15G226100	stress.biotic
+Glyma.15G227500	protein.degradation.cysteine protease
+Glyma.15G227800	signalling.receptor kinases.leucine rich repeat
+Glyma.15G230700	stress.biotic
+Glyma.15G230800	stress.biotic
+Glyma.15G230900	stress.biotic
+Glyma.15G231100	stress.biotic
+Glyma.15G231300	stress.biotic
+Glyma.15G231500	stress.biotic
+Glyma.15G232400	stress.biotic.PR-proteins
+Glyma.15G232600	stress.biotic.PR-proteins
+Glyma.15G232700	stress.biotic.PR-proteins
+Glyma.15G232800	stress.biotic
+Glyma.15G233100	stress.biotic
+Glyma.15G233200	stress.biotic
+Glyma.15G233400	stress.biotic
+Glyma.15G237200	signalling.receptor kinases.leucine rich repeat
+Glyma.15G244600	misc.peroxidases
+Glyma.15G246100	stress.biotic.PR-proteins
+Glyma.15G246800	stress.biotic.PR-proteins
+Glyma.15G247400	stress.biotic.PR-proteins
+Glyma.15G247500	stress.biotic
+Glyma.15G247600	stress.biotic.PR-proteins
+Glyma.15G248100	stress.biotic
+Glyma.15G250900	secondary metabolism.phenylpropanoids.lignin biosynthesis
+Glyma.15G252600	signalling.receptor kinases.leucine rich repeat
+Glyma.15G254300	signalling.receptor kinases.leucine rich repeat
+Glyma.15G254700	stress.biotic
+Glyma.15G259500	misc.peroxidases
+Glyma.15G265900	misc.protease inhibitor/seed storage/lipid transfer protein (LTP) family protein
+Glyma.15G271600	misc.protease inhibitor/seed storage/lipid transfer protein (LTP) family protein
+Glyma.16G006400	stress.biotic.PR-proteins
+Glyma.16G009200	stress.biotic.PR-proteins.proteinase inhibitors.trypsin inhibitor
+Glyma.16G009900	signalling.receptor kinases.leucine rich repeat
+Glyma.16G015000	signalling.receptor kinases.leucine rich repeat
+Glyma.16G031600	stress.biotic.PR-proteins
+Glyma.16G031700	stress.biotic.PR-proteins
+Glyma.16G033900	stress.biotic.PR-proteins
+Glyma.16G047300	signalling.receptor kinases.leucine rich repeat
+Glyma.16G048200	signalling.receptor kinases.leucine rich repeat
+Glyma.16G055900	misc.peroxidases
+Glyma.16G064100	signalling.receptor kinases.leucine rich repeat
+Glyma.16G064200	signalling.receptor kinases.leucine rich repeat
+Glyma.16G064800	signalling.receptor kinases.leucine rich repeat
+Glyma.16G065000	signalling.receptor kinases.leucine rich repeat
+Glyma.16G065700	signalling.receptor kinases.leucine rich repeat
+Glyma.16G078800	signalling.receptor kinases.leucine rich repeat
+Glyma.16G078900	signalling.receptor kinases.leucine rich repeat
+Glyma.16G079400	stress.biotic
+Glyma.16G080100	stress.biotic.signalling.MLO-like
+Glyma.16G082700	protein.degradation.serine protease
+Glyma.16G085700	stress.biotic.PR-proteins
+Glyma.16G085900	stress.biotic.PR-proteins
+Glyma.16G086500	stress.biotic.PR-proteins
+Glyma.16G086700	stress.biotic.PR-proteins
+Glyma.16G087100	stress.biotic.PR-proteins
+Glyma.16G092900	stress.biotic
+Glyma.16G095900	protein.degradation.cysteine protease
+Glyma.16G107800	signalling.receptor kinases.leucine rich repeat
+Glyma.16G107200	protein.degradation.cysteine protease
+Glyma.16G106200	signalling.receptor kinases.leucine rich repeat
+Glyma.16G105900	signalling.receptor kinases.leucine rich repeat
+Glyma.16G105800	signalling.receptor kinases.leucine rich repeat
+Glyma.16G100100	misc.protease inhibitor/seed storage/lipid transfer protein (LTP) family protein
+Glyma.16G096300	secondary metabolism.phenylpropanoids.lignin biosynthesis
+Glyma.16G111900	stress.biotic.signalling.MLO-like
+Glyma.16G112600	signalling.receptor kinases.leucine rich repeat
+Glyma.16G118600	stress.biotic.PR-proteins
+Glyma.16G119200	stress.biotic
+Glyma.16G122500	protein.degradation.aspartate protease
+Glyma.16G122700	protein.degradation.aspartate protease
+Glyma.16G125300	signalling.receptor kinases.leucine rich repeat
+Glyma.16G125600	signalling.receptor kinases.leucine rich repeat
+Glyma.16G125800	signalling.receptor kinases.leucine rich repeat
+Glyma.16G126000	signalling.receptor kinases.leucine rich repeat
+Glyma.16G126100	signalling.receptor kinases.leucine rich repeat
+Glyma.16G126900	stress.biotic
+Glyma.16G127100	stress.biotic
+Glyma.16G127900	stress.biotic.PR-proteins
+Glyma.16G128000	stress.biotic.PR-proteins
+Glyma.16G130400	signalling.receptor kinases.leucine rich repeat
+Glyma.16G130700	protein.degradation.serine protease
+Glyma.16G130900	protein.degradation.serine protease
+Glyma.16G131500	signalling.receptor kinases.leucine rich repeat
+Glyma.16G132800	misc.peroxidases
+Glyma.16G133000	misc.peroxidases
+Glyma.16G133200	hormone metabolism.ethylene.induced-regulated-responsive-activated
+Glyma.16G135200	stress.biotic.PR-proteins
+Glyma.16G135500	stress.biotic.PR-proteins
+Glyma.16G135900	stress.biotic.PR-proteins
+Glyma.16G136000	stress.biotic.PR-proteins
+Glyma.16G136200	stress.biotic.PR-proteins
+Glyma.16G136600	stress.biotic.PR-proteins
+Glyma.16G137000	stress.biotic.PR-proteins
+Glyma.16G137200	stress.biotic.PR-proteins
+Glyma.16G137300	stress.biotic.PR-proteins
+Glyma.16G137600	stress.biotic.PR-proteins
+Glyma.16G143300	stress.biotic
+Glyma.16G145300	protein.degradation.serine protease
+Glyma.16G145500	stress.biotic.signalling.MLO-like
+Glyma.16G145600	stress.biotic.signalling.MLO-like
+Glyma.16G145700	protein.degradation.serine protease
+Glyma.16G147400	stress.biotic.PR-proteins
+Glyma.16G148900	misc.protease inhibitor/seed storage/lipid transfer protein (LTP) family protein
+Glyma.16G150400	protein.degradation.cysteine protease
+Glyma.16G156100	signalling.receptor kinases.leucine rich repeat
+Glyma.16G156200	signalling.receptor kinases.leucine rich repeat
+Glyma.16G159100	stress.biotic.PR-proteins
+Glyma.16G159300	stress.biotic.PR-proteins
+Glyma.16G159400	stress.biotic.PR-proteins
+Glyma.16G159500	stress.biotic.PR-proteins
+Glyma.16G159600	stress.biotic.PR-proteins
+Glyma.16G159700	stress.biotic.PR-proteins
+Glyma.16G164200	misc.peroxidases
+Glyma.16G164300	misc.peroxidases
+Glyma.16G164400	misc.peroxidases
+Glyma.16G168700	signalling.receptor kinases.leucine rich repeat
+Glyma.16G169000	signalling.receptor kinases.leucine rich repeat
+Glyma.16G169100	signalling.receptor kinases.leucine rich repeat
+Glyma.16G169200	signalling.receptor kinases.leucine rich repeat
+Glyma.16G169300	signalling.receptor kinases.leucine rich repeat
+Glyma.16G169400	signalling.receptor kinases.leucine rich repeat
+Glyma.16G169500	signalling.receptor kinases.leucine rich repeat
+Glyma.16G169600	signalling.receptor kinases.leucine rich repeat
+Glyma.16G169700	signalling.receptor kinases.leucine rich repeat
+Glyma.16G169900	signalling.receptor kinases.leucine rich repeat
+Glyma.16G170700	signalling.receptor kinases.leucine rich repeat
+Glyma.16G170800	signalling.receptor kinases.leucine rich repeat
+Glyma.16G170900	signalling.receptor kinases.leucine rich repeat
+Glyma.16G171000	signalling.receptor kinases.leucine rich repeat
+Glyma.16G171100	signalling.receptor kinases.leucine rich repeat
+Glyma.16G171200	signalling.receptor kinases.leucine rich repeat
+Glyma.16G171400	signalling.receptor kinases.leucine rich repeat
+Glyma.U006500	signalling.receptor kinases.leucine rich repeat
+Glyma.16G171500	signalling.receptor kinases.leucine rich repeat
+Glyma.16G171600	signalling.receptor kinases.leucine rich repeat
+Glyma.16G172100	signalling.receptor kinases.leucine rich repeat
+Glyma.16G172200	signalling.receptor kinases.leucine rich repeat
+Glyma.16G172300	signalling.receptor kinases.leucine rich repeat
+Glyma.16G173000	stress.biotic
+Glyma.16G173900	signalling.receptor kinases.leucine rich repeat
+Glyma.16G174000	signalling.receptor kinases.leucine rich repeat
+Glyma.16G174600	signalling.receptor kinases.leucine rich repeat
+Glyma.16G175000	signalling.receptor kinases.leucine rich repeat
+Glyma.16G174800	signalling.receptor kinases.leucine rich repeat
+Glyma.16G174700	signalling.receptor kinases.leucine rich repeat
+Glyma.16G176600	signalling.receptor kinases.leucine rich repeat
+Glyma.16G176800	signalling.receptor kinases.leucine rich repeat
+Glyma.16G176900	signalling.receptor kinases.leucine rich repeat
+Glyma.16G182500	protein.degradation.serine protease
+Glyma.16G182700	signalling.receptor kinases.leucine rich repeat
+Glyma.U007900	signalling.receptor kinases.leucine rich repeat
+Glyma.16G191200	misc.protease inhibitor/seed storage/lipid transfer protein (LTP) family protein
+Glyma.16G184500	signalling.receptor kinases.leucine rich repeat
+Glyma.16G184700	signalling.receptor kinases.leucine rich repeat
+Glyma.16G184800	signalling.receptor kinases.leucine rich repeat
+Glyma.16G185300	signalling.receptor kinases.leucine rich repeat
+Glyma.16G185700	misc.protease inhibitor/seed storage/lipid transfer protein (LTP) family protein
+Glyma.16G185800	signalling.receptor kinases.leucine rich repeat
+Glyma.16G186100	signalling.receptor kinases.leucine rich repeat
+Glyma.16G186200	signalling.receptor kinases.leucine rich repeat
+Glyma.U044400	signalling.receptor kinases.leucine rich repeat
+Glyma.16G186900	signalling.receptor kinases.leucine rich repeat
+Glyma.16G187000	signalling.receptor kinases.leucine rich repeat
+Glyma.16G187200	signalling.receptor kinases.leucine rich repeat
+Glyma.16G187300	signalling.receptor kinases.leucine rich repeat
+Glyma.16G187400	signalling.receptor kinases.leucine rich repeat
+Glyma.16G190800	signalling.receptor kinases.leucine rich repeat
+Glyma.16G188000	signalling.receptor kinases.leucine rich repeat
+Glyma.16G184000	signalling.receptor kinases.leucine rich repeat
+Glyma.16G184100	misc.protease inhibitor/seed storage/lipid transfer protein (LTP) family protein
+Glyma.16G184200	signalling.receptor kinases.leucine rich repeat
+Glyma.16G184300	signalling.receptor kinases.leucine rich repeat
+Glyma.16G184400	misc.protease inhibitor/seed storage/lipid transfer protein (LTP) family protein
+Glyma.16G188500	signalling.receptor kinases.leucine rich repeat
+Glyma.16G188700	signalling.receptor kinases.leucine rich repeat
+Glyma.16G188800	misc.protease inhibitor/seed storage/lipid transfer protein (LTP) family protein
+Glyma.16G190000	signalling.receptor kinases.leucine rich repeat
+Glyma.16G190400	signalling.receptor kinases.leucine rich repeat
+Glyma.16G190500	signalling.receptor kinases.leucine rich repeat
+Glyma.16G191300	signalling.receptor kinases.leucine rich repeat
+Glyma.16G191500	signalling.receptor kinases.leucine rich repeat
+Glyma.16G191800	signalling.receptor kinases.leucine rich repeat
+Glyma.16G191900	misc.protease inhibitor/seed storage/lipid transfer protein (LTP) family protein
+Glyma.16G192300	signalling.receptor kinases.leucine rich repeat
+Glyma.16G192600	signalling.receptor kinases.leucine rich repeat
+Glyma.16G192800	signalling.receptor kinases.leucine rich repeat
+Glyma.16G193300	signalling.receptor kinases.leucine rich repeat
+Glyma.16G193400	misc.protease inhibitor/seed storage/lipid transfer protein (LTP) family protein
+Glyma.16G193500	signalling.receptor kinases.leucine rich repeat
+Glyma.16G193600	signalling.receptor kinases.leucine rich repeat
+Glyma.16G193700	signalling.receptor kinases.leucine rich repeat
+Glyma.U044700	misc.protease inhibitor/seed storage/lipid transfer protein (LTP) family protein
+Glyma.16G193900	signalling.receptor kinases.leucine rich repeat
+Glyma.16G196800	protein.degradation.serine protease
+Glyma.16G200300	misc.peroxidases
+Glyma.16G202300	stress.biotic
+Glyma.16G203300	signalling.receptor kinases.leucine rich repeat
+Glyma.16G205100	signalling.receptor kinases.leucine rich repeat
+Glyma.16G205700	protein.degradation.serine protease
+Glyma.16G207500	misc.peroxidases
+Glyma.16G209000	stress.biotic.PR-proteins
+Glyma.16G210100	signalling.receptor kinases.leucine rich repeat
+Glyma.16G210500	signalling.receptor kinases.leucine rich repeat
+Glyma.16G210600	stress.biotic.PR-proteins
+Glyma.16G210800	stress.biotic.PR-proteins
+Glyma.16G211400	stress.biotic.PR-proteins
+Glyma.16G211800	stress.biotic.PR-proteins.proteinase inhibitors.trypsin inhibitor
+Glyma.16G212100	stress.biotic.PR-proteins.proteinase inhibitors.trypsin inhibitor
+Glyma.16G212200	stress.biotic.PR-proteins.proteinase inhibitors.trypsin inhibitor
+Glyma.16G212300	stress.biotic.PR-proteins
+Glyma.16G212400	stress.biotic.PR-proteins.proteinase inhibitors.trypsin inhibitor
+Glyma.16G212500	stress.biotic.PR-proteins.proteinase inhibitors.trypsin inhibitor
+Glyma.16G213700	stress.biotic.PR-proteins
+Glyma.16G213900	stress.biotic.PR-proteins
+Glyma.16G214100	stress.biotic.PR-proteins
+Glyma.16G214200	stress.biotic.PR-proteins
+Glyma.16G214300	stress.biotic.PR-proteins
+Glyma.16G214500	stress.biotic.PR-proteins
+Glyma.16G214600	stress.biotic.PR-proteins
+Glyma.U035700	stress.biotic.PR-proteins
+Glyma.16G214800	stress.biotic.PR-proteins
+Glyma.16G214900	stress.biotic.PR-proteins
+Glyma.16G215000	stress.biotic.PR-proteins
+Glyma.16G215100	stress.biotic.PR-proteins
+Glyma.16G215300	stress.biotic.PR-proteins
+Glyma.16G215400	stress.biotic.PR-proteins
+Glyma.17G010900	misc.peroxidases
+Glyma.17G011500	protein.degradation.aspartate protease
+Glyma.17G013600	misc.peroxidases
+Glyma.17G015000	stress.biotic
+Glyma.17G016500	protein.degradation.aspartate protease
+Glyma.17G027100	protein.degradation.cysteine protease
+Glyma.17G033500	stress.biotic.PR-proteins
+Glyma.17G036200	misc.peroxidases
+Glyma.17G037000	protein.degradation.serine protease
+Glyma.17G043200	protein.degradation.aspartate protease
+Glyma.13G321000	protein.degradation.aspartate protease
+Glyma.13G321200	protein.degradation.serine protease
+Glyma.17G047900	signalling.receptor kinases.leucine rich repeat
+Glyma.17G048100	stress.biotic.PR-proteins.proteinase inhibitors.trypsin inhibitor
+Glyma.17G049000	protein.degradation.cysteine protease
+Glyma.17G052900	misc.peroxidases
+Glyma.17G053000	misc.peroxidases
+Glyma.17G061400	misc.peroxidases
+Glyma.17G064400	secondary metabolism.phenylpropanoids.lignin biosynthesis
+Glyma.17G064500	secondary metabolism.phenylpropanoids.lignin biosynthesis
+Glyma.17G064600	secondary metabolism.phenylpropanoids.lignin biosynthesis
+Glyma.17G066000	stress.biotic
+Glyma.17G071700	signalling.receptor kinases.leucine rich repeat
+Glyma.17G073200	protein.degradation.serine protease
+Glyma.17G076100	stress.biotic
+Glyma.17G078300	stress.biotic.respiratory burst
+Glyma.17G080300	protein.degradation.serine protease
+Glyma.17G087000	signalling.receptor kinases.leucine rich repeat
+Glyma.17G087700	signalling.receptor kinases.leucine rich repeat
+Glyma.17G092000	protein.degradation.serine protease
+Glyma.17G096500	signalling.receptor kinases.leucine rich repeat
+Glyma.17G103400	signalling.receptor kinases.leucine rich repeat
+Glyma.17G103500	stress.biotic
+Glyma.17G111100	misc.protease inhibitor/seed storage/lipid transfer protein (LTP) family protein
+Glyma.17G119800	signalling.receptor kinases.leucine rich repeat
+Glyma.17G123100	signalling.receptor kinases.leucine rich repeat
+Glyma.17G124100	hormone metabolism.ethylene.signal transduction
+Glyma.17G126300	protein.degradation.cysteine protease
+Glyma.17G136100	protein.degradation.serine protease
+Glyma.17G137300	misc.protease inhibitor/seed storage/lipid transfer protein (LTP) family protein
+Glyma.17G139500	misc.protease inhibitor/seed storage/lipid transfer protein (LTP) family protein
+Glyma.17G139800	misc.protease inhibitor/seed storage/lipid transfer protein (LTP) family protein
+Glyma.17G139900	misc.protease inhibitor/seed storage/lipid transfer protein (LTP) family protein
+Glyma.17G140000	misc.protease inhibitor/seed storage/lipid transfer protein (LTP) family protein
+Glyma.17G140200	misc.protease inhibitor/seed storage/lipid transfer protein (LTP) family protein
+Glyma.17G140300	misc.protease inhibitor/seed storage/lipid transfer protein (LTP) family protein
+Glyma.17G140400	misc.protease inhibitor/seed storage/lipid transfer protein (LTP) family protein
+Glyma.17G145400	hormone metabolism.ethylene.signal transduction
+Glyma.17G146500	stress.biotic
+Glyma.17G147700	protein.degradation.serine protease
+Glyma.17G150200	protein.degradation.serine protease
+Glyma.17G151100	protein.degradation.serine protease
+Glyma.17G154500	signalling.receptor kinases.leucine rich repeat
+Glyma.17G156300	signalling.receptor kinases.leucine rich repeat
+Glyma.17G156500	secondary metabolism.phenylpropanoids.lignin biosynthesis
+Glyma.17G163200	misc.peroxidases
+Glyma.17G164600	stress.biotic.signalling
+Glyma.17G167600	signalling.receptor kinases.leucine rich repeat
+Glyma.17G168300	protein.degradation.cysteine protease
+Glyma.17G169300	signalling.receptor kinases.leucine rich repeat
+Glyma.17G170100	hormone metabolism.ethylene.signal transduction
+Glyma.17G170400	protein.degradation.cysteine protease
+Glyma.17G171100	secondary metabolism.phenylpropanoids.lignin biosynthesis
+Glyma.17G177800	misc.peroxidases
+Glyma.17G179200	stress.biotic.PR-proteins
+Glyma.17G179400	stress.biotic.PR-proteins
+Glyma.17G179500	stress.biotic.PR-proteins
+Glyma.17G180000	stress.biotic.PR-proteins
+Glyma.17G180100	stress.biotic.PR-proteins
+Glyma.17G180300	stress.biotic.PR-proteins
+Glyma.17G181400	hormone metabolism.ethylene.signal transduction
+Glyma.17G187200	signalling.receptor kinases.leucine rich repeat
+Glyma.17G190400	protein.degradation.serine protease
+Glyma.17G196200	signalling.receptor kinases.leucine rich repeat
+Glyma.17G197100	stress.biotic.PR-proteins
+Glyma.17G198700	misc.peroxidases
+Glyma.17G216100	hormone metabolism.ethylene.signal transduction
+Glyma.17G217000	stress.biotic
+Glyma.17G221400	misc.peroxidases
+Glyma.17G221600	stress.biotic
+Glyma.17G226100	signalling.receptor kinases.leucine rich repeat
+Glyma.17G228100	protein.degradation.metalloprotease
+Glyma.17G239000	protein.degradation.cysteine protease
+Glyma.17G239300	signalling.receptor kinases.leucine rich repeat
+Glyma.17G244900	protein.degradation.serine protease
+Glyma.17G245500	stress.biotic.PR-proteins
+Glyma.17G245600	stress.biotic
+Glyma.17G248300	stress.biotic
+Glyma.17G253800	misc.peroxidases
+Glyma.17G254900	protein.degradation.cysteine protease
+Glyma.17G258500	stress.biotic
+Glyma.17G258600	stress.biotic
+Glyma.17G260100	secondary metabolism.phenylpropanoids.lignin biosynthesis
+Glyma.18G000900	misc.protease inhibitor/seed storage/lipid transfer protein (LTP) family protein
+Glyma.18G003700	protein.degradation.cysteine protease
+Glyma.18G008400	protein.degradation.cysteine protease
+Glyma.18G019400	protein.degradation.aspartate protease
+Glyma.18G021800	misc.peroxidases
+Glyma.18G023500	signalling.receptor kinases.leucine rich repeat
+Glyma.18G039000	protein.degradation.serine protease
+Glyma.18G051100	signalling.receptor kinases.leucine rich repeat
+Glyma.18G055300	misc.peroxidases
+Glyma.18G055400	misc.peroxidases
+Glyma.18G055500	misc.peroxidases
+Glyma.18G055600	misc.peroxidases
+Glyma.18G065600	protein.degradation.metalloprotease
+Glyma.18G069300	hormone metabolism.ethylene.signal transduction
+Glyma.18G073600	signalling.receptor kinases.leucine rich repeat
+Glyma.18G076900	secondary metabolism.phenylpropanoids.lignin biosynthesis
+Glyma.18G077900	stress.biotic
+Glyma.18G078000	stress.biotic
+Glyma.18G082100	stress.biotic
+Glyma.18G082200	stress.biotic
+Glyma.18G082300	stress.biotic
+Glyma.18G082400	stress.biotic
+Glyma.18G082800	stress.biotic
+Glyma.18G083200	stress.biotic
+Glyma.18G083600	stress.biotic
+Glyma.18G083900	stress.biotic
+Glyma.18G084200	protein.degradation.cysteine protease
+Glyma.18G084300	stress.biotic
+Glyma.18G084400	stress.biotic
+Glyma.18G086200	stress.biotic
+Glyma.18G086500	stress.biotic
+Glyma.18G087000	stress.biotic
+Glyma.18G087300	stress.biotic
+Glyma.18G087400	stress.biotic
+Glyma.18G087700	stress.biotic
+Glyma.18G087800	stress.biotic
+Glyma.18G088400	stress.biotic
+Glyma.18G088900	stress.biotic
+Glyma.18G086600	stress.biotic
+Glyma.18G091800	stress.biotic
+Glyma.18G086900	stress.biotic
+Glyma.18G091600	hormone metabolism.ethylene.signal transduction
+Glyma.18G093300	stress.biotic
+Glyma.18G093400	stress.biotic
+Glyma.18G093500	stress.biotic
+Glyma.18G093600	stress.biotic
+Glyma.18G093800	stress.biotic
+Glyma.18G093900	stress.biotic
+Glyma.18G094200	stress.biotic
+Glyma.18G097500	protein.degradation.metalloprotease
+Glyma.18G098200	protein.degradation.serine protease
+Glyma.18G099200	stress.biotic
+Glyma.18G103700	protein.degradation.cysteine protease
+Glyma.18G105100	stress.biotic
+Glyma.18G108900	stress.biotic
+Glyma.18G111400	stress.biotic
+Glyma.18G111700	protein.degradation.serine protease
+Glyma.18G116600	stress.biotic.PR-proteins
+Glyma.18G116800	signalling.receptor kinases.leucine rich repeat
+Glyma.18G117800	stress.biotic.PR-proteins
+Glyma.18G120200	stress.biotic
+Glyma.18G120700	stress.biotic
+Glyma.18G120800	stress.biotic
+Glyma.18G120900	stress.biotic
+Glyma.18G127900	stress.biotic.PR-proteins
+Glyma.18G128000	stress.biotic.PR-proteins
+Glyma.18G128700	signalling.receptor kinases.leucine rich repeat
+Glyma.18G129500	protein.degradation.cysteine protease
+Glyma.18G131300	protein.degradation.metalloprotease
+Glyma.18G131600	misc.peroxidases
+Glyma.18G137700	protein.degradation.cysteine protease
+Glyma.18G144700	hormone metabolism.ethylene.signal transduction
+Glyma.18G153100	protein.degradation.serine protease
+Glyma.18G159300	signalling.receptor kinases.leucine rich repeat
+Glyma.18G175700	signalling.receptor kinases.leucine rich repeat
+Glyma.18G175700	signalling.receptor kinases.leucine rich repeat
+Glyma.18G176000	signalling.receptor kinases.leucine rich repeat
+Glyma.18G177000	secondary metabolism.phenylpropanoids.lignin biosynthesis
+Glyma.18G181800	protein.degradation.serine protease
+Glyma.18G190000	misc.protease inhibitor/seed storage/lipid transfer protein (LTP) family protein
+Glyma.18G190900	stress.biotic
+Glyma.18G191400	stress.biotic.PR-proteins.proteinase inhibitors.trypsin inhibitor
+Glyma.18G191700	signalling.receptor kinases.leucine rich repeat
+Glyma.18G191700	stress.biotic
+Glyma.18G193800	signalling.receptor kinases.leucine rich repeat
+Glyma.18G195200	signalling.receptor kinases.leucine rich repeat
+Glyma.18G198000	signalling.receptor kinases.leucine rich repeat
+Glyma.18G198200	signalling.receptor kinases.leucine rich repeat
+Glyma.18G199000	signalling.receptor kinases.leucine rich repeat
+Glyma.18G199100	signalling.receptor kinases.leucine rich repeat
+Glyma.18G199200	signalling.receptor kinases.leucine rich repeat
+Glyma.18G202200	protein.degradation.serine protease
+Glyma.18G203800	protein.degradation.metalloprotease
+Glyma.18G204400	signalling.receptor kinases.leucine rich repeat
+Glyma.18G204300	signalling.receptor kinases.leucine rich repeat
+Glyma.18G204600	signalling.receptor kinases.leucine rich repeat
+Glyma.18G204500	signalling.receptor kinases.leucine rich repeat
+Glyma.18G205500	signalling.receptor kinases.leucine rich repeat
+Glyma.18G205600	signalling.receptor kinases.leucine rich repeat
+Glyma.18G206400	signalling.receptor kinases.leucine rich repeat
+Glyma.18G207700	stress.biotic.PR-proteins
+Glyma.18G211000	misc.peroxidases
+Glyma.18G211100	misc.peroxidases
+Glyma.18G213600	signalling.receptor kinases.leucine rich repeat
+Glyma.18G214300	stress.biotic
+Glyma.18G216200	signalling.receptor kinases.leucine rich repeat
+Glyma.18G226500	stress.biotic.PR-proteins
+Glyma.18G231000	stress.biotic
+Glyma.18G240800	signalling.receptor kinases.leucine rich repeat
+Glyma.18G242900	protein.degradation.serine protease
+Glyma.18G243100	protein.degradation.aspartate protease
+Glyma.18G246400	signalling.receptor kinases.leucine rich repeat
+Glyma.18G249700	signalling.receptor kinases.leucine rich repeat
+Glyma.18G249900	signalling.receptor kinases.leucine rich repeat
+Glyma.18G250500	signalling.receptor kinases.leucine rich repeat
+Glyma.18G250900	signalling.receptor kinases.leucine rich repeat
+Glyma.18G251200	signalling.receptor kinases.leucine rich repeat
+Glyma.18G252200	hormone metabolism.ethylene.signal transduction
+Glyma.18G252400	hormone metabolism.ethylene.signal transduction
+Glyma.18G254000	signalling.receptor kinases.leucine rich repeat
+Glyma.18G254300	signalling.receptor kinases.leucine rich repeat
+Glyma.18G254400	signalling.receptor kinases.leucine rich repeat
+Glyma.18G254500	signalling.receptor kinases.leucine rich repeat
+Glyma.18G254600	signalling.receptor kinases.leucine rich repeat
+Glyma.18G254700	signalling.receptor kinases.leucine rich repeat
+Glyma.18G257800	signalling.receptor kinases.leucine rich repeat
+Glyma.18G259700	protein.degradation.metalloprotease
+Glyma.18G266700	protein.degradation.serine protease
+Glyma.18G266900	stress.biotic
+Glyma.18G267000	signalling.receptor kinases.leucine rich repeat
+Glyma.18G267100	stress.biotic
+Glyma.18G268000	signalling.receptor kinases.leucine rich repeat
+Glyma.18G269500	stress.biotic
+Glyma.18G273000	signalling.receptor kinases.leucine rich repeat
+Glyma.18G280300	stress.biotic
+Glyma.18G280400	stress.biotic.PR-proteins
+Glyma.18G281500	stress.biotic.PR-proteins
+Glyma.18G281600	stress.biotic.PR-proteins
+Glyma.18G281700	stress.biotic.PR-proteins
+Glyma.18G281700	protein.degradation.cysteine protease
+Glyma.18G282200	protein.degradation.serine protease
+Glyma.18G282600	stress.biotic.PR-proteins
+Glyma.18G283100	protein.degradation.aspartate protease
+Glyma.18G283200	stress.biotic
+Glyma.U008900	stress.biotic
+Glyma.18G283400	stress.biotic
+Glyma.18G284100	signalling.receptor kinases.leucine rich repeat
+Glyma.18G287000	stress.biotic
+Glyma.18G287100	stress.biotic
+Glyma.18G291900	protein.degradation.serine protease
+Glyma.18G294200	misc.protease inhibitor/seed storage/lipid transfer protein (LTP) family protein
+Glyma.18G301700	signalling.receptor kinases.leucine rich repeat
+Glyma.19G002300	misc.protease inhibitor/seed storage/lipid transfer protein (LTP) family protein
+Glyma.19G001700	protein.degradation.metalloprotease
+Glyma.19G007200	secondary metabolism.phenylpropanoids.lignin biosynthesis
+Glyma.19G007800	protein.degradation.serine protease
+Glyma.19G013400	misc.peroxidases
+Glyma.19G013900	stress.biotic
+Glyma.19G014200	protein.degradation.metalloprotease
+Glyma.19G014300	protein.degradation.metalloprotease
+Glyma.19G014400	protein.degradation.metalloprotease
+Glyma.19G014500	protein.degradation.metalloprotease
+Glyma.19G018400	stress.biotic
+Glyma.19G022700	stress.biotic.PR-proteins
+Glyma.19G023700	signalling.receptor kinases.leucine rich repeat
+Glyma.19G037100	stress.biotic
+Glyma.19G040200	protein.degradation.metalloprotease
+Glyma.19G043200	stress.biotic
+Glyma.19G042600	stress.biotic
+Glyma.19G045800	protein.degradation.serine protease
+Glyma.19G054700	stress.biotic.PR-proteins
+Glyma.19G054900	stress.biotic.PR-proteins
+Glyma.19G055000	stress.biotic.PR-proteins
+Glyma.19G060800	signalling.receptor kinases.leucine rich repeat
+Glyma.19G063800	signalling.receptor kinases.leucine rich repeat
+Glyma.19G070600	signalling.receptor kinases.leucine rich repeat
+Glyma.19G066200	misc.peroxidases
+Glyma.19G074700	stress.biotic.signalling.MLO-like
+Glyma.19G075800	secondary metabolism.phenylpropanoids.lignin biosynthesis
+Glyma.19G076200	stress.biotic
+Glyma.19G081200	signalling.receptor kinases.leucine rich repeat
+Glyma.19G085600	stress.biotic
+Glyma.19G085900	stress.biotic
+Glyma.19G091800	misc.peroxidases
+Glyma.19G100700	signalling.receptor kinases.leucine rich repeat
+Glyma.19G100800	signalling.receptor kinases.leucine rich repeat
+Glyma.19G109300	stress.biotic
+Glyma.19G115000	signalling.receptor kinases.leucine rich repeat
+Glyma.19G118100	misc.peroxidases
+Glyma.19G128000	protein.degradation.serine protease
+Glyma.19G128100	protein.degradation.serine protease
+Glyma.19G128200	protein.degradation.serine protease
+Glyma.19G134100	stress.biotic
+Glyma.19G134200	stress.biotic
+Glyma.19G134300	stress.biotic
+Glyma.19G135400	stress.biotic
+Glyma.19G135500	stress.biotic
+Glyma.19G135600	stress.biotic
+Glyma.19G135700	stress.biotic
+Glyma.19G135800	stress.biotic
+Glyma.19G136900	stress.biotic
+Glyma.19G137000	stress.biotic
+Glyma.19G137200	stress.biotic
+Glyma.19G137900	stress.biotic
+Glyma.19G139400	stress.biotic
+Glyma.19G139500	stress.biotic
+Glyma.19G139600	stress.biotic
+Glyma.19G139700	stress.biotic
+Glyma.19G139800	protein.degradation.metalloprotease
+Glyma.19G140100	signalling.receptor kinases.leucine rich repeat
+Glyma.19G143300	signalling.receptor kinases.leucine rich repeat
+Glyma.19G145200	signalling.receptor kinases.leucine rich repeat
+Glyma.19G148800	misc.peroxidases
+Glyma.19G150900	stress.biotic.PR-proteins
+Glyma.19G151000	stress.biotic.PR-proteins
+Glyma.19G151100	stress.biotic.PR-proteins
+Glyma.19G151200	stress.biotic.PR-proteins
+Glyma.19G151300	stress.biotic.PR-proteins
+Glyma.19G151800	signalling.receptor kinases.leucine rich repeat
+Glyma.19G158400	misc.protease inhibitor/seed storage/lipid transfer protein (LTP) family protein
+Glyma.19G163700	hormone metabolism.ethylene.signal transduction
+Glyma.19G163800	hormone metabolism.ethylene.signal transduction
+Glyma.19G163900	hormone metabolism.ethylene.signal transduction
+Glyma.19G164000	hormone metabolism.ethylene.signal transduction
+Glyma.19G164100	hormone metabolism.ethylene.signal transduction
+Glyma.19G167300	signalling.receptor kinases.leucine rich repeat
+Glyma.19G167400	signalling.receptor kinases.leucine rich repeat
+Glyma.19G168600	signalling.receptor kinases.leucine rich repeat
+Glyma.19G176400	stress.biotic.PR-proteins
+Glyma.19G179900	stress.biotic.signalling.MLO-like
+Glyma.19G182300	secondary metabolism.phenylpropanoids.lignin biosynthesis
+Glyma.19G188600	protein.degradation.aspartate protease
+Glyma.19G190200	signalling.receptor kinases.leucine rich repeat
+Glyma.19G198600	stress.biotic
+Glyma.19G198700	stress.biotic
+Glyma.19G198800	stress.biotic
+Glyma.19G206500	protein.degradation.cysteine protease
+Glyma.19G207500	protein.degradation.cysteine protease
+Glyma.19G213300	hormone metabolism.ethylene.signal transduction
+Glyma.19G215800	hormone metabolism.ethylene.induced-regulated-responsive-activated
+Glyma.19G217100	protein.degradation.serine protease
+Glyma.19G221800	stress.biotic
+Glyma.19G223300	protein.degradation.cysteine protease
+Glyma.19G225500	protein.degradation.aspartate protease
+Glyma.19G228700	hormone metabolism.ethylene.induced-regulated-responsive-activated
+Glyma.19G233600	protein.degradation.serine protease
+Glyma.19G233900	stress.biotic.respiratory burst
+Glyma.19G234200	protein.degradation.serine protease
+Glyma.19G236600	protein.degradation.aspartate protease
+Glyma.19G245400	stress.biotic
+Glyma.19G245500	stress.biotic
+Glyma.19G245600	stress.biotic
+Glyma.19G248900	hormone metabolism.ethylene.signal transduction
+Glyma.19G249100	hormone metabolism.ethylene.signal transduction
+Glyma.20G001400	misc.peroxidases
+Glyma.20G010800	stress.biotic
+Glyma.20G012900	signalling.receptor kinases.leucine rich repeat
+Glyma.20G014900	protein.degradation.serine protease
+Glyma.20G015100	protein.degradation.serine protease
+Glyma.20G015400	protein.degradation.serine protease
+Glyma.20G015600	protein.degradation.serine protease
+Glyma.20G016800	protein.degradation.serine protease
+Glyma.20G020200	stress.biotic.PR-proteins
+Glyma.20G031000	hormone metabolism.ethylene.signal transduction
+Glyma.20G033500	misc.peroxidases
+Glyma.20G035000	protein.degradation.aspartate protease
+Glyma.20G063300	stress.biotic.PR-proteins.proteinase inhibitors.trypsin inhibitor
+Glyma.20G061300	stress.biotic.PR-proteins
+Glyma.20G039400	stress.biotic.PR-proteins
+Glyma.20G041300	stress.biotic
+Glyma.20G042400	stress.biotic
+Glyma.20G042700	stress.biotic
+Glyma.20G043400	protein.degradation.serine protease
+Glyma.20G045500	protein.degradation.cysteine protease
+Glyma.20G045600	stress.biotic
+Glyma.20G046100	stress.biotic
+Glyma.20G046200	stress.biotic
+Glyma.20G049800	misc.protease inhibitor/seed storage/lipid transfer protein (LTP) family protein
+Glyma.20G048800	stress.biotic.PR-proteins
+Glyma.20G053600	stress.biotic
+Glyma.20G050700	stress.biotic
+Glyma.20G050600	stress.biotic
+Glyma.20G058500	protein.degradation.metalloprotease
+Glyma.20G070000	hormone metabolism.ethylene.signal transduction
+Glyma.20G070100	hormone metabolism.ethylene.signal transduction
+Glyma.20G070800	stress.biotic
+Glyma.20G071400	protein.degradation.serine protease
+Glyma.20G078100	signalling.receptor kinases.leucine rich repeat
+Glyma.20G078700	stress.biotic.PR-proteins
+Glyma.20G078800	stress.biotic.PR-proteins
+Glyma.20G080700	signalling.receptor kinases.leucine rich repeat
+Glyma.20G087000	hormone metabolism.ethylene.signal transduction
+Glyma.20G090900	protein.degradation.aspartate protease
+Glyma.20G092000	protein.degradation.aspartate protease
+Glyma.20G095700	protein.degradation.metalloprotease
+Glyma.20G097700	protein.degradation.serine protease
+Glyma.20G100100	stress.biotic
+Glyma.20G100500	signalling.receptor kinases.leucine rich repeat
+Glyma.20G118200	signalling.receptor kinases.leucine rich repeat
+Glyma.20G120700	signalling.receptor kinases.leucine rich repeat
+Glyma.20G127300	signalling.receptor kinases.leucine rich repeat
+Glyma.20G128600	secondary metabolism.phenylpropanoids.lignin biosynthesis
+Glyma.20G129200	signalling.receptor kinases.leucine rich repeat
+Glyma.20G129900	stress.biotic
+Glyma.20G130000	stress.biotic
+Glyma.20G130200	hormone metabolism.ethylene.induced-regulated-responsive-activated
+Glyma.20G132400	signalling.receptor kinases.leucine rich repeat
+Glyma.20G133300	protein.degradation.serine protease
+Glyma.20G146800	misc.protease inhibitor/seed storage/lipid transfer protein (LTP) family protein
+Glyma.20G151800	signalling.receptor kinases.leucine rich repeat
+Glyma.20G151900	stress.biotic.signalling
+Glyma.20G156300	misc.protease inhibitor/seed storage/lipid transfer protein (LTP) family protein
+Glyma.20G156400	protein.degradation.serine protease
+Glyma.20G156700	signalling.receptor kinases.leucine rich repeat
+Glyma.20G158800	stress.biotic
+Glyma.20G159800	protein.degradation.serine protease
+Glyma.20G164600	stress.biotic
+Glyma.20G164700	stress.biotic
+Glyma.20G164900	stress.biotic
+Glyma.20G168500	hormone metabolism.ethylene.signal transduction
+Glyma.20G169200	misc.peroxidases
+Glyma.20G170900	signalling.receptor kinases.leucine rich repeat
+Glyma.20G171900	misc.peroxidases
+Glyma.20G173500	signalling.receptor kinases.leucine rich repeat
+Glyma.20G176700	signalling.receptor kinases.leucine rich repeat
+Glyma.20G178600	protein.degradation.serine protease
+Glyma.20G178800	stress.biotic.signalling.MLO-like
+Glyma.20G179000	protein.degradation.serine protease
+Glyma.20G180800	secondary metabolism.phenylpropanoids.lignin biosynthesis
+Glyma.20G181500	protein.degradation.cysteine protease
+Glyma.20G184300	hormone metabolism.ethylene.induced-regulated-responsive-activated
+Glyma.20G185100	signalling.receptor kinases.leucine rich repeat
+Glyma.20G186700	protein.degradation.aspartate protease
+Glyma.20G188400	protein.degradation.cysteine protease
+Glyma.20G191800	misc.peroxidases
+Glyma.20G192000	secondary metabolism.phenylpropanoids.lignin biosynthesis
+Glyma.20G192100	secondary metabolism.phenylpropanoids.lignin biosynthesis
+Glyma.20G193300	stress.biotic
+Glyma.20G193500	stress.biotic
+Glyma.20G194400	signalling.receptor kinases.leucine rich repeat
+Glyma.20G195400	stress.biotic
+Glyma.20G195900	hormone metabolism.ethylene.signal transduction
+Glyma.20G199000	protein.degradation.serine protease
+Glyma.20G202200	hormone metabolism.ethylene.signal transduction
+Glyma.20G203500	hormone metabolism.ethylene.signal transduction
+Glyma.20G203600	hormone metabolism.ethylene.signal transduction
+Glyma.20G203700	hormone metabolism.ethylene.signal transduction
+Glyma.20G208300	misc.protease inhibitor/seed storage/lipid transfer protein (LTP) family protein
+Glyma.20G208400	misc.protease inhibitor/seed storage/lipid transfer protein (LTP) family protein
+Glyma.20G210100	protein.degradation.aspartate protease
+Glyma.20G213400	protein.degradation.serine protease
+Glyma.20G214200	misc.peroxidases
+Glyma.20G218900	protein.degradation.aspartate protease
+Glyma.20G221800	hormone metabolism.ethylene.signal transduction
+Glyma.20G225200	stress.biotic
+Glyma.20G226900	signalling.receptor kinases.leucine rich repeat
+Glyma.20G227000	protein.degradation.metalloprotease
+Glyma.20G236200	stress.biotic.respiratory burst
+Glyma.20G241800	misc.peroxidases

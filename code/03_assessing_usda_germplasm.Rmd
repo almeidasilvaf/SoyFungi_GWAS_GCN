@@ -1,0 +1,228 @@
+---
+title: "Counting favorable alleles in the USDA germplasm"
+author: "Fabrício Almeida-Silva"
+date: "`r Sys.Date()`"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo=TRUE,
+                      warning=FALSE, 
+                      message=FALSE,
+                      tidy.opts=list(width.cutoff=60),
+                      tidy=TRUE)
+```
+
+## Creating a table of favorable and unfavorable alleles for each trait
+
+```{r create_table}
+library(ggplot2)
+library(here)
+library(GenomicRanges)
+library(GenomeInfoDb)
+library(tidyverse)
+library(tabulizer)
+
+# Load SNP ranges
+load(here("products", "result_files", "snp_granges.rda"))
+
+# Get DOI of studies for each species
+sapply(snp_grangeslist, function(x) unique(x$DOI))
+
+#----Cadophora gregata----
+# Study 1: 10.3835/plantgenome2015.08.0064
+sup_cgr1 <- "https://acsess.onlinelibrary.wiley.com/action/downloadSupplement?doi=10.3835%2Fplantgenome2015.08.0064&file=tpg2plantgenome2015080064-sup-0001.pdf"
+cgr1 <- extract_areas(sup_cgr1, pages = c(1,2,2,3,4,4,5))
+cgr1 <-  lapply(cgr1, as.data.frame)
+cgr1[[1]][,5] <- NULL
+names(cgr1[[1]]) <- paste0("V", 1:11)
+cgr1 <- Reduce(rbind, cgr1)
+cgr_eff1 <- cgr1[, c(2, 11)]
+cgr_eff1 <- cgr_eff1[startsWith(cgr_eff1$V2, "ss"), ]
+names(cgr_eff1) <- c("SNP", "Effect")
+
+# Study 2: 10.1094/PHYTO-01-16-0042-FI
+# All SNPs were associated to increased resistance (then, effect > 0)
+cgr_eff2 <- data.frame(
+    SNP = snp_grangeslist$Cgregata$SNP,
+    Effect = 0.0777
+)
+
+# Combining
+cgregata_effect <- rbind(cgr_eff1, cgr_eff2)
+write_tsv(cgregata_effect, 
+          file = here("products", "tables", "cgregata_snps_and_effects.txt"))
+
+#----Fusarium graminearum----
+# Study: 10.1007/s00122-018-3230-3
+# All 12 SNPs were associated with increased resistance (then, effect > 0)
+soysnp50k <- read.csv(here("data", "snp_positions_a2.v1.txt"), sep="\t")
+fgra_eff <- data.frame(
+    X.CHROM = as.character(seqnames(snp_grangeslist$Fgraminearum)),
+    POS = start(snp_grangeslist$Fgraminearum)
+)
+fgra_eff_id <- merge(fgra_eff, soysnp50k, by = c("X.CHROM", "POS"))
+nrow(fgra_eff_id)
+# None of the identified SNPs have corresponding ID in SoySNP50k
+
+#----Fusarium virguliforme----
+# Study: 10.1111/tpj.13069
+fvi_eff1 <- data.frame(SNP = snp_grangeslist$Fvirguliforme$SNP[
+    snp_grangeslist$Fvirguliforme$DOI == "10.1111/tpj.13069"]
+)
+# Add effects manually
+fvi_eff1
+fvi_eff1$Effect <- c(0.077, 0.077, 0.077, -0.11, 0.077,
+                     0.15, -0.14, 0.077, 0.077, 0.077,
+                     0.077, -0.11, 0.077, 0.077, 0.077,
+                     0.077, 0.077, 0.077, 0.077, -0.13,
+                     0.077, 0.077, 0.077, 0.077, 0.13,
+                     0.14, -0.13, 4.54, -4.53, -0.12,
+                     0.077, -0.20)
+
+# All other studies have SNPs that increase resistance (effect > 0)
+fvirguliforme_effect <- data.frame(
+    SNP = snp_grangeslist$Fvirguliforme$SNP[
+        snp_grangeslist$Fvirguliforme$DOI != "10.1111/tpj.13069"
+        ],
+    Effect = 0.077
+)
+fvirguliforme_effect <- rbind(fvirguliforme_effect, fvi_eff1)
+write_tsv(fvirguliforme_effect, 
+          file = here("products","tables","fvirguliforme_snps_and_effects.txt"))
+
+
+#----Macrophomina phaseolina----
+mphaseolina_effect <- data.frame(
+    SNP = snp_grangeslist$Mphaseolina$SNP,
+    Effect = 0.077
+)
+write_tsv(mphaseolina_effect, 
+          file = here("products","tables","mphaseolina_snps_and_effects.txt"))
+
+#----Phakopsora pachyrhizi----
+ppachyrhizi_effect <- data.frame(
+    SNP = snp_grangeslist$Ppachyrhizi$SNP,
+    Effect = 0.077
+)
+write_tsv(ppachyrhizi_effect, 
+          file = here("products","tables","ppachyrhizi_snps_and_effects.txt"))
+
+```
+
+Now, we can combining all SNPs and effects for each trait.
+
+```{r combine_snps_and_effects}
+snps_and_effects <- rbind(cgregata_effect, fvirguliforme_effect,
+                          mphaseolina_effect, ppachyrhizi_effect)
+snps_and_effects$Species <- c(
+    rep("Cgregata", nrow(cgregata_effect)),
+    rep("Fvirguliforme", nrow(fvirguliforme_effect)),
+    rep("Mphaseolina", nrow(mphaseolina_effect)),
+    rep("Ppachyrhizi", nrow(ppachyrhizi_effect))
+)
+write_tsv(snps_and_effects,
+          file=here("products", "result_files", "snps_and_effects.txt"))
+```
+
+## Selecting most promising accessions
+
+To select the most promising cultivars, we will score them based on the number of favorable alleles.
+
+```{bash filter_snps, eval=FALSE}
+bash get_filtered_vcf.sh
+```
+
+```{r select_accessions}
+snps_and_effects <- as.data.frame(
+    read_tsv(here("products", "result_files", "snps_and_effects.txt"))
+)
+vcf <- read.csv(
+    here("products", "result_files", "filtered_soysnp50k_final.txt"),
+    header=TRUE, sep="\t"
+)
+
+#----Define functions to select accessions----
+#' Select promising accessions
+#' 
+#' @param vcf VCF file.
+#' @param snp_effects Data frame with 2 columns: 
+#' 'SNP', with SNP IDs, and 'Effect', with effect sizes.
+#' @param top Numeric indicating the number of top accessions to report. 
+#' Default: 5.
+select_accessions <- function(vcf, snp_effects, top=5) {
+    
+    snp_effects$sign <- ifelse(snp_effects$Effect > 0, "pos", "neg")
+    
+    mvcf_pos <- vcf[vcf$ID %in% snp_effects$SNP[snp_effects$Effect > 0],-c(1:9)]
+    mvcf_neg <- vcf[vcf$ID %in% snp_effects$SNP[snp_effects$Effect < 0],-c(1:9)]
+    # Positive effect
+    mvcf_pos[mvcf_pos == "1/1"] <- 2
+    mvcf_pos[mvcf_pos == "0/1"] <- 1
+    mvcf_pos[mvcf_pos == "0/0"] <- 0
+    # Negative effect
+    mvcf_neg[mvcf_neg == "1/1"] <- 0
+    mvcf_neg[mvcf_neg == "0/1"] <- 1
+    mvcf_neg[mvcf_neg == "0/0"] <- 2
+    # Combine
+    final_vcf <- rbind(mvcf_neg, mvcf_pos)
+    final_vcf[final_vcf == "./."] <- NA
+
+    final_vcf <- apply(final_vcf, 2, as.numeric)
+    counts <- sort(colSums(final_vcf), decreasing = TRUE)
+    best <- data.frame(
+        Accession = names(counts[seq_len(top)]),
+        Score = counts[seq_len(top)]
+    )
+    return(best)
+}
+
+#----C. gregata----
+cgregata_accessions <- select_accessions(
+    vcf, snps_and_effects[snps_and_effects$Species == "Cgregata", ]
+)
+max_cgr <- 2*nrow(snps_and_effects[snps_and_effects$Species == "Cgregata", ])
+cgregata_accessions$Potential <- cgregata_accessions$Score / max_cgr
+cgregata_accessions$Species <- "Cgregata"
+
+#----Fusarium virguliforme----
+fvirguliforme_accessions <- select_accessions(
+    vcf, snps_and_effects[snps_and_effects$Species == "Fvirguliforme", ]
+)
+max_fvi <- 2*nrow(snps_and_effects[snps_and_effects$Species == "Fvirguliforme", ])
+fvirguliforme_accessions$Potential <- fvirguliforme_accessions$Score / max_fvi
+fvirguliforme_accessions$Species <- "Fvirguliforme"
+
+#----Macrophomina phaseolina----
+mphaseolina_accessions <- select_accessions(
+    vcf, snps_and_effects[snps_and_effects$Species == "Mphaseolina", ]
+)
+max_mph <- 2*nrow(snps_and_effects[snps_and_effects$Species == "Mphaseolina", ])
+mphaseolina_accessions$Potential <- mphaseolina_accessions$Score / max_mph
+mphaseolina_accessions$Species <- "Mphaseolina"
+
+#----Phakopsora pachyrhizi----
+ppachyrhizi_accessions <- select_accessions(
+    vcf, snps_and_effects[snps_and_effects$Species == "Ppachyrhizi", ]
+)
+max_ppa <- 2*nrow(snps_and_effects[snps_and_effects$Species == "Ppachyrhizi", ])
+ppachyrhizi_accessions$Potential <- ppachyrhizi_accessions$Score / max_ppa
+ppachyrhizi_accessions$Species <- "Ppachyrhizi"
+
+all_accessions <- rbind(
+    cgregata_accessions,
+    fvirguliforme_accessions,
+    mphaseolina_accessions,
+    ppachyrhizi_accessions
+)
+write_tsv(all_accessions, 
+          file = here("products", "tables", "best_accessions_and_potential.txt"))
+```
+
+## Session information
+
+This document was created under the following conditions:
+
+```{r session_info}
+sessionInfo()
+```
