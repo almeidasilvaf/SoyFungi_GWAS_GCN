@@ -1,0 +1,270 @@
+Gene	Predicted function	Role	Species
+Glyma.17G213600	Calcium-binding EF hand	Signaling	Cgregata
+Glyma.02G047000	Thiosulfate sulfurtransferase/rhodanese	Oxidative stress	Cgregata
+Glyma.16G170100	Cell wall biogenesis-related extensin 3	Physical barrier	Cgregata
+Glyma.02G029300	SAM domain-containing	Unknown	Cgregata
+Glyma.16G150500	Unknown	Unknown	Cgregata
+Glyma.17G231800	Clathrin adaptor EPSIN1	Recognition	Cgregata
+Glyma.17G217000	Class V chitinase	Direct function	Cgregata
+Glyma.02G026700	Transcriptional repressor SIN3	Transcriptional regulation	Cgregata
+Glyma.16G155100	Aquaporin	Oxidative stress	Cgregata
+Glyma.02G036400	Kelch repeat F-box protein	Signaling	Cgregata
+Glyma.02G026900	Galacturonosyltransferase	Physical barrier	Cgregata
+Glyma.06G125800	Nodulin MtN3 protein	Transport	Fgraminearum
+Glyma.19G129300	Dual specificity protein phosphatase	Signaling	Fgraminearum
+Glyma.19G176300	Valyl-tRNA ligase	Signaling	Fgraminearum
+Glyma.05G062400	2OG-Fe(II) oxygenase	Oxidative stress	Fgraminearum
+Glyma.05G054200	AT-hook transcription factor	Transcriptional regulation	Fgraminearum
+Glyma.19G186100	Aquaporin	Oxidative stress	Fgraminearum
+Glyma.04G013400	Unknown	Unknown	Fgraminearum
+Glyma.05G047700	SNF1-related protein kinase	Signaling	Fgraminearum
+Glyma.07G256100	Dienelactone hydrolase	Phytohormone metabolism	Fgraminearum
+Glyma.04G247400	Ubiquitin protein ligase	Signaling	Fgraminearum
+Glyma.07G247900	Alanyl-tRNA synthetase	Signaling	Fgraminearum
+Glyma.05G058300	Autophagy protein 8F	Apoptosis	Fgraminearum
+Glyma.04G013500	BURP domain-containing protein	Physical barrier	Fgraminearum
+Glyma.06G126500	NADP-retinol dehydrogenase	SAR	Fgraminearum
+Glyma.04G010000	RING/U-box protein	Signaling	Fgraminearum
+Glyma.04G239900	Glycolipid transfer protein	Signaling	Fgraminearum
+Glyma.06G112200	Nodulin mtN21 transporter	Transport	Fgraminearum
+Glyma.19G116400	Amino acid transporter	Transport	Fgraminearum
+Glyma.07G236600	Serine carboxypeptidase	Oxidative stress	Fgraminearum
+Glyma.05G103600	Peroxidase	Oxidative stress	Fgraminearum
+Glyma.17G087500	SOUL heme-binding protein	Oxidative stress	Fgraminearum
+Glyma.05G070300	Tobamovirus multiplication 2A	Recognition	Fgraminearum
+Glyma.05G115700	RING domain ubiquitin E3 ligase	Signaling	Fgraminearum
+Glyma.06G131600	Yippee zinc-binding, DNA binding	Transcriptional regulation	Fgraminearum
+Glyma.19G126000	Cytochrome P450, family 98, subfamily A	Phytohormone metabolism	Fgraminearum
+Glyma.06G105000	ERF/AP2 transcription factor	Transcriptional regulation	Fgraminearum
+Glyma.17G090600	MAP kinase	Signaling	Fgraminearum
+Glyma.07G269200	Calcineurim B-like calcium sensor	Signaling	Fgraminearum
+Glyma.04G022300	Subtilisin-like serine endopeptidase 	Signaling	Fgraminearum
+Glyma.06G121300	GRAS transcription factor	Transcriptional regulation	Fgraminearum
+Glyma.17G116100	MAPK signalling-related protein	Signaling	Fgraminearum
+Glyma.06G135100	RNA-binding protein	Transcriptional regulation	Fgraminearum
+Glyma.19G156700	Patatin-like phospholipase	Signaling	Fgraminearum
+Glyma.04G023400	Rho-like GTP binding protein	Signaling	Fgraminearum
+Glyma.17G094700	Serine/threonine protein kinase	Signaling	Fgraminearum
+Glyma.04G242100	GRAS transcription factor	Transcriptional regulation	Fgraminearum
+Glyma.04G023500	Unknown	Unknown	Fgraminearum
+Glyma.19G126400	Nodulin MtN21 amino acid transporter	Transport	Fgraminearum
+Glyma.04G008600	2OG-Fe(II)-dependent oxygenase	Oxidative stress	Fgraminearum
+Glyma.04G233200	Yippee zinc-binding, DNA binding	Transcriptional regulation	Fgraminearum
+Glyma.07G257400	Dual specificity protein phosphatase	Signaling	Fgraminearum
+Glyma.06G128700	Calcium-binding EF-hand protein	Signaling	Fgraminearum
+Glyma.05G042200	Nitrate transmembrane transporter	Transport	Fgraminearum
+Glyma.04G235900	Calcium-binding EF-hand protein	Signaling	Fgraminearum
+Glyma.06G122600	Alcohol dehydrogenase	Oxidative stress	Fgraminearum
+Glyma.07G253200	2OG-Fe(II)-dependent oxygenase	Oxidative stress	Fgraminearum
+Glyma.04G239000	Leucine-rich repeat receptor kinase (LRR-RK)	Recognition	Fgraminearum
+Glyma.17G096900	CHY zinc finger	Transcriptional regulation	Fgraminearum
+Glyma.19G117800	Unknown	Unknown	Fgraminearum
+Glyma.19G190800	Thioredoxin	Oxidative stress	Fgraminearum
+Glyma.04G029100	BEL family homeodomain protein	Transcriptional regulation	Fgraminearum
+Glyma.19G125300	VQ motif-containing protein	Transcriptional regulation	Fgraminearum
+Glyma.06G095200	ZF-HD protein	Transcriptional regulation	Fgraminearum
+Glyma.05G041900	EF-Tu elongation factor	Signaling	Fgraminearum
+Glyma.19G113400	Unknown	Unknown	Fgraminearum
+Glyma.17G069600	UDP-D-glucuronate 4-epimerase 1	Physical barrier	Fgraminearum
+Glyma.06G102000	Phosphate-responsive 1 family protein	Signaling	Fgraminearum
+Glyma.17G069300	Tetraspanin	Signaling	Fgraminearum
+Glyma.05G063600	ERF/AP2 transcription factor	Transcriptional regulation	Fgraminearum
+Glyma.01G018100	Unknown	Unknown	Fvirguliforme
+Glyma.19G034900	Pollen Ole and extensin family protein	Physical barrier	Fvirguliforme
+Glyma.14G025100	Inositol-1,4,5-trisphosphate 5-phosphatase	Signaling	Fvirguliforme
+Glyma.14G215800	Calcium-binding EF-hand	Signaling	Fvirguliforme
+Glyma.01G025100	Unknown	Unknown	Fvirguliforme
+Glyma.13G051900	Pollen Ole and extensin family protein	Physical barrier	Fvirguliforme
+Glyma.07G039100	Germin 3	Oxidative stress	Fvirguliforme
+Glyma.03G029100	Plant invertase/pectin methylesterase inhibitor superfamily	Physical barrier	Fvirguliforme
+Glyma.03G029400	Plant invertase/pectin methylesterase inhibitor superfamily	Physical barrier	Fvirguliforme
+Glyma.09G014400	Lipid transfer protein	Signaling	Fvirguliforme
+Glyma.10G067500	Monodehydroascorbate reductase 1	Oxidative stress	Fvirguliforme
+Glyma.06G069300	Triose-phosphate transporter	Transport	Fvirguliforme
+Glyma.01G223600	Na+/H+ antiporter	Transport	Fvirguliforme
+Glyma.06G050700	Peptidase C13 family	Oxidative stress	Fvirguliforme
+Glyma.01G213100	AT-hook transcription factor	Transcriptional regulation	Fvirguliforme
+Glyma.05G209900	PLAC8 family protein	Apoptosis	Fvirguliforme
+Glyma.02G081800	F-box tubby-like protein	Signaling	Fvirguliforme
+Glyma.19G010100	HD-Zip transcription factor	Transcriptional regulation	Fvirguliforme
+Glyma.14G024400	Leucine-rich repeat receptor kinase (LRR-RK)	Recognition	Fvirguliforme
+Glyma.01G006500	RNA polymerase C2	Transcriptional regulation	Fvirguliforme
+Glyma.08G254200	Transmembrane amino acid transporter	Transport	Fvirguliforme
+Glyma.18G226200	S-adenosyl-L-methionine-dependent methyltransferases	Transcriptional regulation	Fvirguliforme
+Glyma.01G225600	Unknown	Unknown	Fvirguliforme
+Glyma.08G295500	DNAJ heat shock protein	Oxidative stress	Fvirguliforme
+Glyma.13G204100	Zinc finger protein	Transcriptional regulation	Fvirguliforme
+Glyma.02G017100	LEA protein	Oxidative stress	Fvirguliforme
+Glyma.03G236000	Rapid ALkalinization Factor (RALF)	Signaling	Fvirguliforme
+Glyma.01G161600	MAPK kinase	Signaling	Fvirguliforme
+Glyma.11G120400	LTP/seed storage 2S albumin/fatty acid binding	SAR	Fvirguliforme
+Glyma.02G210500	bHLH transcription factor	Transcriptional regulation	Fvirguliforme
+Glyma.19G034700	RING/U-box protein	Signaling	Fvirguliforme
+Glyma.17G039300	ABC transporter	Transport	Fvirguliforme
+Glyma.18G276800	Amino acid transporter	Oxidative stress	Fvirguliforme
+Glyma.11G086700	Transmembrane amino acid transporter	Transport	Fvirguliforme
+Glyma.01G244500	Calcium-dependent lipid-binding protein	Signaling	Fvirguliforme
+Glyma.02G039700	Unknown	Unknown	Fvirguliforme
+Glyma.10G052000	RING/U-box superfamily protein	Signaling	Fvirguliforme
+Glyma.11G089100	Leucine-rich repeat receptor kinase (LRR-RK)	Recognition	Fvirguliforme
+Glyma.06G052000	Zinc/ion transporter	Transport	Fvirguliforme
+Glyma.09G279000	Tubby-like protein	Signaling	Fvirguliforme
+Glyma.08G169800	Kelch repeat superfamily	Signaling	Fvirguliforme
+Glyma.13G073900	Leucine-rich repeat receptor kinase (LRR-RK)	Recognition	Fvirguliforme
+Glyma.01G162500	BIG1 protein	Apoptosis	Fvirguliforme
+Glyma.13G081000	Nodulin-like amino acid transporter	Transport	Fvirguliforme
+Glyma.02G033600	K+ transport	Transport	Fvirguliforme
+Glyma.13G061100	Phosphatidic acid binding protein	Signaling	Fvirguliforme
+Glyma.02G029200	Transducin/WD40 repeat-like superfamily protein	Physical barrier	Fvirguliforme
+Glyma.13G172000	IQ calmodulin-binding protein	Signaling	Fvirguliforme
+Glyma.17G061400	Peroxidase	Oxidative stress	Fvirguliforme
+Glyma.14G020000	Beta-1,3-glucanase	Direct function	Fvirguliforme
+Glyma.09G056300	H+/ATPase	Oxidative stress	Fvirguliforme
+Glyma.01G017800	Unknown	Unknown	Fvirguliforme
+Glyma.02G070600	NAC transcription factor	Transcriptional regulation	Fvirguliforme
+Glyma.11G104300	Phototropic-responsive NPH3 family protein	Transcriptional regulation	Fvirguliforme
+Glyma.09G047900	Galactan synthase	Physical barrier	Fvirguliforme
+Glyma.19G143000	Serine/threonine protein kinase	Signaling	Fvirguliforme
+Glyma.02G198200	Aspartic protease	Signaling	Fvirguliforme
+Glyma.09G018500	Beta-1,3-glucanase	Direct function	Fvirguliforme
+Glyma.17G174900	Heat shock transcription factor	Transcriptional regulation	Fvirguliforme
+Glyma.08G026000	Unknown	Unknown	Fvirguliforme
+Glyma.08G239900	Phosphatidylinositol transfer protein	Transport	Fvirguliforme
+Glyma.04G104800	Unknown	Unknown	Fvirguliforme
+Glyma.06G285300	Ras family protein	Signaling	Fvirguliforme
+Glyma.09G265600	RING/U-box superfamily protein	Signaling	Fvirguliforme
+Glyma.14G069900	Unknown	Unknown	Fvirguliforme
+Glyma.19G131100	Cysteine-rich transmembrane module stress tolerance protein	Oxidative stress	Fvirguliforme
+Glyma.06G056000	Ferredoxin-related protein	Oxidative stress	Fvirguliforme
+Glyma.02G107500	RING/FYVE/PHD zinc finger superfamily protein	Transcriptional regulation	Fvirguliforme
+Glyma.08G178800	Protein phosphatase 2c family	Signaling	Fvirguliforme
+Glyma.07G055500	Phosphoinositide 4-kinase gamma 4	Signaling	Fvirguliforme
+Glyma.06G023900	Thaumatin	Direct function	Fvirguliforme
+Glyma.13G211300	Bax inhibitor-1 family protein	Apoptosis	Fvirguliforme
+Glyma.08G005900	NADPH/respiratory burst oxidase protein	Oxidative stress	Fvirguliforme
+Glyma.04G085600	Phospholipase-related protein	Signaling	Fvirguliforme
+Glyma.13G160700	Clathrin assembly protein	Recognition	Fvirguliforme
+Glyma.08G163000	Ca(2)-dependent phospholipid-binding protein (Copine)	Signaling	Fvirguliforme
+Glyma.17G045800	Sucrose synthase	Signaling	Fvirguliforme
+Glyma.09G259100	Leucine-rich repeat receptor kinase (LRR-RK)	Recognition	Fvirguliforme
+Glyma.15G272700	Unknown	Unknown	Fvirguliforme
+Glyma.09G041700	Unknown	Unknown	Fvirguliforme
+Glyma.06G035300	Cytochrome P450, family 82, subfamily C	Phytohormone metabolism	Fvirguliforme
+Glyma.04G091800	Aspartic protease	Signaling	Fvirguliforme
+Glyma.03G259500	Pyrimidine deoxyribonucleotides de novo biosynthesis	Signaling	Fvirguliforme
+Glyma.13G239100	Ubiquitin ligase	Signaling	Fvirguliforme
+Glyma.10G060000	1-phosphatidylinositol-4-phosphate 5-kinase	Signaling	Fvirguliforme
+Glyma.18G193400	Laccase/diphenol oxidase	Phytohormone metabolism	Fvirguliforme
+Glyma.13G054400	Leucine-rich repeat receptor kinase (LRR-RK)	Recognition	Fvirguliforme
+Glyma.09G020800	NPR1-like protein	Recognition	Fvirguliforme
+Glyma.11G077500	Beta catenin armadillo repeat-contaning protein	Signaling	Fvirguliforme
+Glyma.03G022700	AT-hook transcription factor	Transcriptional regulation	Fvirguliforme
+Glyma.09G011800	SCARECROW-like GRAS transcription factor	Transcriptional regulation	Fvirguliforme
+Glyma.02G061000	Unknown	Unknown	Fvirguliforme
+Glyma.09G032600	F-box ubiquitin-protein	Signaling	Fvirguliforme
+Glyma.02G209400	Amino acid transporter	Transport	Fvirguliforme
+Glyma.13G179600	Ubiquitin-conjugating enzyme	Signaling	Fvirguliforme
+Glyma.05G215100	E3 ubiquitin ligase	Signaling	Fvirguliforme
+Glyma.14G211300	Adenine nucleotide alpha hydrolase	Oxidative stress	Fvirguliforme
+Glyma.10G067900	IQ calmodulin-binding protein	Signaling	Fvirguliforme
+Glyma.15G218400	Acid phosphatase	Signaling	Fvirguliforme
+Glyma.13G170600	Aldehyde dehydrogenase	Oxidative stress	Fvirguliforme
+Glyma.01G017100	Cinnamoyl-CoA reductase	Phytohormone metabolism	Fvirguliforme
+Glyma.19G144200	bHLH transcription factor	Transcriptional regulation	Fvirguliforme
+Glyma.05G217000	RING/U-box superfamily protein	Signaling	Fvirguliforme
+Glyma.06G276800	Unknown	Unknown	Fvirguliforme
+Glyma.01G163000	Aspartic protease	Signaling	Fvirguliforme
+Glyma.11G096400	E3 ubiquitin ligase	Signaling	Fvirguliforme
+Glyma.12G176500	Leucine-rich repeat receptor kinase (LRR-RK)	Recognition	Fvirguliforme
+Glyma.14G201700	Peroxidase	Oxidative stress	Fvirguliforme
+Glyma.01G015600	Syntaxin/t-SNARE protein	Transport	Fvirguliforme
+Glyma.01G204300	Cyclophilin type peptidyl-prolyl cis-trans isomerase	Signaling	Fvirguliforme
+Glyma.14G033700	Magnesium transporter	Transport	Fvirguliforme
+Glyma.14G189100	Leucine-rich repeat receptor kinase (LRR-RK)	Recognition	Fvirguliforme
+Glyma.15G272800	Unknown	Unknown	Fvirguliforme
+Glyma.09G277000	Serine/threonine protein kinase	Signaling	Fvirguliforme
+Glyma.04G083200	Aquaporin	Transport	Fvirguliforme
+Glyma.14G062600	Acid phosphatase	Signaling	Fvirguliforme
+Glyma.06G306400	Unknown	Unknown	Fvirguliforme
+Glyma.03G032700	Anthocyanin biosynthesis	Phytohormone metabolism	Fvirguliforme
+Glyma.13G090300	UDP-glucosyl transferase	Physical barrier	Fvirguliforme
+Glyma.12G196600	Plastocyanin	Phytohormone metabolism	Fvirguliforme
+Glyma.10G066700	Fructose-bisphosphate aldolase	Oxidative stress	Fvirguliforme
+Glyma.12G195600	Peroxidase	Oxidative stress	Fvirguliforme
+Glyma.18G279800	Cell wall biogenesis-related acetyltransfase	Physical barrier	Fvirguliforme
+Glyma.04G092600	G-box regulating factor	Transcriptional regulation	Fvirguliforme
+Glyma.03G032800	Anthocyanin biosynthesis	Phytohormone metabolism	Fvirguliforme
+Glyma.02G092500	Unknown	Unknown	Fvirguliforme
+Glyma.06G063300	CAF1 family ribonuclease	Transcriptional regulation	Fvirguliforme
+Glyma.03G045600	Disease resistance-responsive (dirigent-like protein)	SAR	Fvirguliforme
+Glyma.18G289000	ACT domain-containing protein	Oxidative stress	Fvirguliforme
+Glyma.12G207600	Fasciclin domain arabinogalactan	Physical barrier	Fvirguliforme
+Glyma.14G212000	Zinc finger protein	Transcriptional regulation	Fvirguliforme
+Glyma.09G273600	Serine/threonine protein kinase	Signaling	Fvirguliforme
+Glyma.14G080400	Unknown	Unknown	Fvirguliforme
+Glyma.11G090800	Unknown	Unknown	Fvirguliforme
+Glyma.14G035500	SNARE complex	Transport	Fvirguliforme
+Glyma.17G039800	Leucine-rich repeat receptor kinase (LRR-RK)	Recognition	Fvirguliforme
+Glyma.14G065900	Mannose-1-phosphate guanylyltransferase	Oxidative stress	Fvirguliforme
+Glyma.17G167800	Leucine-rich repeat protein	Recognition	Fvirguliforme
+Glyma.08G233300	Metacaspase	Signaling	Fvirguliforme
+Glyma.02G078500	Phosphatidylethanolamine biosynthesis	Signaling	Fvirguliforme
+Glyma.06G287000	Thioredoxin	Oxidative stress	Fvirguliforme
+Glyma.06G021000	2OG-Fe(II)-dependent oxygenase	Oxidative stress	Fvirguliforme
+Glyma.10G053000	Unknown	Unknown	Fvirguliforme
+Glyma.09G014100	CCAAT-binding transcription factor	Transcriptional regulation	Fvirguliforme
+Glyma.06G270000	Plastocyanin-like domain	Phytohormone metabolism	Fvirguliforme
+Glyma.04G092400	Glucose-6-phosphate isomerase	Signaling	Fvirguliforme
+Glyma.14G062100	Leucine-rich repeat protein	Recognition	Fvirguliforme
+Glyma.01G157500	Seven-transmembrane MLO protein	Oxidative stress	Fvirguliforme
+Glyma.14G203000	Serine/threonine protein kinase	Signaling	Fvirguliforme
+Glyma.12G177900	Serine protease	Signaling	Fvirguliforme
+Glyma.09G254800	WRKY transcription factor	Transcriptional regulation	Fvirguliforme
+Glyma.09G030300	UDP-arabinose 4-epimerase	Physical barrier	Fvirguliforme
+Glyma.03G019500	Glutaredoxin	Oxidative stress	Fvirguliforme
+Glyma.02G228100	Glutamine-dependent asparagine synthase	Oxidative stress	Fvirguliforme
+Glyma.19G018800	Core-2/I-Branching enzyme	Physical barrier	Fvirguliforme
+Glyma.06G038700	Flavonol reductase/cinnamoyl-CoA reductase	Physical barrier	Fvirguliforme
+Glyma.06G144000	Unknown	Unknown	Fvirguliforme
+Glyma.01G219000	Cation transport ATPase	Transport	Fvirguliforme
+Glyma.01G026200	MatE transporter	Transport	Fvirguliforme
+Glyma.13G065000	SPFH domain / Band 7 family	Oxidative stress	Fvirguliforme
+Glyma.17G168900	WRKY transcription factor	Transcriptional regulation	Fvirguliforme
+Glyma.13G054800	Unknown	Unknown	Fvirguliforme
+Glyma.13G231700	Pyruvate decarboxylase	Signaling	Fvirguliforme
+Glyma.13G054700	Unknown	Unknown	Fvirguliforme
+Glyma.13G225900	Armadillo/beta-catenin-like repeat protein	Signaling	Fvirguliforme
+Glyma.05G219700	Unknown	Unknown	Fvirguliforme
+Glyma.08G246300	Beta-1,3-glucanase	Direct function	Fvirguliforme
+Glyma.09G052700	K+ transporter	Transport	Fvirguliforme
+Glyma.01G232400	4-coumarate-CoA ligase	Physical barrier	Fvirguliforme
+Glyma.13G049100	Cell wall biogenesis-related acetyltransfase	Physical barrier	Fvirguliforme
+Glyma.18G217000	Leucine-rich repeat receptor kinase (LRR-RK)	Recognition	Fvirguliforme
+Glyma.04G086900	6-phosphofructokinase	Signaling	Fvirguliforme
+Glyma.17G218500	Leucine-rich repeat receptor kinase (LRR-RK)	Recognition	Fvirguliforme
+Glyma.17G057100	WRKY transcription factor	Transcriptional regulation	Fvirguliforme
+Glyma.02G081100	3-oxo-5-alpha-steroid 4-dehydrogenase	Signaling	Fvirguliforme
+Glyma.02G015600	Galacturan 1,4-_-galacturonidase	Physical barrier	Fvirguliforme
+Glyma.17G180500	L-ascorbate oxidase	Oxidative stress	Fvirguliforme
+Glyma.17G015000	Tobamovirus multiplication 1	Recognition	Fvirguliforme
+Glyma.18G238200	WRKY transcription factor	Transcriptional regulation	Fvirguliforme
+Glyma.12G181800	Arogenate dehydratase	Phytohormone metabolism	Fvirguliforme
+Glyma.12G220600	Phylloquinone biosynthesis-related methyltransferase	Phytohormone metabolism	Fvirguliforme
+Glyma.13G204300	Leucine-rich repeat receptor kinase (LRR-RK)	Recognition	Fvirguliforme
+Glyma.14G222400	Unknown	Unknown	Fvirguliforme
+Glyma.17G062500	Vernalization-insensitive protein 3	Transcriptional regulation	Fvirguliforme
+Glyma.04G090900	PPR-containing protein	Transcriptional regulation	Fvirguliforme
+Glyma.05G224400	CCCH-type zinc finger family protein	Transcriptional regulation	Fvirguliforme
+Glyma.02G014800	Pyridoxal phosphate-dependent transferase	Phytohormone metabolism	Fvirguliforme
+Glyma.07G022700	Unknown	Unknown	Fvirguliforme
+Glyma.06G187200	R-gene-mediated resistance, lipase	SAR	Mphaseolina
+Glyma.08G316500	Calmodulin-dependent protein kinase	Signaling	Mphaseolina
+Glyma.08G332800	Calcineurim B-like calcium sensor	Signaling	Mphaseolina
+Glyma.09G216800	Pectin acetylesterase	Signaling	Mphaseolina
+Glyma.09G218600	Cytochrome P450, family 707, subfamily A	Phytohormone metabolism	Mphaseolina
+Glyma.18G301700	Leucine-rich repeat receptor kinase (LRR-RK)	Recognition	Mphaseolina
+Glyma.20G203900	Type I serine/threonine protein phosphatase	Signaling	Mphaseolina
+Glyma.20G216600	Dof-type transcription factor	Transcriptional regulation	Mphaseolina
+Glyma.15G123900	CBF1 interacting co-repressor CIR	Transcriptional regulation	Ppachyrhizi
+Glyma.15G125900	Magnesium transporter CorA-like	Transport	Ppachyrhizi
+Glyma.18G286900	Unknown	Unknown	Ppachyrhizi

@@ -21,7 +21,7 @@ Here, we will analyze patterns of presence/absence variation (PAV) for all mined
 library(here)
 library(tidyverse)
 options(timeout=300)
-#download.file("https://soybase.org/data/public/Glycine_max/Wm82.gnm4.pan.W46N/glyma.Wm82.gnm4.pan.W46N.PanSoy_supp_tables.xlsx", destfile = here("data", "pansoy.xlsx"))
+download.file("https://soybase.org/data/public/Glycine_max/Wm82.gnm4.pan.W46N/glyma.Wm82.gnm4.pan.W46N.PanSoy_supp_tables.xlsx", destfile = here("data", "pansoy.xlsx"))
 
 # Load PAV matrix
 pav <- readxl::read_xlsx(here("data", "pansoy.xlsx"), sheet=4, skip=2)
@@ -51,6 +51,20 @@ freq_table$Species <- c(
 save(freq_table, 
      file = here("products", "result_files", "pav_pangenome_table.rda"),
      compress="xz")
+
+# Fisher's exact test to see if the dispensable genome is enriched in candidates
+cand_dispensable <- unique(freq_table[freq_table$Mean < 0.99, ][,1])
+cand_notdispensable <- unique(freq_table[,1][!freq_table[,1] %in% cand_dispensable])
+dispensable <- pav[,1][pav$Mean < 0.99]
+dispensable_notcand <- dispensable[!dispensable %in% freq_table[,1]]
+notdispensable <- pav[,1][pav$Mean >= 0.99]
+notdispensable_notcand <- notdispensable[!notdispensable %in% freq_table[,1]]
+cont_table <- matrix(
+    c(length(cand_dispensable), length(cand_notdispensable),
+      length(dispensable_notcand), length(notdispensable_notcand)),
+    byrow = TRUE, nrow=2, ncol=2
+)
+fisher.test(cont_table, alternative = "greater")
 
 # Plot points
 library(ggsci)

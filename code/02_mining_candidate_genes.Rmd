@@ -228,6 +228,33 @@ write.table(mined_cand_df,
             row.names=FALSE, quote=FALSE)
 ```
 
+The file "all_mined_candidates" was manually modified to include descriptions for all genes and their role in plant defense. Let's plot data now.
+
+```{r}
+library(tidyverse)
+all_cand_des <- read.csv(here("products", "tables",
+                              "all_mined_candidates_and_description.txt"),
+                         header=TRUE, sep="\t")
+freq_abs_cand <- all_cand_des %>%
+  janitor::tabyl(Role, Species) %>%
+  reshape2::melt()
+
+freq_cand <- freq_abs_cand %>%
+  group_by(variable) %>%
+  mutate(percentage = value / sum(value))
+
+p_cand <- ggplot(freq_cand) +
+  geom_bar(aes(x=percentage, y=Role, fill = variable), stat="identity",
+           show.legend=FALSE) +
+  ggsci::scale_fill_aaas() +
+  facet_wrap(~variable, ncol=5) +
+  theme_bw() +
+  labs(x="Relative frequency", y="",
+       title="Immunity-related classification of candidate resistance genes per species")
+ggsave(filename = here("products", "plots", "candidates_classification.png"),
+       p_cand, width = 9, height=3)
+```
+
 Show candidates in a Venn Diagram.
 
 ```{r venn_plot}
